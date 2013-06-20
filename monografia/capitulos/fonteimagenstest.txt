@@ -1,0 +1,3 @@
+jmeter fonte: http://qatestlab.com/knowledge-center/QA-Testing-Materials/the-introduction-to-jmeter/
+
+testlink fonte: http://testlink.sourceforge.net/docs/docs/features.php

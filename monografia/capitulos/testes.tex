@@ -1,0 +1,195 @@
+\chapter{Testes}
+
+
+Nesse capítulo iniciaremos com a definição de o que é o termo NoSql e, após vermos como essa nova forma de se pensar em banco de dados surgiu, conheceremos os principais tipos de banco de dados não relacionais e como eles armazenam os seus dados. 
+
+
+\section{Definição}
+
+Segundo o dicionário de termos da IEEE, teste é definido da seguinte forma:
+
+\begin{itemize}
+	\item Teste: atividades nas quais um sistema ou um componente é executado sob determinadas condições e os resultados são observados ou gravados, e uma avaliação é feita observando determinado comportamento do sistema ou do componente;
+\end{itemize}
+
+\section{Teste de Software e Qualidade de Software}
+
+O teste de software está diretamente ligado com a qualidade do software que está sendo desenvolvido. Podemos ver essa ligação já na definição de qualidade de software.
+
+\begin{itemize}
+	\item Qualidade de Software: Conformidade a requisitos funcionais e de desenvolvimento explicitamente declarados, a padrões de desenvolvimento claramente documentados e a características implícitas que são esperadas de todo software profissionalmente desenvolvido.
+\end {itemize}
+
+Dentro da qualidade de software temos a atividade de garantia de qualidade de software e esta compreende uma variedade de tarefas associadas a sete grandes atividades, entre elas a atividade de testes:
+
+\begin{enumerate}
+	\item Aplicação de métodos técnicos;
+	\item realização de revisões técnicas formais;
+	\item Atividades de testes de software;
+	\item Aplicação de padrões;
+	\item Controle de mudanças;
+	\item Medição;
+	\item Manutenção de registros e reportagem;
+\end{enumerate}
+
+Então podemos estar certos de que se queremos um software que atenda aos requisitos especificados, funcionais e não funcionais, que possua uma quantidade de erros reduzida e um desempenho que atenda ao usuário, uma tarefa que não pode ser despensada é o teste da aplicação. Como já dito anteriormente, teste de software e qualidade de software estão intimamente ligados, na tabela ~\ref{tab:testequalidade} podemos ver quais as características de qualidade são verificadas por determinados tipos de testes.
+
+\begin{table}
+	\caption{Tipos de teste e sua característica de qualidade correspondente}
+	\begin{center}
+	\begin{tabular}{ccc}
+		\hline
+			\textbf{Tipos de Teste} & \textbf{Características de qualidade} \\
+		\hline
+			Funcionalidade & Funcionalidade \\
+			Interfaces & Conectividade \\
+			Carga & Continuidade, Performance \\
+			Produção & Operabilidade \\
+			Recuperação & Recuperação \\
+			Regressão id & Todas \\
+			Segurança & Segurança \\
+		\hline
+	\end {tabular}
+	\end{center}
+	%\caption{Fonte: http://docs.mongodb.org}
+	\label{tab:testequalidade}
+\end{table}
+
+\section{Tipos de Testes}
+
+
+%Segundo Ian Sommerville, o teste de componentes e o teste de sistema são as duas atividades fundamentais do teste de %software. Enquanto o teste de componentes testa as partes da aplicação, o teste de sistema testa a aplicação como um todo.
+
+O teste de software nos permite trabalhar com diversas estratégias e em diferentes níveis da aplicação. Emerson Rios e Trayahú Moreira ~\cite{rios2006teste} dizem que muitas vezes os tipos de software se sobrepõem, sendo até mesmo as suas definições abrangentes ou específicas, confome sua execução. Nessa seção listaremos os principais tipos de testes descritos por esses autores.
+
+\subsection{Aplicados a cada estágio de teste}
+
+\subsubsection{Testes Caixa Preta}
+
+Esse tipo de teste tem como objetivo verificar as funcionalidades da aplicação e a aderência aos requisitos, do ponto de vista do usuário, sem se basear no código ou lógica interna da aplicação.
+
+\subsubsection{Testes Caixa Branca}
+
+Os testes de caixa branca avaliam o código, a lógica interna do componente, as configurações e outros elementos técnicos.
+
+\subsection{Estágios (ou Níveis) de teste}
+
+\subsubsection{Testes unitários}
+
+Esse é o tipo de teste que analisa o estágio mais baixo da aplicação. São aplicados nos menores componentes de código criados, verificando o atendimento as especificações e funcionalidades. Verificam o funcionamento de um pedaço do sistema, componente ou programa,  isoladamente. Geralmente são realizados pelos próprios desenvolvedores.
+
+\subsubsection{Testes de integração}
+
+Esse teste visa testar se as interações estre os componentes da aplicação está resultando em algum tipo de erro. Tem como objetivo assegurar que as interfaces funcionem corretamente e que os dados são processados corretamente.Componentes podem ser pedaços de código, módulos, aplicações distintas, clientes e servidores etc. Esse tipo de teste possui várias estratégias. Podemos testar a integração desde os componentes de mais baixo nível (Booton-up)  até o sistema como um todo (Teste de sistema). Para o nosso trabalho nos atentaremos ao teste de sistema.
+
+\subsubsection{Testes de sistema}
+
+Esse teste é executado sobre o sistema como um todo, ou um subsistema, dentro de um ambiente operacional controlado. Deve ser simulada a operação normal do sistema, sendo testadas todas as suas funções de forma mais próxima possível do que irá ocorrer no ambiente de produção. É nesse estágio que deve-se realizar os testes de carga, performance, usabilidade, compatibilidade, segurança e recuperação.
+
+\subsubsection{Testes de aceitação}
+
+São realizados pelos usuários e visam garantir que a solução atenda aos objetivos do negócio e a seus requisitos, verificando as funcionalidades e a usabilidade do software.
+
+\subsection{Outros tipos de testes}
+
+%\subsubsection{Testes de regressão}
+
+\subsubsection{Testes de carga}
+
+Permite avaliar a aplicação sob uma alta carga de dados, repetidas entradas de dados, consultas complexas ou uma grande quantidade simultânea de usuários. Dessa forma é possível medir o nível de escalabilidade da aplicação. Esse tipo de teste deve ser aplicado durante os testes de sistema e também podem ser chamados de testes de estresse.
+
+\subsubsection{Testes Back-to-back}
+
+É quando o mesmo teste é executado em versões diferentes do software e os resultados são comparados.
+
+\subsubsection{Testes de Configuração}
+
+É nesse tipo de teste de a execução da aplicação é analisada em diferentes configurações de ambiente.
+
+\subsubsection{Testes de Usabilidade}
+
+Mede a facilidade de uso da aplicação pelos usuários. É mais comum em aplicações web.
+
+\subsubsection{Testes de Segurança}
+
+Verifica o quão segura é a aplicação a acesso de usuários não autorizados.
+
+\subsubsection{Testes de Recuperação}
+
+Mede a qualidade da recuperação do software após falhas de hardware ou outro problemas inesperados.
+
+\subsubsection{Testes de Compatibilidade}
+
+Verifica se um software é capaz de ser executado em um ambiente determinado.
+
+\subsubsection{Testes de Desempenho}
+
+Verifica a adequação da aplicação aos níveis de desenpenho e tempo de resposta definidos nos requisitos. Também são conhecidos como testes de performance.
+
+%\subsubsection{Testes Alfa e Beta}
+
+
+
+\section{Planejamento dos Testes}
+
+Como o objetivo do trabalho é medir o desempenho da nossa aplicação com o uso de diferentes bancos de dados, restringimos os testes que serão usados no nosso projeto aos testes de carga e performance.
+
+\subsection{Automação de Testes}
+
+Durante muito tempo os testes de software foram feitos manualmente. Os proprios programadores eram encarregados de simular as mais diversas situações ~\cite{rios2006teste}. Com o passar do tempo as aplicações se tornaram muito mais complexas e, consequentemente, o processo de teste manual se tornou inviável. Esse cenário foi ideal para que surgissem ferramentas de automação do processo de testes.
+
+	\begin{figure}[!htbp]
+		\begin{center}
+			\includegraphics[width=0.8\textwidth]{testlink}
+		\end{center}
+		\caption{TestLink - acompanhamento/suporte}
+		\label{fig:testlink}
+	\end{figure}
+
+As ferramentas de automação de teste visam facilitar o processo de teste e podem auxiliar no desenvolvimento dos testes, execução, manuseio das informações de resultado e a comunicação entre os envolvidos no processo. Utilizando scripts essas ferramentas são capazes de simular a utilização da aplicação por um ou vários usuários e, além disso, podem ser simulados vários cenários de uso. As ferramentas de teste podem ser divididas em três grupos: desenvolvimento, execução ~\ref{fig:jmeter} e acompanhamento/suporte ~\ref{fig:testlink}.
+
+	\begin{figure}[!htbp]
+		\begin{center}
+			\includegraphics[width=0.8\textwidth]{jmeter}
+		\end{center}
+		\caption{JMeter - Ferramenta para execução de testes}
+		\label{fig:jmeter}
+	\end{figure}
+
+\subsection{Teste de Performance}
+
+Molyneaux fala que do ponto de vista dos usuários, uma aplicação possui boa performance quando ela o permite realizar determinada tarefa sem demora~\cite{theartoftestperf}. Ela ainda diz que em uma aplicação performática o usuário nunca poderá se deparar com uma tela vazia ao realizar operações. O teste de performance é usado para medir o desempenho, em tempo de execução, e com todos os módulos integrados. Conforme Molyneaux, dividiremos os requisitos de performance em dois: orientados a serviço e orientados a eficiência.%citar o livro de engenharia de software pressman
+
+Os indicadores de performance orientados a serviço são a disponibilidade e o tempo de resposta. Eles medem a qualidade do serviço que a aplicação está provendo ao usuário. Já os indicadores orientados a eficiência são a vazão e utilização. Vamos definir esses termos:
+
+\begin{itemize}
+\item Disponibilidade: É a característica de estar disponível para o usuário. Em softwares críticos, qualquer período de indisponibilidade pode gerar grandes prejuísos.
+\item Tempo de resposta: É o intervalo de tempo entre a requisição e a resposta da aplicação. 
+\item Vazão: É a taxa em que os eventos da aplicação ocorrem.
+\item Utilização: É a porcentagem da capacidade total de recursos da aplicação que esta sendo usada.
+\end{itemize}
+
+Para que o nosso processo de teste de performance seja bem sucedido precisamos seguir algumas etapas.
+
+\begin{enumerate}
+\item Escolher uma ferramenta de teste de performance apropriada;
+\item Desenvolver um ambiente de teste adequado a realidade dos testes e o mais próximo da realidade;
+\item Escolher os objetivos que desejamos alcançar no trabalho;
+\item Identificar e criar scripts para as transações críticas para o negócio;
+\end{enumerate}
+
+%\section{Infra-estrutura de Testes}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

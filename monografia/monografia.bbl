@@ -1,0 +1,119 @@
+\begin{thebibliography}{10}
+
+\bibitem{apresentAFD}
+Apresentação - assentamento funcional digital.
+\newblock Online; accessed 23-Abril-2013.
+
+\bibitem{sitecassandra}
+Cassandra official site.
+\newblock Online; accessed 27-Janeiro-2013.
+
+\bibitem{emcuniversedigital}
+Emc digital universe.
+\newblock Online; accessed 26-Janeiro-2013.
+
+\bibitem{sitemongodb}
+Mongodb official site.
+\newblock Online; accessed 27-Janeiro-2013.
+
+\bibitem{nosqldatabaseorg}
+nosql database org.
+\newblock Online; accessed 09-Dezembro-2012.
+
+\bibitem{arqConarq}
+Recomendações para digitalização de documentos arquivísticos permanentes.
+\newblock Online; accessed 23-Abril-2013.
+
+\bibitem{siteSIGEPE}
+Sigepe.org.
+\newblock Online; accessed 23-Abril-2013.
+
+\bibitem{bigdataarchitectureandapproach}
+K.~Bakshi.
+\newblock Considerations for big data: Architecture and approach.
+\newblock In {\em Aerospace Conference, 2012 IEEE}, pages 1 --7, march 2012.
+
+\bibitem{promiseperil}
+D.~Bollier, Communications, and Society Program~(Aspen Institute).
+\newblock {\em The Promise and Peril of Big Data}.
+\newblock Aspen Institute, Communications and Society Program, 2010.
+
+\bibitem{WNextBigData}
+Vinayak~R. Borkar, Michael~J. Carey, and Chen Li.
+\newblock Big data platforms: What's next?
+\newblock {\em XRDS}, 19(1):44--49, 2012.
+
+\bibitem{nosqlxrelacional}
+Ricardo~W. Brito.
+\newblock Banco de dados nosql x sgbds relacionais: Análise comparativa.
+\newblock 2010.
+
+\bibitem{initBigData}
+Andrew Cron, Huy~L. Nguyen, and Aditya Parameswaran.
+\newblock Big data.
+\newblock {\em XRDS}, 19(1):7--8, 2012.
+
+\bibitem{SBElmasri}
+Ramez Elmasri and Shamkant~B. Navathe.
+\newblock {\em Sistemas de Banco de dados}.
+\newblock Pearson Addison Wesley, 6 edition, 2011.
+
+\bibitem{conceitoGartner}
+Gartner.
+\newblock Big data.
+\newblock Online; accessed 14-Dezembro-2012.
+
+\bibitem{surveynosql}
+Jing Han, E.~Haihong, Guan Le, and Jian Du.
+\newblock Survey on nosql database.
+\newblock In {\em Pervasive Computing and Applications (ICPCA), 2011 6th
+  International Conference on}, pages 363 --366, oct. 2011.
+
+\bibitem{nosqlevaluation}
+R.~Hecht and S.~Jablonski.
+\newblock Nosql evaluation: A use case oriented survey.
+\newblock In {\em Cloud and Service Computing (CSC), 2011 International
+  Conference on}, pages 336 --341, dec. 2011.
+
+\bibitem{cassandraguide}
+E.~Hewitt.
+\newblock {\em Cassandra: The Definitive Guide}.
+\newblock Definitive Guide Series. O'Reilly Media, 2010.
+
+\bibitem{nosqlliveup}
+N.~Leavitt.
+\newblock Will nosql databases live up to their promise?
+\newblock {\em Computer}, 43(2):12 --14, feb. 2010.
+
+\bibitem{fromdbtobigdata}
+Sam Madden.
+\newblock From databases to big data.
+\newblock {\em Internet Computing, IEEE}, 16(3):4 --6, may-june 2012.
+
+\bibitem{theartoftestperf}
+Ian Molyneaux.
+\newblock {\em The Art of Application Performance Testing - Help for
+  Programmers and Quality Assurance.}
+\newblock O'Reilly, 2009.
+
+\bibitem{rios2006teste}
+E.~Rios and T.~MOREIRA.
+\newblock {\em Teste de software}.
+\newblock Alta Books, 2006.
+
+\bibitem{ibmbigdatavvv}
+Cezar Taurion.
+\newblock Big data = volume + variedade + velocidade, 2012.
+\newblock Online; accessed 14-Dezembro-2012.
+
+\bibitem{ibmvcsabeoqebigdata}
+Cezar Taurion.
+\newblock Você realmente sabe o que é big data?, 2012.
+\newblock Online; accessed 14-Dezembro-2012.
+
+\bibitem{nosqlprofessional}
+S.~Tiwari.
+\newblock {\em Professional NoSQL}.
+\newblock Wrox Programmer to Programmer. Wiley, 2011.
+
+\end{thebibliography}
