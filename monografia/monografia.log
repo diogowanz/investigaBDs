@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2013.4.22)  4 JUN 2013 15:54
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2013.4.22)  20 JUN 2013 23:07
 entering extended mode
 **C:/Users/Debora*Natsue/Google*Drive/TG1/monografia/monografia.tex
 ("C:/Users/Debora Natsue/Google Drive/TG1/monografia/monografia.tex"
@@ -790,13 +790,53 @@ Package pdftex.def Info: jmeter.jpg used on input line 153.
 ("C:\Users\Debora Natsue\Google Drive\TG1\monografia\monografia.bbl"
 ("C:\Users\Debora Natsue\Google Drive\TG1\monografia\monografia.brf")
 \tf@brf=\write7
- [20
+
+Underfull \hbox (badness 2809) in paragraph at lines 19--19
+[]\T1/cmr/m/n/12 Emc di-gi-tal uni-verse.  http://www.emc.com/collateral/demos/
+microsites/emc-
+ []
 
 
-])
+Underfull \hbox (badness 7486) in paragraph at lines 35--35
+[]\T1/cmr/m/n/12 Recomendações para di-gi-ta-li-za-ção de do-cu-men-tos ar-qui-
+vís-ti-cos per-ma-nen-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--35
+\T1/cmr/m/n/12 tes.  http://www.emc.com/collateral/demos/microsites/emc-digital
+-universe-
+ []
+
+[20
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
+[]\T1/cmr/m/n/12 Cezar Tau-rion.  Big data = vo-lume + va-ri-e-dade + ve-lo-ci-
+dade.
+ []
+
+
+Underfull \hbox (badness 1817) in paragraph at lines 120--120
+\T1/cmr/m/n/12 https://www.ibm.com/developerworks, 2012.  Aces-sado em 14 de De
+-zem-bro
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
+[]\T1/cmr/m/n/12 Cezar Tau-rion.  Você re-al-mente sabe o que é big data?
+ []
+
+
+Underfull \hbox (badness 1817) in paragraph at lines 126--126
+\T1/cmr/m/n/12 https://www.ibm.com/developerworks, 2012.  Aces-sado em 14 de De
+-zem-bro
+ []
+
+)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 110.
-
-[21]
+ [21]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 110.
  ("C:\Users\Debora Natsue\Google Drive\TG1\monografia\monografia.aux")
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 110.
@@ -833,7 +873,7 @@ x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files (x86)/MiKTeX
 /fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Debora Natsue/AppData/Roaming/
 MiKTeX/2.9/fonts/type1/urw/arial/ua1b8a.pfb>
-Output written on monografia.pdf (31 pages, 537286 bytes).
+Output written on monografia.pdf (31 pages, 537665 bytes).
 PDF statistics:
  959 PDF objects out of 1000 (max. 8388607)
  138 named destinations out of 1000 (max. 500000)

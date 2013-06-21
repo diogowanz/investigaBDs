@@ -2,31 +2,41 @@
 
 \bibitem{apresentAFD}
 Apresentação - assentamento funcional digital.
-\newblock Online; accessed 23-Abril-2013.
+\newblock
+  www.sigepe.gov.br/assentamento-funcional-digital/apresentacao-assentamento-funcional-digital.
+\newblock Acessado em 23 de Abril de 2013.
 
 \bibitem{sitecassandra}
 Cassandra official site.
-\newblock Online; accessed 27-Janeiro-2013.
+\newblock http://cassandra.apache.org/.
+\newblock Acessado em 27 de Janeiro de 2013.
 
 \bibitem{emcuniversedigital}
 Emc digital universe.
-\newblock Online; accessed 26-Janeiro-2013.
+\newblock
+  http://www.emc.com/collateral/demos/microsites/emc-digital-universe-2011/index.htm.
+\newblock Acessado em 26 de Janeiro de 2013.
 
 \bibitem{sitemongodb}
 Mongodb official site.
-\newblock Online; accessed 27-Janeiro-2013.
+\newblock http://www.mongodb.org/.
+\newblock Acessado em 27 de Janeiro de 2013.
 
 \bibitem{nosqldatabaseorg}
 nosql database org.
-\newblock Online; accessed 09-Dezembro-2012.
+\newblock http://nosql-database.org/.
+\newblock Acessado em 09 de Dezembro de 2012.
 
 \bibitem{arqConarq}
 Recomendações para digitalização de documentos arquivísticos permanentes.
-\newblock Online; accessed 23-Abril-2013.
+\newblock
+  http://www.emc.com/collateral/demos/microsites/emc-digital-universe-2011/index.htm.
+\newblock Acessado em 23 de Abril de 2013.
 
 \bibitem{siteSIGEPE}
 Sigepe.org.
-\newblock Online; accessed 23-Abril-2013.
+\newblock www.sigepe.gov.br.
+\newblock Acessado em 23 de Abril de 2013.
 
 \bibitem{bigdataarchitectureandapproach}
 K.~Bakshi.
@@ -45,7 +55,7 @@ Vinayak~R. Borkar, Michael~J. Carey, and Chen Li.
 
 \bibitem{nosqlxrelacional}
 Ricardo~W. Brito.
-\newblock Banco de dados nosql x sgbds relacionais: Análise comparativa.
+\newblock Banco de dados {N}o{SQL} x {SGBD}s relacionais: Análise comparativa.
 \newblock 2010.
 
 \bibitem{initBigData}
@@ -61,7 +71,8 @@ Ramez Elmasri and Shamkant~B. Navathe.
 \bibitem{conceitoGartner}
 Gartner.
 \newblock Big data.
-\newblock Online; accessed 14-Dezembro-2012.
+\newblock http://www.gartner.com/it-glossary/big-data/.
+\newblock Acessado em 14 de Dezembro de 2012.
 
 \bibitem{surveynosql}
 Jing Han, E.~Haihong, Guan Le, and Jian Du.
@@ -103,13 +114,15 @@ E.~Rios and T.~MOREIRA.
 
 \bibitem{ibmbigdatavvv}
 Cezar Taurion.
-\newblock Big data = volume + variedade + velocidade, 2012.
-\newblock Online; accessed 14-Dezembro-2012.
+\newblock Big data = volume + variedade + velocidade.
+\newblock https://www.ibm.com/developerworks, 2012.
+\newblock Acessado em 14 de Dezembro de 2012.
 
 \bibitem{ibmvcsabeoqebigdata}
 Cezar Taurion.
-\newblock Você realmente sabe o que é big data?, 2012.
-\newblock Online; accessed 14-Dezembro-2012.
+\newblock Você realmente sabe o que é big data?
+\newblock https://www.ibm.com/developerworks, 2012.
+\newblock Acessado em 14 de Dezembro de 2012.
 
 \bibitem{nosqlprofessional}
 S.~Tiwari.
