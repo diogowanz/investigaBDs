@@ -1,84 +1,5 @@
-\chapter{NoSql}
+\chapter{AUXILIAR}
 
-Nesse capítulo iniciaremos com a definição de o que é o termo NoSQL e, após vermos como essa nova forma de se pensar em banco de dados surgiu, conheceremos os principais tipos de banco de dados não relacionais e como eles armazenam os seus dados. 
-
-
-\section{Definição de NoSQL}
-
-O termo NoSql é a junção de duas palavras. No and SQL. Ao pé da letra significa que é uma tecnologia/produto que trabalha de forma contrária à tecnologia dos banco relacionais (adeptos do SQL). O termo é usado com o sentido de Não Relacional. Atualmente o termo NoSql é traduzido para "Not only Sql", ou seja "Não só Sql".
-Saindo da definição, NoSql é um termo genérico para uma classe definida de banco de dados não-relacionais que armazenam os dados  de forma diferente da conhecida modelagem relacional e que surgiram com o propósito de sanar algumas dificuldades encontradas com o modelo relacional. NoSql não é um produto, mas a uma classe de produtos e conceitos de armazenagem e manipulação de dados. 
-
-O que diferencia os bancos de dados NoSql dos relacionais são os seus modelos de dados sem um schema definido. Os bancos de dados NoSql podem ser classificados, segundo seu modelo de dados, em quatro grupos: chave-valor, orientados a documentos, orientados a colunas e baseados em grafos~\cite{nosqlxrelacional,nosqlevaluation}.
-
-\section{História}
-
-Bancos de dados que usam a modelagem não relacionais não são novidades. Conforme discutido no livro (NoSql Professional) eles surgiram junto com as primeiras máquinas de computar. Bases não relacionais ficaram conhecidas e cresceram por causa do uso de mainframes e em dominios específicos como o armazenamento de credenciais para autenticação. Esse NoSql que conhecemos hoje é uma nova visão, ou como diz fulano em (NoSql Professional), uma reincarnação que nasceu no mundo de aplicações web que necessitam de recursos escaláveis para tratar de sua enorme massa de dados. Apesar de o paradigma NoSql já ter sido criado há algum tempo nenhum ele só tomou as proporções atuais depois que grandes empresas como Google, Amazon e Facebook começam a usar em suas arquiteturas~\cite{nosqlevaluation}.
-
-Ao utilizar SGBD's relacionais com grandes quantidade de dados surgem problemas como falta de eficiência no processamento, uma paralelização não efetiva, alto custo e scalabilitade limitada. Sendo um gigante da internet, o Google,  se não for a empresa que manipula a maior quantidade de dados, é com certeza uma das maiores e ao se deparar com essa problemática  construiu a sua própria infraestrutura para que o seu mecanismo de busca e outras aplicações pudessem tratar a massa de dados de forma eficiente.
-
-Com o lançamento de artigos pelo Google que explicavam em partes como o problema foi solucionado, desenvolvedores de software livre criaram o primeiro motor de busca de código aberto que replicava algumas característica da infraestrutura do Google, o Lucene. Logo depois, os principais desenvolvedores do Lucene se juntaram ao Yahoo e com a ajuda de diversos outros desenvolvedores criaram uma estrutura que imitada todas as peças da infraestrutura de computação distribuida do 
-Google. Essa solução livre é o Hadoop. Nessa mesma época surgiu a idéia do NoSql. 
-
-O sucesso do Google e o Hadoop ajudaram a impulsionar novos conceitos de computação distribuída, NoSql e o próprio projeto Hadoop. Um ano após o lançamento dos artigos do Google outra gigante da internet resolveu compartilhar o seu caso de sucesso. Em 2007 a Amazon mostrou ao mundo sua solução de base de dados distribuída, disponível e consistente que se chama Dynamo.
-
-Após Google e Amazon mostrarem para o mundo que o NoSql dava certo começaram a surgim diversos outros produtos nessa linha. O NoSql e os conceitos de manipulação de Big Data ganharam espaço e forma surgindo diversos casos de uso de sucesso de grandes companias como o Facebook, Netflix, Yahoo, EBay, Hulu, IBM e diversas outras.
-
-
-
-\section{Os Principais Tipos de Banco de Dados NoSql}
-
-
-\subsection{Chave-Valor}
-
-Bancos de dados NoSql que usam a modelagem Chave-Valor armazenam os dados indexados por um valor chave. A base é similar a um dicionário, onde os dados são endereçados por uma única chave. Uma vez que os dados são armazenados, é através das suas chaves a única forma de recuperá-los. Os valores sao isolados e independentes um dos outros, sendo necessário tratar isso na aplicação. Por isso banco chave-valor são livres de schema. Isso permite que novos tipos de dados sejam inseridos em tempo de execução sem que o banco entre em conflito e sem influenciar na disponibilidade do sistema~\cite{nosqlevaluation,nosqlliveup}.
-
-Alguns exemplos de banco de dados que usam esse tipo de modelagem são: RIAK, LevelDB, Voldemort, redis~\cite{nosqldatabaseorg}.
-
-\subsection{Orientados a Documentos}
-
-A modelagem orientada a documentos armazena os dados encapsulados em pares de chave-valor em JSON ou em outro padão semelhante. Dentro dos documentos as chaves devem ser únicas. Cada documento recebe um identificador que também é único dentro de uma coleção de documentos. Os documentos são as unidades básicas e não têm uma estrutuda definida como nas tabelas do modelo relacional, ou seja, não tem um schema de dados definido. Ao armazenar os dados em JSON há uma vantagem adicional que é o suporte a tipos de dados, o que torna a forma de armazenamento mais amigavel para os desenvolvedores~\cite{nosqlevaluation,nosqlxrelacional}.
-
-Os exemplos mais significativos são: CouchDB, MongoDB e Riak~\cite{nosqlevaluation}.
-
-	\begin{lstlisting}[caption=Exemplo de arquivo do CouchDB]
-{
-    "Subject": "I like Plankton",
-    "Author": "Rusty",
-    "PostedDate": "5/23/2006",
-    "Tags": ["plankton", "baseball", "decisions"],
-    "Body": "I decided today that I don't like baseball. I like plankton."
-}
-	\end{lstlisting}
-
-\subsection{Orientados a Colunas}
-
-Nesse tipo de modelagem o paradigma passa a ser de orientação a atributos(colunas).Ao contrário da modelagem chave-valor, agora os dados são armazenados usando tabelas sem um schema definido, mas sem suporte a associação entre elas . Figura ~\ref{fig:mdcolumns} Segundo Jing Han et all, um banco orientado a colunas tem as seguintes caracteristicas ~\cite{surveynosql}:
-
-
-\begin{enumerate}
-\item{Os dados são armazenados em colunas}
-\item{Cada coluna de dado é um índice do banco}
-\item{Acessar somente colunas faz com que haja redução de I/O nos resultados das consultas}
-\item{Consultas simultâneas, isto é, cada coluna é tratada por um processo}
-\item{Possuem o mesmo tipo de dados, características semelhantes e boa taxa de compressão}
-\end{enumerate}
-
-Em geral esse tipo de banco é mais vantajoso para aplicações de agregação e data warehouses. Alguns exemplos são: Cassandra e  Hypertable ~\cite{nosqldatabaseorg}.
-
-
-
-	\begin{figure}[!htbp]
-		\begin{center}
-			\includegraphics[width=0.8\textwidth]{columns}
-		\end{center}
-		\caption{Modelagem orientada a colunas}
-		\label{fig:mdcolumns}
-	\end{figure}
-
-
-\subsection{Baseados em Grafos}
-
-Nessa categoria os dados são armazenados em nos de um grafo cujas arestas representam o tipo de associação entre esses nós. Esse tipo de banco é especializado em manter dados fortemente ligados. O twitter armazenar as relações entre os seus usuários no seu próprio banco de dados baseados em grafos, o FlockDB, que é otimizado para listas de relações muito grandes, leituras e escritas~\cite{nosqlevaluation}.  Alguns exemplos são: Neo4J, infoGrid e FlockDB~\cite{nosqldatabaseorg}.
 
 \section{MongoDB}
 
@@ -415,27 +336,12 @@ Os servidores de conifguração armazenam os metadados do cluster. Ele contém o
 O MongoDB não utiliza log de transações para garantir a durabilidade dos dados. E por utilizar arquivos mapeados em memória, implementa escrita preguiçosa (lazy write). Sendo asssim, se um nó MongoDB falhar, provavelmente algum dado será perdido ~\cite{Orendanalysisand}.
 
 
-%\section{Cassandra}
 
-%Essa seção foi baseada no livro "Cassandra: The Definitive Guide"~\cite{cassandraguide} exceto quando explicitamente citado.
 
-%Cassandra é um SGBD NoSQL, de código aberto, do tipo chave-valor e que foi inicialmente desenvolvido pelo Facebook. Com a recente popularização, várias empresas estão achando casos em que o Cassandra pode ser utilizado. %Atualmente o Cassandra é usado por por grandes empresas como o Netflix, eBay, Twitter e Cisco~\cite{sitecassandra}. A maior instalação conhecida, com mais de 150 TB e mais de cem máquinas, é a do Facebook.
 
-%Cassandra se tornou open-source em julho de 2008 quando o Facebook o mostrou para o mundo e após ser encubado pela apache se tornou bastante popular graças as suas excelentes características técnicas. Ele executa escritas muito %rápidas, armazena terabytes de dados e possui uma arquitetura simétrica e descentralizada.
 
-%Conforme definido no livro [definitive guide] Apache Cassandra é banco de dados orientado a colunas, open-source, distribuído, de consistência ajustável, descentralizado e elasticamente escalável que é baseado no Amazon Dynamo e no %Google Bigtable.
 
-%Cassandra representa sua estrutura de dados em tabelas multidimensionais e esparsas (Figura \ref{fig:excassandra}).  No Cassandra podemos ter linhas com uma ou mais colunas, diferentemente de banco de dados relacionais, porem %cada linha deve possuir uma chave que a torna acessível. Essa flexibilização do schema nos permite decidir a estrutura de armazenamento da aplicação dinamicamente. Não é preciso saber todas as características e campos do modelo de %dados antes do início do projeto.
 
-%	\begin{figure}[!htbp]
-%		\begin{center}
-%			\includegraphics[width=1\textwidth]{excassandra}
-%		\end{center}
-%		\caption{Modelo de dados do Cassandra ~\cite{cassandraguide}}
-%		\label{fig:excassandra}
-%	\end{figure}
-
-%Apesar de ser necessário definir um agrupador chamado keyspace, que contem os aglomerados de colunas, as ‘tabelas’ não precisam de uma definição de quais as colunas vão armazenar. Isso torna o Cassandra schema-free e permite %que criemos colunas a qualquer hora. O keyspace é como um namespace lógico que agrupa algumas características e propriedades. 
 
 
 

@@ -1,0 +1,163 @@
+\chapter{Web-Service}
+
+
+Nesse capítulo daremos uma visão de o que é web service, e mostraremos um pouco sobre os seus principais componentes. Esse capítulo foi baseado no w3c schools ~\cite{msdn} exeto quando citado explicitamente.
+
+\section{O que é web-service?}
+
+Web service são componentes que podem ser acessados via protocolo http. Atualmente é muito usado na comunicação entre aplicações diferentes. O acesso a um webservice é via http, mas internamente existe dados formatados em xml que estão empacotados no protocolo SOAP (Simple Object Access Protocol).
+
+Hoje várias aplicações podem acessar a web usando os browsers e nem sempre essas aplicações conversam entre si. Para que a comunicação entre essas diversar aplicações se tornasse possível, independente da plataforma em que estivessem desenvolvidas, foi criado o conceito de web service. Usando web services, as aplicações podem publicar suas funções para toda a web. Usando o XML para codificar e SOAP para transportar os dados, os web services elevaram as aplicações web para outro nível.
+
+\section{Componentes de um Web-Service}
+
+Um web service é formado por três elementos: SOAP, WSDL e UDDI.
+
+\subsection{SOAP}
+
+
+O SOAP (Simple Object Access Protoco) é um protocolo leve para troca de informações que foi criado pela Microsoft, Ariba e IBM para padronizar a transferência de dados em diversas aplicações, por isso, se dá em XML. Parte da sua especificação é composta por um conjunto de regras de como utilizar o XML para representar os dados. Outra parte define o formato de mensagens, convenções para representar as chamadas de procedimento remoto (RPCs) utilizando o SOAP, e associações ao protocolo HTTP. 
+
+SOAP é:
+
+\begin{itemize}
+	\item Um protocolo de comunição;
+	\item É usado para a comunicação entre aplicações;
+	\item É um padrão para envio de mensagens;
+	\item Sua comunicação se dá na internet;
+	\item É independente de plataforma;
+	\item É independente de linguagem de programação;
+	\item É baseado em XML;
+	\item Permite passar por firewalls;
+	\item É uma recomendação do W3C;
+\end{itemize}
+
+Atualmente as aplicações se comunicam via RPC (Remote Procedure Calls), mas o HTTP não foi desenhado para isso. RPC possui problemas de compatibilidade e segurança; firewalls e servidores de proxy normalmente bloqueiam mensagens desse tipo. Para resolver esses problemas foi criado o protocolo SOAP.
+
+Uma mensgem SOAP é basicamente um documento XML que contem os seguintes elementos:
+
+\begin{itemize}
+	\item Um elemento 'Envelope' que identifica o documento XML como uma mensagem SOAP;
+	\item Um elemento 'header' que contem informações de cabeçalho;
+	\item Um elemento 'body' que contem informações de chamadas e retornos;
+	\item Um elemento 'Fault' que contem informações sobre erros e status;
+\end{itemize}
+
+
+\definecolor{gray}{rgb}{0.4,0.4,0.4}
+\definecolor{darkblue}{rgb}{0.0,0.0,0.6}
+\definecolor{cyan}{rgb}{0.0,0.6,0.6}
+
+\lstset{
+  basicstyle=\ttfamily,
+  columns=fullflexible,
+  showstringspaces=false,
+  commentstyle=\color{gray}\upshape
+}
+
+\lstdefinelanguage{XML}
+{
+  morestring=[b]",
+  morestring=[s]{>}{<},
+  morecomment=[s]{<?}{?>},
+  stringstyle=\color{black},
+  identifierstyle=\color{darkblue},
+  keywordstyle=\color{cyan},
+  morekeywords={xmlns,version,type}% list your attributes here
+}
+
+
+\lstset{language=XML}
+\begin{lstlisting}[title={` Estrutura de uma mensagem SOAP'}]
+<?xml version="1.0"?>
+
+<soap:Envelope
+xmlns:soap="http://www.w3.org/2001/12/soap-envelope"
+soap:encodingStyle="http://www.w3.org/2001/12/soap-encoding">
+
+<soap:Header>
+...
+</soap:Header>
+
+<soap:Body>
+...  
+	<soap:Fault>
+	  ...  
+	</soap:Fault>
+</soap:Body>
+
+</soap:Envelope>
+\end{lstlisting}
+
+\section{WSDL}
+
+WSDL é uma linguagem baseada em XML para localizar e descrever web services.
+
+O WSDL (Web Services Description Language) é uma linguagem baseada em XML, com a finalidade de documentar as mensagens que o Web service aceita e gera. É uma espécie de contrato. Esse mecanismo padrão facilita a interpretação dos 'contratos' pelos desenvolvedores e ferramentas de desenvolvimento. 
+
+WSDL é:
+
+\begin {itemize}
+	\item A linguagem padrão para descrever web services;
+	\item É baseado em XML;
+	\item É usado para localizar web services;
+	\item É um padrão W3C.
+\end {itemize}
+
+Um WSDL descreve um web service usando pricipalmente os seguintes elementos:
+
+\begin{table}[h]
+	\caption{Elementos de um documento WSDL}
+	\begin{center}
+	\begin{tabular}{ccc}
+		\hline
+			\textbf{Elemento} & \textbf{Descrição} \\
+		\hline
+			<types> & Um container para a definição dos tipos de dados usados pelo web service\\
+			<message> & Definição dos dados que serão usados na comunicação \\
+			<portType> & Um conjunto de operações suportadas por um ou mais endpoints \\
+			<binding> & Um protocolo e especificação de dados para um port type específico\\
+		\hline
+	\end {tabular}
+	\end{center}
+	%\{Fonte: http://www.w3schools.com/}
+	\label{tab:elementosWsdl}
+\end{table}
+
+Abaixo temos uma fração simplificada de um documento WSDL:
+
+\lstset{language=XML}
+\begin{lstlisting}[title={`WSDL'}]
+<message name="getTermRequest">
+  <part name="term" type="xs:string"/>
+</message>
+
+<message name="getTermResponse">
+  <part name="value" type="xs:string"/>
+</message>
+
+<portType name="glossaryTerms">
+  <operation name="getTerm">
+    <input message="getTermRequest"/>
+    <output message="getTermResponse"/>
+  </operation>
+</portType> 
+\end{lstlisting}
+
+\section{UDDI}
+
+UDDI é um serviço de diretório que permite às empresas descobrir, registrar e procurar Web services. É baseado em padrões do W3C (World Wide Web Consortium) e IETF (Internet Task Force) como XML, HTTP e DNS.
+
+Os benefícios de se usar UDDI são muitos. Antes do UDDI não havia padrão para as empresas divulgarem seus produtos e serviços para os seus consumidores e parceiros. Com o UDDI, por exemplo, se for definido um padrão para serviços de empresas aéreas, quando as empresas publicarem os seus serviços em um diretório UDDI as agências de viagem poderão procurar por esses serviços e iniciar imediatamente a comunicação.
+
+
+
+
+
+
+
+
+
+
+
+

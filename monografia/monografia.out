@@ -3,28 +3,54 @@
 \BOOKMARK [0][-]{resumo.0}{Abstract}{}% 3
 \BOOKMARK [0][-]{abstract.0}{Abstract}{}% 4
 \BOOKMARK [0][-]{chapter.1}{Introdu\347\343o}{}% 5
-\BOOKMARK [0][-]{chapter.2}{NoSql}{}% 6
-\BOOKMARK [1][-]{section.2.1}{Defini\347\343o}{chapter.2}% 7
-\BOOKMARK [1][-]{section.2.2}{Hist\363ria}{chapter.2}% 8
-\BOOKMARK [1][-]{section.2.3}{Os Principais Tipos de Banco de Dados NoSql}{chapter.2}% 9
-\BOOKMARK [2][-]{subsection.2.3.1}{Chave-Valor}{section.2.3}% 10
-\BOOKMARK [2][-]{subsection.2.3.2}{Orientados a Documentos}{section.2.3}% 11
-\BOOKMARK [2][-]{subsection.2.3.3}{Orientados a Colunas}{section.2.3}% 12
-\BOOKMARK [2][-]{subsection.2.3.4}{Baseados em Grafos}{section.2.3}% 13
-\BOOKMARK [1][-]{section.2.4}{MongoDB}{chapter.2}% 14
-\BOOKMARK [1][-]{section.2.5}{Cassandra}{chapter.2}% 15
-\BOOKMARK [0][-]{chapter.3}{Big Data}{}% 16
-\BOOKMARK [1][-]{section.3.1}{O que \351 Big Data?}{chapter.3}% 17
-\BOOKMARK [1][-]{section.3.2}{Tecnologias de Apoio}{chapter.3}% 18
-\BOOKMARK [2][-]{subsection.3.2.1}{Bases Relacionais}{section.3.2}% 19
-\BOOKMARK [0][-]{chapter.4}{Testes}{}% 20
-\BOOKMARK [1][-]{section.4.1}{Defini\347\343o}{chapter.4}% 21
-\BOOKMARK [1][-]{section.4.2}{Teste de Software e Qualidade de Software}{chapter.4}% 22
-\BOOKMARK [1][-]{section.4.3}{Tipos de Testes}{chapter.4}% 23
-\BOOKMARK [2][-]{subsection.4.3.1}{Aplicados a cada est\341gio de teste}{section.4.3}% 24
-\BOOKMARK [2][-]{subsection.4.3.2}{Est\341gios \(ou N\355veis\) de teste}{section.4.3}% 25
-\BOOKMARK [2][-]{subsection.4.3.3}{Outros tipos de testes}{section.4.3}% 26
-\BOOKMARK [1][-]{section.4.4}{Planejamento dos Testes}{chapter.4}% 27
-\BOOKMARK [2][-]{subsection.4.4.1}{Automa\347\343o de Testes}{section.4.4}% 28
-\BOOKMARK [2][-]{subsection.4.4.2}{Teste de Performance}{section.4.4}% 29
-\BOOKMARK [0][-]{section*.23}{Refer\352ncias}{}% 30
+\BOOKMARK [0][-]{chapter.2}{Big Data}{}% 6
+\BOOKMARK [1][-]{section.2.1}{O que \351 Big Data?}{chapter.2}% 7
+\BOOKMARK [1][-]{section.2.2}{Tecnologias de Apoio}{chapter.2}% 8
+\BOOKMARK [2][-]{subsection.2.2.1}{Bases Relacionais}{section.2.2}% 9
+\BOOKMARK [2][-]{subsection.2.2.2}{Bases N\343o Relacionais}{section.2.2}% 10
+\BOOKMARK [0][-]{chapter.3}{NoSql}{}% 11
+\BOOKMARK [1][-]{section.3.1}{Defini\347\343o de NoSQL}{chapter.3}% 12
+\BOOKMARK [1][-]{section.3.2}{Hist\363ria}{chapter.3}% 13
+\BOOKMARK [1][-]{section.3.3}{Os Principais Tipos de Banco de Dados NoSql}{chapter.3}% 14
+\BOOKMARK [2][-]{subsection.3.3.1}{Chave-Valor}{section.3.3}% 15
+\BOOKMARK [2][-]{subsection.3.3.2}{Orientados a Documentos}{section.3.3}% 16
+\BOOKMARK [2][-]{subsection.3.3.3}{Orientados a Colunas}{section.3.3}% 17
+\BOOKMARK [2][-]{subsection.3.3.4}{Baseados em Grafos}{section.3.3}% 18
+\BOOKMARK [1][-]{section.3.4}{MongoDB}{chapter.3}% 19
+\BOOKMARK [2][-]{subsection.3.4.1}{Modelagem dos Dados}{section.3.4}% 20
+\BOOKMARK [2][-]{subsection.3.4.2}{Linguagem de Consulta}{section.3.4}% 21
+\BOOKMARK [2][-]{subsection.3.4.3}{Replica\347\343o}{section.3.4}% 22
+\BOOKMARK [2][-]{subsection.3.4.4}{Decomposi\347\343o \(Sharding\)}{section.3.4}% 23
+\BOOKMARK [2][-]{subsection.3.4.5}{Tratamento de Falhas}{section.3.4}% 24
+\BOOKMARK [0][-]{chapter.4}{Testes}{}% 25
+\BOOKMARK [1][-]{section.4.1}{Defini\347\343o}{chapter.4}% 26
+\BOOKMARK [1][-]{section.4.2}{Teste de Software e Qualidade de Software}{chapter.4}% 27
+\BOOKMARK [1][-]{section.4.3}{Tipos de Testes}{chapter.4}% 28
+\BOOKMARK [2][-]{subsection.4.3.1}{Aplicados a cada est\341gio de teste}{section.4.3}% 29
+\BOOKMARK [2][-]{subsection.4.3.2}{Est\341gios \(ou N\355veis\) de teste}{section.4.3}% 30
+\BOOKMARK [2][-]{subsection.4.3.3}{Outros tipos de testes}{section.4.3}% 31
+\BOOKMARK [1][-]{section.4.4}{Testes de Carga e de Performance}{chapter.4}% 32
+\BOOKMARK [2][-]{subsection.4.4.1}{Testes de carga}{section.4.4}% 33
+\BOOKMARK [2][-]{subsection.4.4.2}{Teste de Performance}{section.4.4}% 34
+\BOOKMARK [1][-]{section.4.5}{Automa\347\343o de Testes}{chapter.4}% 35
+\BOOKMARK [1][-]{section.4.6}{JMeter}{chapter.4}% 36
+\BOOKMARK [2][-]{subsection.4.6.1}{Testador}{section.4.6}% 37
+\BOOKMARK [2][-]{subsection.4.6.2}{Ouvintes}{section.4.6}% 38
+\BOOKMARK [2][-]{subsection.4.6.3}{Elemento de Configura\347\343o}{section.4.6}% 39
+\BOOKMARK [0][-]{chapter.5}{Web-Service}{}% 40
+\BOOKMARK [1][-]{section.5.1}{O que \351 web-service?}{chapter.5}% 41
+\BOOKMARK [1][-]{section.5.2}{Componentes de um Web-Service}{chapter.5}% 42
+\BOOKMARK [2][-]{subsection.5.2.1}{SOAP}{section.5.2}% 43
+\BOOKMARK [1][-]{section.5.3}{WSDL}{chapter.5}% 44
+\BOOKMARK [1][-]{section.5.4}{UDDI}{chapter.5}% 45
+\BOOKMARK [0][-]{chapter.6}{Arquitetura do Projeto}{}% 46
+\BOOKMARK [1][-]{section.6.1}{web2py}{chapter.6}% 47
+\BOOKMARK [0][-]{chapter.7}{Ambiente de Testes}{}% 48
+\BOOKMARK [0][-]{chapter.8}{Planos de Teste}{}% 49
+\BOOKMARK [1][-]{section.8.1}{Insere Org\343os}{chapter.8}% 50
+\BOOKMARK [2][-]{subsection.8.1.1}{Configura\347\365es}{section.8.1}% 51
+\BOOKMARK [2][-]{subsection.8.1.2}{Sequ\352ncia de Passos}{section.8.1}% 52
+\BOOKMARK [1][-]{section.8.2}{Insere Empregados}{chapter.8}% 53
+\BOOKMARK [2][-]{subsection.8.2.1}{Configura\347\365es}{section.8.2}% 54
+\BOOKMARK [2][-]{subsection.8.2.2}{Sequ\352ncia de Passos}{section.8.2}% 55
+\BOOKMARK [0][-]{section*.31}{Refer\352ncias}{}% 56

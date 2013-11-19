@@ -1,12 +1,20 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: monografia.aux
 The style file: plain.bst
 Database file #1: bibliografia.bib
+I was expecting a `,' or a `}'---line 211 of file bibliografia.bib
+ : @misc{Ministério 
+ :                   do Meio Ambiente,
+I'm skipping whatever remains of this entry
+Warning--to sort, need author or key in hd
 Warning--to sort, need author or key in arqConarq
 Warning--to sort, need author or key in siteSIGEPE
 Warning--to sort, need author or key in apresentAFD
+Warning--to sort, need author or key in emcuniversedigital
 Warning--to sort, need author or key in nosqldatabaseorg
 Warning--to sort, need author or key in sitemongodb
 Warning--to sort, need author or key in sitecassandra
-Warning--to sort, need author or key in emcuniversedigital
+Warning--to sort, need author or key in siteTestLink
+Warning--to sort, need author or key in siteJmeter
+Warning--to sort, need author or key in msdn
 Warning--empty journal in nosqlxrelacional
-(There were 8 warnings)
+(There was 1 error message)

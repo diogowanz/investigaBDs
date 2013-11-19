@@ -1,5 +1,10 @@
 \begin{thebibliography}{10}
 
+\bibitem{siteJmeter}
+Apache jmeter.
+\newblock http://jmeter.apache.org.
+\newblock Acessado em 02 de julho de 2013.
+
 \bibitem{apresentAFD}
 Apresentação - assentamento funcional digital.
 \newblock
@@ -17,10 +22,20 @@ Emc digital universe.
   http://www.emc.com/collateral/demos/microsites/emc-digital-universe-2011/index.htm.
 \newblock Acessado em 26 de Janeiro de 2013.
 
+\bibitem{hd}
+História do hdl.
+\newblock http://www.dicasparacomputador.com/.
+\newblock Acessado em 02 de julho de 2013.
+
 \bibitem{sitemongodb}
 Mongodb official site.
 \newblock http://www.mongodb.org/.
 \newblock Acessado em 27 de Janeiro de 2013.
+
+\bibitem{msdn}
+Msdn - classe web services.
+\newblock http://msdn.microsoft.com/pt-br/library/cc564893.aspx.
+\newblock Acessado em 25 de junho de 2013.
 
 \bibitem{nosqldatabaseorg}
 nosql database org.
@@ -37,6 +52,11 @@ Recomendações para digitalização de documentos arquivísticos permanentes.
 Sigepe.org.
 \newblock www.sigepe.gov.br.
 \newblock Acessado em 23 de Abril de 2013.
+
+\bibitem{siteTestLink}
+Testlink.
+\newblock http://testlink.sourceforge.net/.
+\newblock Acessado em 02 de julho de 2013.
 
 \bibitem{bigdataarchitectureandapproach}
 K.~Bakshi.
@@ -58,6 +78,11 @@ Ricardo~W. Brito.
 \newblock Banco de dados {N}o{SQL} x {SGBD}s relacionais: Análise comparativa.
 \newblock 2010.
 
+\bibitem{scalablesqlandnosql}
+Rick Cattell.
+\newblock Scalable sql and nosql data stores.
+\newblock {\em SIGMOD Rec.}, 39(4):12--27, May 2011.
+
 \bibitem{initBigData}
 Andrew Cron, Huy~L. Nguyen, and Aditya Parameswaran.
 \newblock Big data.
@@ -67,6 +92,12 @@ Andrew Cron, Huy~L. Nguyen, and Aditya Parameswaran.
 Ramez Elmasri and Shamkant~B. Navathe.
 \newblock {\em Sistemas de Banco de dados}.
 \newblock Pearson Addison Wesley, 6 edition, 2011.
+
+\bibitem{capimage}
+Benjamin Erb.
+\newblock Concurrent programming for scalable web architectures.
+\newblock Diploma thesis, Institute of Distributed Systems, Ulm University,
+  April 2012.
 
 \bibitem{conceitoGartner}
 Gartner.
@@ -107,6 +138,11 @@ Ian Molyneaux.
   Programmers and Quality Assurance.}
 \newblock O'Reilly, 2009.
 
+\bibitem{Orendanalysisand}
+Kai Orend.
+\newblock Analysis and classification of nosql databases and evaluation of
+  their ability to replace an object-relational persistence layer, 2010.
+
 \bibitem{rios2006teste}
 E.~Rios and T.~MOREIRA.
 \newblock {\em Teste de software}.
@@ -128,5 +164,11 @@ Cezar Taurion.
 S.~Tiwari.
 \newblock {\em Professional NoSQL}.
 \newblock Wrox Programmer to Programmer. Wiley, 2011.
+
+\bibitem{nosqlaplicassandra}
+Guoxi Wang and Jianfeng Tang.
+\newblock The nosql principles and basic application of cassandra model.
+\newblock In {\em Computer Science Service System (CSSS), 2012 International
+  Conference on}, pages 1332--1335, 2012.
 
 \end{thebibliography}

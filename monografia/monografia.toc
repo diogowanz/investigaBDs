@@ -2,43 +2,77 @@
 \select@language {american}
 \select@language {brazil}
 \contentsline {chapter}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{1}{chapter.1}
-\contentsline {chapter}{\numberline {2}NoSql}{4}{chapter.2}
-\contentsline {section}{\numberline {2.1}Defini\IeC {\c c}\IeC {\~a}o}{4}{section.2.1}
-\contentsline {section}{\numberline {2.2}Hist\IeC {\'o}ria}{4}{section.2.2}
-\contentsline {section}{\numberline {2.3}Os Principais Tipos de Banco de Dados NoSql}{5}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Chave-Valor}{5}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Orientados a Documentos}{5}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}Orientados a Colunas}{6}{subsection.2.3.3}
-\contentsline {subsection}{\numberline {2.3.4}Baseados em Grafos}{7}{subsection.2.3.4}
-\contentsline {section}{\numberline {2.4}MongoDB}{7}{section.2.4}
-\contentsline {section}{\numberline {2.5}Cassandra}{8}{section.2.5}
-\contentsline {chapter}{\numberline {3}Big Data}{10}{chapter.3}
-\contentsline {section}{\numberline {3.1}O que \IeC {\'e} Big Data?}{10}{section.3.1}
-\contentsline {section}{\numberline {3.2}Tecnologias de Apoio}{11}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Bases Relacionais}{11}{subsection.3.2.1}
-\contentsline {subsubsection}{Limita\IeC {\c c}\IeC {\~o}es}{12}{section*.8}
-\contentsline {chapter}{\numberline {4}Testes}{14}{chapter.4}
-\contentsline {section}{\numberline {4.1}Defini\IeC {\c c}\IeC {\~a}o}{14}{section.4.1}
-\contentsline {section}{\numberline {4.2}Teste de Software e Qualidade de Software}{14}{section.4.2}
-\contentsline {section}{\numberline {4.3}Tipos de Testes}{15}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Aplicados a cada est\IeC {\'a}gio de teste}{15}{subsection.4.3.1}
-\contentsline {subsubsection}{Testes Caixa Preta}{15}{section*.9}
-\contentsline {subsubsection}{Testes Caixa Branca}{15}{section*.10}
-\contentsline {subsection}{\numberline {4.3.2}Est\IeC {\'a}gios (ou N\IeC {\'\i }veis) de teste}{16}{subsection.4.3.2}
-\contentsline {subsubsection}{Testes unit\IeC {\'a}rios}{16}{section*.11}
-\contentsline {subsubsection}{Testes de integra\IeC {\c c}\IeC {\~a}o}{16}{section*.12}
-\contentsline {subsubsection}{Testes de sistema}{16}{section*.13}
-\contentsline {subsubsection}{Testes de aceita\IeC {\c c}\IeC {\~a}o}{16}{section*.14}
-\contentsline {subsection}{\numberline {4.3.3}Outros tipos de testes}{16}{subsection.4.3.3}
-\contentsline {subsubsection}{Testes de carga}{16}{section*.15}
-\contentsline {subsubsection}{Testes Back-to-back}{16}{section*.16}
-\contentsline {subsubsection}{Testes de Configura\IeC {\c c}\IeC {\~a}o}{16}{section*.17}
-\contentsline {subsubsection}{Testes de Usabilidade}{17}{section*.18}
-\contentsline {subsubsection}{Testes de Seguran\IeC {\c c}a}{17}{section*.19}
-\contentsline {subsubsection}{Testes de Recupera\IeC {\c c}\IeC {\~a}o}{17}{section*.20}
-\contentsline {subsubsection}{Testes de Compatibilidade}{17}{section*.21}
-\contentsline {subsubsection}{Testes de Desempenho}{17}{section*.22}
-\contentsline {section}{\numberline {4.4}Planejamento dos Testes}{17}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Automa\IeC {\c c}\IeC {\~a}o de Testes}{17}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Teste de Performance}{17}{subsection.4.4.2}
-\contentsline {chapter}{Refer\^encias}{20}{section*.23}
+\contentsline {chapter}{\numberline {2}Big Data}{4}{chapter.2}
+\contentsline {section}{\numberline {2.1}O que \IeC {\'e} Big Data?}{4}{section.2.1}
+\contentsline {section}{\numberline {2.2}Tecnologias de Apoio}{5}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Bases Relacionais}{5}{subsection.2.2.1}
+\contentsline {subsubsection}{Limita\IeC {\c c}\IeC {\~o}es}{7}{section*.8}
+\contentsline {subsection}{\numberline {2.2.2}Bases N\IeC {\~a}o Relacionais}{8}{subsection.2.2.2}
+\contentsline {subsubsection}{Teorema CAP}{8}{section*.9}
+\contentsline {subsubsection}{Teorema BASE}{9}{section*.10}
+\contentsline {subsubsection}{Consist\IeC {\^e}ncia Eventual}{9}{section*.11}
+\contentsline {chapter}{\numberline {3}NoSql}{11}{chapter.3}
+\contentsline {section}{\numberline {3.1}Defini\IeC {\c c}\IeC {\~a}o de NoSQL}{11}{section.3.1}
+\contentsline {section}{\numberline {3.2}Hist\IeC {\'o}ria}{11}{section.3.2}
+\contentsline {section}{\numberline {3.3}Os Principais Tipos de Banco de Dados NoSql}{12}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Chave-Valor}{12}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Orientados a Documentos}{12}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Orientados a Colunas}{13}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}Baseados em Grafos}{14}{subsection.3.3.4}
+\contentsline {section}{\numberline {3.4}MongoDB}{14}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Modelagem dos Dados}{15}{subsection.3.4.1}
+\contentsline {subsubsection}{Refer\IeC {\^e}ncias}{16}{section*.12}
+\contentsline {subsubsection}{Sub-Documentos}{16}{section*.13}
+\contentsline {subsection}{\numberline {3.4.2}Linguagem de Consulta}{17}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Replica\IeC {\c c}\IeC {\~a}o}{17}{subsection.3.4.3}
+\contentsline {subsection}{\numberline {3.4.4}Decomposi\IeC {\c c}\IeC {\~a}o (Sharding)}{18}{subsection.3.4.4}
+\contentsline {subsection}{\numberline {3.4.5}Tratamento de Falhas}{18}{subsection.3.4.5}
+\contentsline {chapter}{\numberline {4}Testes}{22}{chapter.4}
+\contentsline {section}{\numberline {4.1}Defini\IeC {\c c}\IeC {\~a}o}{22}{section.4.1}
+\contentsline {section}{\numberline {4.2}Teste de Software e Qualidade de Software}{22}{section.4.2}
+\contentsline {section}{\numberline {4.3}Tipos de Testes}{23}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Aplicados a cada est\IeC {\'a}gio de teste}{23}{subsection.4.3.1}
+\contentsline {subsubsection}{Testes Caixa Preta}{23}{section*.14}
+\contentsline {subsubsection}{Testes Caixa Branca}{23}{section*.15}
+\contentsline {subsection}{\numberline {4.3.2}Est\IeC {\'a}gios (ou N\IeC {\'\i }veis) de teste}{24}{subsection.4.3.2}
+\contentsline {subsubsection}{Testes unit\IeC {\'a}rios}{24}{section*.16}
+\contentsline {subsubsection}{Testes de integra\IeC {\c c}\IeC {\~a}o}{24}{section*.17}
+\contentsline {subsubsection}{Testes de sistema}{24}{section*.18}
+\contentsline {subsubsection}{Testes de aceita\IeC {\c c}\IeC {\~a}o}{24}{section*.19}
+\contentsline {subsection}{\numberline {4.3.3}Outros tipos de testes}{24}{subsection.4.3.3}
+\contentsline {subsubsection}{Testes Back-to-back}{24}{section*.20}
+\contentsline {subsubsection}{Testes de Configura\IeC {\c c}\IeC {\~a}o}{24}{section*.21}
+\contentsline {subsubsection}{Testes de Usabilidade}{24}{section*.22}
+\contentsline {subsubsection}{Testes de Seguran\IeC {\c c}a}{25}{section*.23}
+\contentsline {subsubsection}{Testes de Recupera\IeC {\c c}\IeC {\~a}o}{25}{section*.24}
+\contentsline {subsubsection}{Testes de Compatibilidade}{25}{section*.25}
+\contentsline {subsubsection}{Testes de Desempenho}{25}{section*.26}
+\contentsline {section}{\numberline {4.4}Testes de Carga e de Performance}{25}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Testes de carga}{25}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Teste de Performance}{25}{subsection.4.4.2}
+\contentsline {section}{\numberline {4.5}Automa\IeC {\c c}\IeC {\~a}o de Testes}{26}{section.4.5}
+\contentsline {section}{\numberline {4.6}JMeter}{27}{section.4.6}
+\contentsline {subsection}{\numberline {4.6.1}Testador}{28}{subsection.4.6.1}
+\contentsline {subsubsection}{Requisi\IeC {\c c}\IeC {\~a}o SOAP/XML - RPC}{28}{section*.27}
+\contentsline {subsection}{\numberline {4.6.2}Ouvintes}{29}{subsection.4.6.2}
+\contentsline {subsubsection}{Gr\IeC {\'a}fico de Resultados}{29}{section*.28}
+\contentsline {subsubsection}{Gr\IeC {\'a}fico de Tempo de Resposta}{29}{section*.29}
+\contentsline {subsection}{\numberline {4.6.3}Elemento de Configura\IeC {\c c}\IeC {\~a}o}{29}{subsection.4.6.3}
+\contentsline {subsubsection}{Configura\IeC {\c c}\IeC {\~a}o de Dados CSV}{29}{section*.30}
+\contentsline {chapter}{\numberline {5}Web-Service}{31}{chapter.5}
+\contentsline {section}{\numberline {5.1}O que \IeC {\'e} web-service?}{31}{section.5.1}
+\contentsline {section}{\numberline {5.2}Componentes de um Web-Service}{31}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}SOAP}{31}{subsection.5.2.1}
+\contentsline {section}{\numberline {5.3}WSDL}{33}{section.5.3}
+\contentsline {section}{\numberline {5.4}UDDI}{34}{section.5.4}
+\contentsline {chapter}{\numberline {6}Arquitetura do Projeto}{35}{chapter.6}
+\contentsline {section}{\numberline {6.1}web2py}{36}{section.6.1}
+\contentsline {chapter}{\numberline {7}Ambiente de Testes}{37}{chapter.7}
+\contentsline {chapter}{\numberline {8}Planos de Teste}{38}{chapter.8}
+\contentsline {section}{\numberline {8.1}Insere Org\IeC {\~a}os}{38}{section.8.1}
+\contentsline {subsection}{\numberline {8.1.1}Configura\IeC {\c c}\IeC {\~o}es}{38}{subsection.8.1.1}
+\contentsline {subsection}{\numberline {8.1.2}Sequ\IeC {\^e}ncia de Passos}{38}{subsection.8.1.2}
+\contentsline {section}{\numberline {8.2}Insere Empregados}{38}{section.8.2}
+\contentsline {subsection}{\numberline {8.2.1}Configura\IeC {\c c}\IeC {\~o}es}{39}{subsection.8.2.1}
+\contentsline {subsection}{\numberline {8.2.2}Sequ\IeC {\^e}ncia de Passos}{39}{subsection.8.2.2}
+\contentsline {chapter}{Refer\^encias}{40}{section*.31}
