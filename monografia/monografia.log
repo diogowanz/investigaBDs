@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2013.10.1)  19 NOV 2013 11:33
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2013.4.22)  25 NOV 2013 15:43
 entering extended mode
-**D:/Users/EU/Google*Drive/TG1/monografia/monografia.tex
-("D:/Users/EU/Google Drive/TG1/monografia/monografia.tex"
+**C:/Users/Debora*Natsue/Google*Drive/TG1/monografia/monografia.tex
+("C:/Users/Debora Natsue/Google Drive/TG1/monografia/monografia.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -13,7 +13,7 @@ an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese,
 romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
 sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
 senglishmax, welsh, loaded.
-("D:\Users\EU\Google Drive\TG1\monografia\unb-cic.cls"
+("C:\Users\Debora Natsue\Google Drive\TG1\monografia\unb-cic.cls"
 Document Class: unb-cic 2008/06/05 v0.93 Classe para trabalhos CIC UnB
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
 Package: xkeyval 2008/08/13 v2.6a package option processing (HA)
@@ -187,14 +187,14 @@ File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 \Gin@req@height=\dimen106
 \Gin@req@width=\dimen107
 )
-(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\latex\boites\boites.sty
+("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\latex\boites\boites.sty
+"
 File: boites.sty 
 Package: boites 
 \bk@bxb=\box26
 \bk@bxa=\box27
 \bk@lcnt=\count100
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
 Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@cnth=\count101
 \Gm@cntv=\count102
@@ -210,13 +210,13 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@dimlist=\toks16
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
-(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\latex\setspace\setspace.sty
+("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\latex\setspace\setspace
+.sty"
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
 \c@TotPaginas=\count104
 \c@definition=\count105
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.sty"
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.sty"
 Package: babel 2008/07/08 v3.8m The Babel package
 
 *************************************
@@ -252,17 +252,18 @@ LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\indentfirst.sty"
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
-(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\latex\natbib\natbib.sty
+("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\latex\natbib\natbib.sty
+"
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip44
 \bibsep=\skip45
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count107
 )
-(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\latex\xcolor\xcolor.sty
+("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\latex\xcolor\xcolor.sty
+"
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -495,7 +496,8 @@ Now handling font encoding PD1 ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.sty
+("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings
+.sty"
 \lst@mode=\count108
 \lst@gtempboxa=\box28
 \lst@token=\toks19
@@ -509,18 +511,19 @@ Now handling font encoding PD1 ...
 \lst@lineno=\count113
 \lst@maxwidth=\dimen120
 
-(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstmisc.sty
-File: lstmisc.sty 2013/08/26 1.5b (Carsten Heinz)
+("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstmisc.
+sty"
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
 \c@lstnumber=\count114
 \lst@skipnumbers=\count115
 \lst@framebox=\box29
 )
-(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.cfg
-File: listings.cfg 2013/08/26 1.5b listings configuration
+("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings
+.cfg"
+File: listings.cfg 2007/02/22 1.4 listings configuration
 ))
-Package: listings 2013/08/26 1.5b (Carsten Heinz)
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: listings 2007/02/22 1.4 (Carsten Heinz)
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\array.sty"
 Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen121
 \extrarowheight=\dimen122
@@ -528,27 +531,41 @@ Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \extratabsurround=\skip46
 \backup@length=\skip47
 )
-("D:\Users\EU\Google Drive\TG1\monografia\cores.tex")
-Package hyperref Info: Option `colorlinks' set `true' on input line 43.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\tabularx.sty"
+Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
+\TX@col@width=\dimen123
+\TX@old@table=\dimen124
+\TX@old@col=\dimen125
+\TX@target=\dimen126
+\TX@delta=\dimen127
+\TX@cols=\count116
+\TX@ftn=\toks21
+)
+("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\latex\lipsum\lipsum.sty
+"
+Package: lipsum 2011/04/14 v1.2 150 paragraphs of Lorem Ipsum dummy text
+\c@lips@count=\count117
+) ("C:\Users\Debora Natsue\Google Drive\TG1\monografia\cores.tex")
+Package hyperref Info: Option `colorlinks' set `true' on input line 45.
 
-("D:\Users\EU\Google Drive\TG1\monografia\monografia.aux")
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
+("C:\Users\Debora Natsue\Google Drive\TG1\monografia\monografia.aux")
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
 \AtBeginShipoutBox=\box30
-Package backref Info: ** backref set up for natbib ** on input line 74.
-Package hyperref Info: Link coloring ON on input line 74.
+Package backref Info: ** backref set up for natbib ** on input line 76.
+Package hyperref Info: Link coloring ON on input line 76.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
@@ -556,29 +573,30 @@ Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count116
+\c@section@level=\count118
 )
-LaTeX Info: Redefining \ref on input line 74.
-LaTeX Info: Redefining \pageref on input line 74.
-LaTeX Info: Redefining \nameref on input line 74.
+LaTeX Info: Redefining \ref on input line 76.
+LaTeX Info: Redefining \pageref on input line 76.
+LaTeX Info: Redefining \nameref on input line 76.
 
-("D:\Users\EU\Google Drive\TG1\monografia\monografia.out")
-("D:\Users\EU\Google Drive\TG1\monografia\monografia.out")
+("C:\Users\Debora Natsue\Google Drive\TG1\monografia\monografia.out")
+("C:\Users\Debora Natsue\Google Drive\TG1\monografia\monografia.out")
 \@outlinefile=\write3
 
-(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.m
+kii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count117
-\scratchdimen=\dimen123
+\scratchcounter=\count119
+\scratchdimen=\dimen128
 \scratchbox=\box31
-\nofMPsegments=\count118
-\nofMParguments=\count119
-\everyMPshowfont=\toks21
-\MPscratchCnt=\count120
-\MPscratchDim=\dimen124
-\MPnumerator=\count121
-\makeMPintoPDFobject=\count122
-\everyMPtoPDFconversion=\toks22
+\nofMPsegments=\count120
+\nofMParguments=\count121
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count122
+\MPscratchDim=\dimen129
+\MPnumerator=\count123
+\makeMPintoPDFobject=\count124
+\everyMPtoPDFconversion=\toks23
 )
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -614,47 +632,47 @@ LaTeX Info: Redefining \nameref on input line 74.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-("D:\Users\EU\Google Drive\TG1\monografia\hypernat.sty"
+("C:\Users\Debora Natsue\Google Drive\TG1\monografia\hypernat.sty"
 Package: hypernat 2001/07/09 v1.0b hyperref and natbib compatibility (jb)
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\hypcap.sty"
 Package: hypcap 2011/02/16 v1.11 Adjusting the anchors of captions (HO)
 )
-\c@lstlisting=\count123
+\c@lstlisting=\count125
 \len@brasiliaw=\skip48
 \len@uadesch=\skip49
 \len@uacaph=\skip50
-LaTeX Font Info:    Try loading font information for T1+ua1 on input line 75.
+LaTeX Font Info:    Try loading font information for T1+ua1 on input line 77.
 
-(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\latex\arial\t1ua1.fd
+("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\latex\arial\t1ua1.fd"
 File: t1ua1.fd 2006/03/21 Fontinst v1.928 font definitions for T1/ua1.
 )
 LaTeX Font Info:    Font shape `T1/ua1/bx/n' in size <20> not available
-(Font)              Font shape `T1/ua1/b/n' tried instead on input line 75.
+(Font)              Font shape `T1/ua1/b/n' tried instead on input line 77.
 
-<positivo_cor.pdf, id=227, 119.44624pt x 60.225pt>
+<positivo_cor.pdf, id=235, 119.44624pt x 60.225pt>
 File: positivo_cor.pdf Graphic file (type pdf)
  <use positivo_cor.pdf>
-Package pdftex.def Info: positivo_cor.pdf used on input line 75.
+Package pdftex.def Info: positivo_cor.pdf used on input line 77.
 (pdftex.def)             Requested size: 70.28004pt x 35.43501pt.
 \len@lskipoffset=\skip51
 LaTeX Font Info:    Font shape `T1/ua1/bx/n' in size <10> not available
-(Font)              Font shape `T1/ua1/b/n' tried instead on input line 75.
+(Font)              Font shape `T1/ua1/b/n' tried instead on input line 77.
 \len@lskipoffset=\skip52
 
 [1
 
 
 
-{C:/Users/EU/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <D:/Users/EU/Go
-ogle Drive/TG1/monografia/positivo_cor.pdf>]
+{C:/Users/Debora Natsue/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/
+Users/Debora Natsue/Google Drive/TG1/monografia/positivo_cor.pdf>]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 75.
+(Font)              <12> on input line 77.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 75.
+(Font)              <8> on input line 77.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 75.
-\@tempa=\count124
+(Font)              <6> on input line 77.
+\@tempa=\count126
  [2
 
 ]
@@ -662,19 +680,19 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \len@uadesch=\skip54
 \len@uacaph=\skip55
 File: positivo_cor.pdf Graphic file (type pdf)
- <use positivo_cor.pdf>
-Package pdftex.def Info: positivo_cor.pdf used on input line 75.
+
+<use positivo_cor.pdf>
+Package pdftex.def Info: positivo_cor.pdf used on input line 77.
 (pdftex.def)             Requested size: 70.28004pt x 35.43501pt.
 \len@lskipoffset=\skip56
 \len@lskipoffset=\skip57
-
-[3
+ [3
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.82   \begin{agradecimentos}
+l.84   \begin{agradecimentos}
                               [1
 
 
@@ -683,7 +701,7 @@ l.82   \begin{agradecimentos}
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.86   \begin{resumo}
+l.88   \begin{resumo}
                       [2
 
 
@@ -691,7 +709,7 @@ l.86   \begin{resumo}
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.91   \begin{abstract}
+l.93   \begin{abstract}
                         [3
 
 
@@ -699,24 +717,25 @@ l.91   \begin{abstract}
 
 
 ]
-("D:\Users\EU\Google Drive\TG1\monografia\monografia.toc" [5
+("C:\Users\Debora Natsue\Google Drive\TG1\monografia\monografia.toc" [5
 
 ])
 \tf@toc=\write4
- [6]
-("D:\Users\EU\Google Drive\TG1\monografia\monografia.lof")
+
+[6] ("C:\Users\Debora Natsue\Google Drive\TG1\monografia\monografia.lof")
 \tf@lof=\write5
- [7
 
-]
-("D:\Users\EU\Google Drive\TG1\monografia\monografia.lot")
+[7
+
+] ("C:\Users\Debora Natsue\Google Drive\TG1\monografia\monografia.lot")
 \tf@lot=\write6
- [8
+
+[8
 
 ]
-("D:\Users\EU\Google Drive\TG1\monografia\capitulos/introducao.tex"
+("C:\Users\Debora Natsue\Google Drive\TG1\monografia\capitulos/introducao.tex"
 Cap\'{\i }tulo 1.
-<historiaDiscoRigido.jpg, id=411, 481.8pt x 281.05pt>
+<historiaDiscoRigido.jpg, id=429, 481.8pt x 281.05pt>
 File: historiaDiscoRigido.jpg Graphic file (type jpg)
 
 <use historiaDiscoRigido.jpg>
@@ -725,8 +744,10 @@ Package pdftex.def Info: historiaDiscoRigido.jpg used on input line 8.
  [1
 
 
-] [2 <D:/Users/EU/Google Drive/TG1/monografia/historiaDiscoRigido.jpg>])
-("D:\Users\EU\Google Drive\TG1\monografia\capitulos/bigdata.tex" [3]
+] [2 <C:/Users/Debora Natsue/Google Drive/TG1/monografia/historiaDiscoRigido.jp
+g>])
+("C:\Users\Debora Natsue\Google Drive\TG1\monografia\capitulos/bigdata.tex"
+[3]
 Cap\'{\i }tulo 2.
 [4
 
@@ -735,45 +756,48 @@ LaTeX Font Info:    Try loading font information for T1+cmtt on input line 21.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-<modelo_relacional.jpg, id=455, 800.23969pt x 422.32782pt>
+<modelo_relacional.jpg, id=473, 800.23969pt x 422.32782pt>
 File: modelo_relacional.jpg Graphic file (type jpg)
 
 <use modelo_relacional.jpg>
 Package pdftex.def Info: modelo_relacional.jpg used on input line 47.
 (pdftex.def)             Requested size: 364.19667pt x 192.20456pt.
- [5] [6 <D:/Users/EU/Google Drive/TG1/monografia/modelo_relacional.jpg>] [7] <c
-aptheorem.jpg, id=487, 382.42876pt x 263.48438pt>
+ [5] [6 <C:/Users/Debora Natsue/Google Drive/TG1/monografia/modelo_relacional.j
+pg>] [7]
+<captheorem.jpg, id=505, 382.42876pt x 263.48438pt>
 File: captheorem.jpg Graphic file (type jpg)
-
-<use captheorem.jpg>
+ <use captheorem.jpg>
 Package pdftex.def Info: captheorem.jpg used on input line 93.
 (pdftex.def)             Requested size: 364.19667pt x 250.93591pt.
- [8 <D:/Users/EU/Google Drive/TG1/monografia/captheorem.jpg>]
+
+[8 <C:/Users/Debora Natsue/Google Drive/TG1/monografia/captheorem.jpg>]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 110.
 
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 110.
 
-<strongconsistency.jpg, id=503, 554.82281pt x 162.6075pt>
+<strongconsistency.jpg, id=521, 554.82281pt x 162.6075pt>
 File: strongconsistency.jpg Graphic file (type jpg)
 
 <use strongconsistency.jpg>
 Package pdftex.def Info: strongconsistency.jpg used on input line 123.
 (pdftex.def)             Requested size: 364.19667pt x 106.73819pt.
 
-<eventualconsistency.jpg, id=508, 554.82281pt x 181.42781pt>
+<eventualconsistency.jpg, id=526, 554.82281pt x 181.42781pt>
 File: eventualconsistency.jpg Graphic file (type jpg)
 
 <use eventualconsistency.jpg>
 Package pdftex.def Info: eventualconsistency.jpg used on input line 133.
 (pdftex.def)             Requested size: 364.19667pt x 119.09215pt.
 )
-("D:\Users\EU\Google Drive\TG1\monografia\capitulos/nosql.tex" [9 <D:/Users/EU/
-Google Drive/TG1/monografia/strongconsistency.jpg>] [10 <D:/Users/EU/Google Dri
-ve/TG1/monografia/eventualconsistency.jpg>]
+("C:\Users\Debora Natsue\Google Drive\TG1\monografia\capitulos/nosql.tex"
+[9 <C:/Users/Debora Natsue/Google Drive/TG1/monografia/strongconsistency.jpg>]
+[10 <C:/Users/Debora Natsue/Google Drive/TG1/monografia/eventualconsistency.jpg
+>]
 Cap\'{\i }tulo 3.
 [11
 
@@ -791,13 +815,13 @@ Overfull \hbox (1.38881pt too wide) in paragraph at lines 55--56
 -ta-ção a atri-bu-tos(colunas).Ao
  []
 
-<columns.png, id=544, 578.16pt x 216.81pt>
+<columns.png, id=562, 578.16pt x 216.81pt>
 File: columns.png Graphic file (type png)
  <use columns.png>
 Package pdftex.def Info: columns.png used on input line 72.
 (pdftex.def)             Requested size: 364.19667pt x 136.57117pt.
- [13 <D:/Users/EU/Google Drive/TG1/monografia/columns.png>] [14]
-<exbson.jpg, id=577, 677.53125pt x 132.495pt>
+ [13 <C:/Users/Debora Natsue/Google Drive/TG1/monografia/columns.png>] [14]
+<exbson.jpg, id=595, 677.53125pt x 132.495pt>
 File: exbson.jpg Graphic file (type jpg)
  <use exbson.jpg>
 Package pdftex.def Info: exbson.jpg used on input line 128.
@@ -807,25 +831,27 @@ Overfull \hbox (91.04742pt too wide) in paragraph at lines 128--129
  [] 
  []
 
-<referencia.png, id=582, 803.25093pt x 426.84468pt>
+<referencia.png, id=600, 803.25093pt x 426.84468pt>
 File: referencia.png Graphic file (type png)
  <use referencia.png>
 Package pdftex.def Info: referencia.png used on input line 152.
 (pdftex.def)             Requested size: 364.19667pt x 193.53726pt.
 
-[15 <D:/Users/EU/Google Drive/TG1/monografia/exbson.jpg>]
-<subdocumento.png, id=590, 514.92375pt x 267.24844pt>
+[15 <C:/Users/Debora Natsue/Google Drive/TG1/monografia/exbson.jpg>]
+<subdocumento.png, id=608, 514.92375pt x 267.24844pt>
 File: subdocumento.png Graphic file (type png)
  <use subdocumento.png>
 Package pdftex.def Info: subdocumento.png used on input line 174.
 (pdftex.def)             Requested size: 364.19667pt x 189.02592pt.
 
-[16 <D:/Users/EU/Google Drive/TG1/monografia/referencia.png>]
-(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstlang1.sty
-File: lstlang1.sty 2013/08/26 1.5b listings language file
+[16 <C:/Users/Debora Natsue/Google Drive/TG1/monografia/referencia.png>]
+("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstlang1
+.sty"
+File: lstlang1.sty 2004/09/05 1.3 listings language file
 )
-(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstlang1.sty
-File: lstlang1.sty 2013/08/26 1.5b listings language file
+("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstlang1
+.sty"
+File: lstlang1.sty 2004/09/05 1.3 listings language file
 )
 Overfull \hbox (54.31155pt too wide) in paragraph at lines 245--246
 [][][][][][][][][][][][][][][][][][][][][][] 
@@ -852,54 +878,58 @@ Overfull \hbox (68.40823pt too wide) in paragraph at lines 368--369
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[17 <D:/Users/EU/Google Drive/TG1/monografia/subdocumento.png>]
-<replication.png, id=613, 495.0pt x 404.91pt>
+[17 <C:/Users/Debora Natsue/Google Drive/TG1/monografia/subdocumento.png>]
+<replication.png, id=631, 495.0pt x 404.91pt>
 File: replication.png Graphic file (type png)
  <use replication.png>
 Package pdftex.def Info: replication.png used on input line 388.
 (pdftex.def)             Requested size: 227.62206pt x 186.19907pt.
 
-<sharding.png, id=616, 563.14285pt x 385.75285pt>
+<sharding.png, id=634, 563.14285pt x 385.75285pt>
 File: sharding.png Graphic file (type png)
  <use sharding.png>
 Package pdftex.def Info: sharding.png used on input line 407.
 (pdftex.def)             Requested size: 227.62206pt x 155.91708pt.
 )
-("D:\Users\EU\Google Drive\TG1\monografia\capitulos/testes.tex" [18 <D:/Users/E
-U/Google Drive/TG1/monografia/replication.png>] [19 <D:/Users/EU/Google Drive/T
-G1/monografia/sharding.png>] [20] [21]
+("C:\Users\Debora Natsue\Google Drive\TG1\monografia\capitulos/testes.tex"
+[18 <C:/Users/Debora Natsue/Google Drive/TG1/monografia/replication.png>]
+[19 <C:/Users/Debora Natsue/Google Drive/TG1/monografia/sharding.png>] [20]
+[21]
 Cap\'{\i }tulo 4.
 [22
 
-] [23] [24] [25] <testlink.jpg, id=759, 1267.73625pt x 835.12pt>
+] [23] [24] [25] <testlink.jpg, id=777, 1267.73625pt x 835.12pt>
 File: testlink.jpg Graphic file (type jpg)
 
 <use testlink.jpg>
 Package pdftex.def Info: testlink.jpg used on input line 166.
 (pdftex.def)             Requested size: 364.19667pt x 239.91035pt.
- [26 <D:/Users/EU/Google Drive/TG1/monografia/testlink.jpg>]
-<jmeter.png, id=772, 913.16156pt x 461.47406pt>
+ [26 <C:/Users/Debora Natsue/Google Drive/TG1/monografia/testlink.jpg>] <jmeter
+.png, id=790, 913.16156pt x 461.47406pt>
 File: jmeter.png Graphic file (type png)
  <use jmeter.png>
 Package pdftex.def Info: jmeter.png used on input line 176.
 (pdftex.def)             Requested size: 364.19667pt x 184.04414pt.
- [27 <D:/Users/EU/Google Drive/TG1/monografia/jmeter.png>]
-<testador_insere_orgao.png, id=780, 818.30719pt x 459.96844pt>
+
+[27 <C:/Users/Debora Natsue/Google Drive/TG1/monografia/jmeter.png>]
+<testador_insere_orgao.png, id=798, 818.30719pt x 459.96844pt>
 File: testador_insere_orgao.png Graphic file (type png)
 
 <use testador_insere_orgao.png>
 Package pdftex.def Info: testador_insere_orgao.png used on input line 218.
 (pdftex.def)             Requested size: 455.24411pt x 255.89612pt.
- [28 <D:/Users/EU/Google Drive/TG1/monografia/testador_insere_orgao.png>]
-<configuracao_csv.png, id=787, 817.55438pt x 458.46281pt>
+ [28 <C:/Users/Debora Natsue/Google Drive/TG1/monografia/testador_insere_orgao.
+png>]
+<configuracao_csv.png, id=805, 817.55438pt x 458.46281pt>
 File: configuracao_csv.png Graphic file (type png)
 
 <use configuracao_csv.png>
 Package pdftex.def Info: configuracao_csv.png used on input line 246.
 (pdftex.def)             Requested size: 455.24411pt x 255.28934pt.
 )
-("D:\Users\EU\Google Drive\TG1\monografia\capitulos/webservice.tex" [29]
-[30 <D:/Users/EU/Google Drive/TG1/monografia/configuracao_csv.png>]
+("C:\Users\Debora Natsue\Google Drive\TG1\monografia\capitulos/webservice.tex"
+[29] [30 <C:/Users/Debora Natsue/Google Drive/TG1/monografia/configuracao_csv.p
+ng>]
 Cap\'{\i }tulo 5.
 [31
 
@@ -908,112 +938,129 @@ Overfull \hbox (14.88145pt too wide) in paragraph at lines 112--122
  [] 
  []
 
-[33]) ("D:\Users\EU\Google Drive\TG1\monografia\capitulos/arquitetura.tex"
+[33])
+("C:\Users\Debora Natsue\Google Drive\TG1\monografia\capitulos/arquitetura.tex"
 [34]
 Cap\'{\i }tulo 6.
-<arquitetura.jpg, id=853, 551.81157pt x 630.85687pt>
+<diagrama_geral.jpg, id=873, 1204.5pt x 642.14906pt>
+File: diagrama_geral.jpg Graphic file (type jpg)
+ <use diagrama_geral.jpg>
+Package pdftex.def Info: diagrama_geral.jpg used on input line 12.
+(pdftex.def)             Requested size: 455.24411pt x 242.70619pt.
+
+<class_model.jpg, id=874, 823.57687pt x 406.51875pt>
+File: class_model.jpg Graphic file (type jpg)
+ <use class_model.jpg>
+Package pdftex.def Info: class_model.jpg used on input line 20.
+(pdftex.def)             Requested size: 455.24411pt x 224.70872pt.
+
+<arquitetura.jpg, id=876, 551.81157pt x 630.85687pt>
 File: arquitetura.jpg Graphic file (type jpg)
  <use arquitetura.jpg>
-Package pdftex.def Info: arquitetura.jpg used on input line 7.
+Package pdftex.def Info: arquitetura.jpg used on input line 73.
 (pdftex.def)             Requested size: 227.62206pt x 260.23167pt.
 
 [35
 
- <D:/Users/EU/Google Drive/TG1/monografia/arquitetura.jpg>] [36]
+] [36 <C:/Users/Debora Natsue/Google Drive/TG1/monografia/diagrama_geral.jpg> <
+C:/Users/Debora Natsue/Google Drive/TG1/monografia/class_model.jpg>]
+[37] [38 <C:/Users/Debora Natsue/Google Drive/TG1/monografia/arquitetura.jpg>]
+[39] [40]
 Cap\'{\i }tulo 7.
-[37
 
-]
-Cap\'{\i }tulo 8.
-[38
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 135.
 
-]) [39] ("D:\Users\EU\Google Drive\TG1\monografia\monografia.bbl"
-("D:\Users\EU\Google Drive\TG1\monografia\monografia.brf")
+[41
+
+]) [42] ("C:\Users\Debora Natsue\Google Drive\TG1\monografia\monografia.bbl" ("
+C:\Users\Debora Natsue\Google Drive\TG1\monografia\monografia.brf")
 \tf@brf=\write7
 
-Underfull \hbox (badness 2809) in paragraph at lines 24--24
+Underfull \hbox (badness 2809) in paragraph at lines 19--19
 []\T1/cmr/m/n/12 Emc di-gi-tal uni-verse.  http://www.emc.com/collateral/demos/
 microsites/emc-
  []
 
 
-Underfull \hbox (badness 7486) in paragraph at lines 50--50
+Underfull \hbox (badness 7486) in paragraph at lines 45--45
 []\T1/cmr/m/n/12 Recomendações para di-gi-ta-li-za-ção de do-cu-men-tos ar-qui-
 vís-ti-cos per-ma-nen-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--50
+Underfull \hbox (badness 10000) in paragraph at lines 45--45
 \T1/cmr/m/n/12 tes.  http://www.emc.com/collateral/demos/microsites/emc-digital
 -universe-
  []
 
-[40
+[43
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
+Underfull \hbox (badness 10000) in paragraph at lines 157--157
 []\T1/cmr/m/n/12 Cezar Tau-rion.  Big data = vo-lume + va-ri-e-dade + ve-lo-ci-
 dade.
  []
 
 
-Underfull \hbox (badness 1817) in paragraph at lines 156--156
+Underfull \hbox (badness 1817) in paragraph at lines 157--157
 \T1/cmr/m/n/12 https://www.ibm.com/developerworks, 2012.  Aces-sado em 14 de De
 -zem-bro
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 162--162
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
 []\T1/cmr/m/n/12 Cezar Tau-rion.  Você re-al-mente sabe o que é big data?
  []
 
 
-Underfull \hbox (badness 1817) in paragraph at lines 162--162
+Underfull \hbox (badness 1817) in paragraph at lines 163--163
 \T1/cmr/m/n/12 https://www.ibm.com/developerworks, 2012.  Aces-sado em 14 de De
 -zem-bro
  []
 
-[41])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 114.
- [42]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 114.
- ("D:\Users\EU\Google Drive\TG1\monografia\monografia.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 114.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 114.
+[44])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 116.
+ [45]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 116.
+ ("C:\Users\Debora Natsue\Google Drive\TG1\monografia\monografia.aux")
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 116.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 116.
 Package rerunfilecheck Info: File `monografia.out' has not changed.
-(rerunfilecheck)             Checksum: 6D5ECEEDD111418AE53F21CFC0BDA545;3717.
+(rerunfilecheck)             Checksum: 04A85F6911176E63CD4B800C0AC215D6;3894.
 Package rerunfilecheck Info: File `monografia.brf' has not changed.
-(rerunfilecheck)             Checksum: 83F4FACE43221AAB5CBD131B35B041C1;4462.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 114.
+(rerunfilecheck)             Checksum: DD5DCEA6BA0AC45D6F760FF5BF5FA0CB;4627.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 116.
  )
 (\end occurred when \iffalse on line 462 was incomplete) 
 Here is how much of TeX's memory you used:
- 10318 strings out of 494045
- 145324 string characters out of 3145978
- 299900 words of memory out of 3000000
- 13091 multiletter control sequences out of 15000+200000
+ 10570 strings out of 494045
+ 149187 string characters out of 3145945
+ 392637 words of memory out of 3000000
+ 13321 multiletter control sequences out of 15000+200000
  25731 words of font info for 37 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 43i,16n,72p,1655b,1556s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\EU\AppData\L
-ocal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk> <C:\Users\EU\Ap
-pData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\User
-s\EU\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1200.pk> <
-C:\Users\EU\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx248
-8.pk> <C:\Users\EU\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\
-ecbx1200.pk> <C:\Users\EU\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\
-dpi600\ecrm1200.pk> <C:\Users\EU\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknap
-pen\ec\dpi600\ecrm1440.pk> <C:\Users\EU\AppData\Local\MiKTeX\2.9\fonts\pk\ljfou
-r\jknappen\ec\dpi600\ecbx1728.pk>{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/d
-vips/fontname/8r.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsf
-onts/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmsy10.pfb><C:/Users/EU/AppData/Roaming/MiKTeX/2.9/fonts/type1/urw/arial/ua1b8
-a.pfb>
-Output written on monografia.pdf (53 pages, 1078342 bytes).
+ 43i,16n,72p,1666b,1556s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Debora Natsu
+e\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk> <C:\
+Users\Debora Natsue\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
+\ecbx1440.pk> <C:\Users\Debora Natsue\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\
+jknappen\ec\dpi600\ectt1200.pk> <C:\Users\Debora Natsue\AppData\Local\MiKTeX\2.
+9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk> <C:\Users\Debora Natsue\AppDa
+ta\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\D
+ebora Natsue\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm12
+00.pk> <C:\Users\Debora Natsue\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappe
+n\ec\dpi600\ecrm1440.pk> <C:\Users\Debora Natsue\AppData\Local\MiKTeX\2.9\fonts
+\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk>{C:/Program Files (x86)/MiKTeX 2.9/fo
+nts/enc/dvips/fontname/8r.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmsy10.pfb><C:/Users/Debora Natsue/AppData/Roaming/MiKTeX/2.9/fonts/t
+ype1/urw/arial/ua1b8a.pfb>
+Output written on monografia.pdf (56 pages, 1306505 bytes).
 PDF statistics:
- 1531 PDF objects out of 1728 (max. 8388607)
- 339 named destinations out of 1000 (max. 500000)
- 534 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1583 PDF objects out of 1728 (max. 8388607)
+ 352 named destinations out of 1000 (max. 500000)
+ 560 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -11,11 +11,6 @@ Apresentação - assentamento funcional digital.
   www.sigepe.gov.br/assentamento-funcional-digital/apresentacao-assentamento-funcional-digital.
 \newblock Acessado em 23 de Abril de 2013.
 
-\bibitem{sitecassandra}
-Cassandra official site.
-\newblock http://cassandra.apache.org/.
-\newblock Acessado em 27 de Janeiro de 2013.
-
 \bibitem{emcuniversedigital}
 Emc digital universe.
 \newblock
@@ -121,6 +116,12 @@ R.~Hecht and S.~Jablonski.
 E.~Hewitt.
 \newblock {\em Cassandra: The Definitive Guide}.
 \newblock Definitive Guide Series. O'Reilly Media, 2010.
+
+\bibitem{rajjain}
+Raj Jain.
+\newblock {\em The art of computer systems performance analysis - techniques
+  for experimental design, measurement, simulation, and modeling.}
+\newblock Wiley professional computing. Wiley, 1991.
 
 \bibitem{nosqlliveup}
 N.~Leavitt.
