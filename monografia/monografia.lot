@@ -5,7 +5,7 @@
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {2.1}{\ignorespaces Tabela de bytes}}{5}{table.2.1}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces BSON - Tipos Suportados}}{14}{table.3.1}
+\contentsline {table}{\numberline {3.1}{\ignorespaces BSON - Tipos Suportados}}{15}{table.3.1}
 \contentsline {table}{\numberline {3.2}{\ignorespaces Declara\IeC {\c c}\IeC {\~o}es SQL vs Declara\IeC {\c c}\IeC {\~o}es MongoDB. Adaptado de ~\cite {sitemongodb}}}{20}{table.3.2}
 \contentsline {table}{\numberline {3.3}{\ignorespaces SQL Select vs MongoDB Select. Adaptado de ~\cite {sitemongodb}}}{21}{table.3.3}
 \addvspace {10\p@ }

@@ -36,11 +36,12 @@ Alguns exemplos de banco de dados que usam esse tipo de modelagem são: RIAK, Le
 
 \subsection{Orientados a Documentos}
 
-A modelagem orientada a documentos armazena os dados encapsulados em pares de chave-valor em JSON ou em outro padão semelhante. Dentro dos documentos as chaves devem ser únicas. Cada documento recebe um identificador que também é único dentro de uma coleção de documentos. Os documentos são as unidades básicas e não têm uma estrutuda definida como nas tabelas do modelo relacional, ou seja, não tem um schema de dados definido. Ao armazenar os dados em JSON há uma vantagem adicional que é o suporte a tipos de dados, o que torna a forma de armazenamento mais amigavel para os desenvolvedores~\cite{nosqlevaluation,nosqlxrelacional}.
+A modelagem orientada a documentos armazena os dados encapsulados em pares de chave-valor em JSON ou em outro padão semelhante. Dentro dos documentos as chaves devem ser únicas. Cada documento recebe um identificador que também é único dentro de uma coleção de documentos. Os documentos são as unidades básicas e não têm uma estrutuda definida como nas tabelas do modelo relacional, ou seja, não tem um schema de dados definido. Ao armazenar os dados em JSON há uma vantagem adicional que é o suporte a tipos de dados, o que torna a forma de armazenamento mais amigavel para os desenvolvedores~\cite{nosqlevaluation,nosqlxrelacional}. O exemplo de codificação \ref{listing:excouchdb} nos mostra como é a estrutura desse tipo de banco de dados.
 
 Os exemplos mais significativos são: CouchDB, MongoDB e Riak~\cite{nosqlevaluation}.
 
-	\begin{lstlisting}[caption=Exemplo de arquivo do CouchDB]
+	\begin{lstlisting}[caption=Exemplo de arquivo do CouchDB, frame=trBL,breaklines=true,label=listing:excouchdb]
+
 {
     "Subject": "I like Plankton",
     "Author": "Rusty",

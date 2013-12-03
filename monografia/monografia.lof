@@ -9,8 +9,8 @@
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Consist\IeC {\^e}ncia Forte: O processo A, B e C sempre estao vendo a mesma vers\IeC {\~a}o do banco de dados ~\cite {Orendanalysisand}.}}{9}{figure.2.3}
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Consist\IeC {\^e}ncia Eventual: Os processos A, B e C podem visualizar diferentes vers\IeC {\~o}es dos dados durante a janela de inconsist\IeC {\^e}ncia causada pela replica\IeC {\c c}\IeC {\~a}o ass\IeC {\'\i }ncrona ~\cite {Orendanalysisand}.}}{10}{figure.2.4}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Modelagem orientada a colunas}}{13}{figure.3.1}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Documento BSON usado no MongoDB ~\cite {sitemongodb}}}{15}{figure.3.2}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Modelagem orientada a colunas}}{14}{figure.3.1}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Documento BSON usado no MongoDB ~\cite {sitemongodb}}}{14}{figure.3.2}
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Modelagem utilizando refer\IeC {\^e}ncia. Adaptado de ~\cite {sitemongodb}}}{16}{figure.3.3}
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Modelagem utilizando sub-documento. Adaptado de ~\cite {sitemongodb}}}{17}{figure.3.4}
 \contentsline {figure}{\numberline {3.5}{\ignorespaces Arquitetura de Replica\IeC {\c c}\IeC {\~a}o ~\cite {sitemongodb}}}{18}{figure.3.5}

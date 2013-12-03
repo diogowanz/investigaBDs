@@ -18,7 +18,7 @@
 \contentsline {subsection}{\numberline {3.3.1}Chave-Valor}{12}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}Orientados a Documentos}{12}{subsection.3.3.2}
 \contentsline {subsection}{\numberline {3.3.3}Orientados a Colunas}{13}{subsection.3.3.3}
-\contentsline {subsection}{\numberline {3.3.4}Baseados em Grafos}{14}{subsection.3.3.4}
+\contentsline {subsection}{\numberline {3.3.4}Baseados em Grafos}{13}{subsection.3.3.4}
 \contentsline {section}{\numberline {3.4}MongoDB}{14}{section.3.4}
 \contentsline {subsection}{\numberline {3.4.1}Modelagem dos Dados}{15}{subsection.3.4.1}
 \contentsline {subsubsection}{Refer\IeC {\^e}ncias}{16}{section*.12}
@@ -73,8 +73,8 @@
 \contentsline {subsection}{\numberline {6.3.1}Planos de Teste de Inser\IeC {\c c}\IeC {\~a}o}{39}{subsection.6.3.1}
 \contentsline {subsection}{\numberline {6.3.2}Planos de Teste de Consulta}{40}{subsection.6.3.2}
 \contentsline {chapter}{\numberline {7}Execu\IeC {\c c}\IeC {\~a}o dos Testes}{41}{chapter.7}
-\contentsline {subsection}{\numberline {7.0.3}Ambiente de testes}{41}{subsection.7.0.3}
-\contentsline {subsection}{\numberline {7.0.4}Massa de Dados}{41}{subsection.7.0.4}
-\contentsline {subsection}{\numberline {7.0.5}M\IeC {\'e}tricas}{42}{subsection.7.0.5}
-\contentsline {subsection}{\numberline {7.0.6}Resultados}{42}{subsection.7.0.6}
+\contentsline {section}{\numberline {7.1}Ambiente de testes}{41}{section.7.1}
+\contentsline {section}{\numberline {7.2}Massa de Dados}{41}{section.7.2}
+\contentsline {section}{\numberline {7.3}M\IeC {\'e}tricas}{42}{section.7.3}
+\contentsline {section}{\numberline {7.4}Resultados}{42}{section.7.4}
 \contentsline {chapter}{Refer\^encias}{43}{section*.31}

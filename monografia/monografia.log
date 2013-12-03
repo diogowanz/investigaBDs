@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2013.4.22)  25 NOV 2013 15:43
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2013.4.22)  2 DEC 2013 14:48
 entering extended mode
 **C:/Users/Debora*Natsue/Google*Drive/TG1/monografia/monografia.tex
 ("C:/Users/Debora Natsue/Google Drive/TG1/monografia/monografia.tex"
@@ -805,43 +805,39 @@ Cap\'{\i }tulo 3.
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 43.
 
-Overfull \hbox (66.33304pt too wide) in paragraph at lines 49--50
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (1.38881pt too wide) in paragraph at lines 55--56
+Overfull \hbox (1.38881pt too wide) in paragraph at lines 56--57
 []\T1/cmr/m/n/12 Nesse tipo de mo-de-la-gem o pa-ra-digma passa a ser de ori-en
 -ta-ção a atri-bu-tos(colunas).Ao
  []
 
-<columns.png, id=562, 578.16pt x 216.81pt>
+<columns.png, id=563, 578.16pt x 216.81pt>
 File: columns.png Graphic file (type png)
  <use columns.png>
-Package pdftex.def Info: columns.png used on input line 72.
+Package pdftex.def Info: columns.png used on input line 73.
 (pdftex.def)             Requested size: 364.19667pt x 136.57117pt.
- [13 <C:/Users/Debora Natsue/Google Drive/TG1/monografia/columns.png>] [14]
-<exbson.jpg, id=595, 677.53125pt x 132.495pt>
+ [13]
+<exbson.jpg, id=590, 677.53125pt x 132.495pt>
 File: exbson.jpg Graphic file (type jpg)
  <use exbson.jpg>
-Package pdftex.def Info: exbson.jpg used on input line 128.
+Package pdftex.def Info: exbson.jpg used on input line 129.
 (pdftex.def)             Requested size: 546.29153pt x 106.83311pt.
 
-Overfull \hbox (91.04742pt too wide) in paragraph at lines 128--129
+Overfull \hbox (91.04742pt too wide) in paragraph at lines 129--130
  [] 
  []
 
-<referencia.png, id=600, 803.25093pt x 426.84468pt>
+[14 <C:/Users/Debora Natsue/Google Drive/TG1/monografia/columns.png> <C:/Users/
+Debora Natsue/Google Drive/TG1/monografia/exbson.jpg>] [15]
+<referencia.png, id=606, 803.25093pt x 426.84468pt>
 File: referencia.png Graphic file (type png)
  <use referencia.png>
-Package pdftex.def Info: referencia.png used on input line 152.
+Package pdftex.def Info: referencia.png used on input line 153.
 (pdftex.def)             Requested size: 364.19667pt x 193.53726pt.
 
-[15 <C:/Users/Debora Natsue/Google Drive/TG1/monografia/exbson.jpg>]
-<subdocumento.png, id=608, 514.92375pt x 267.24844pt>
+<subdocumento.png, id=610, 514.92375pt x 267.24844pt>
 File: subdocumento.png Graphic file (type png)
  <use subdocumento.png>
-Package pdftex.def Info: subdocumento.png used on input line 174.
+Package pdftex.def Info: subdocumento.png used on input line 175.
 (pdftex.def)             Requested size: 364.19667pt x 189.02592pt.
 
 [16 <C:/Users/Debora Natsue/Google Drive/TG1/monografia/referencia.png>]
@@ -853,17 +849,17 @@ File: lstlang1.sty 2004/09/05 1.3 listings language file
 .sty"
 File: lstlang1.sty 2004/09/05 1.3 listings language file
 )
-Overfull \hbox (54.31155pt too wide) in paragraph at lines 245--246
+Overfull \hbox (54.31155pt too wide) in paragraph at lines 246--247
 [][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (12.02151pt too wide) in paragraph at lines 260--261
+Overfull \hbox (12.02151pt too wide) in paragraph at lines 261--262
 [][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (18.79219pt too wide) in paragraph at lines 210--276
+Overfull \hbox (18.79219pt too wide) in paragraph at lines 211--277
  [] 
  []
 
@@ -871,7 +867,7 @@ Overfull \hbox (18.79219pt too wide) in paragraph at lines 210--276
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (68.40823pt too wide) in paragraph at lines 368--369
+Overfull \hbox (68.40823pt too wide) in paragraph at lines 369--370
 [][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
@@ -879,16 +875,16 @@ Overfull \hbox (68.40823pt too wide) in paragraph at lines 368--369
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [17 <C:/Users/Debora Natsue/Google Drive/TG1/monografia/subdocumento.png>]
-<replication.png, id=631, 495.0pt x 404.91pt>
+<replication.png, id=633, 495.0pt x 404.91pt>
 File: replication.png Graphic file (type png)
  <use replication.png>
-Package pdftex.def Info: replication.png used on input line 388.
+Package pdftex.def Info: replication.png used on input line 389.
 (pdftex.def)             Requested size: 227.62206pt x 186.19907pt.
 
-<sharding.png, id=634, 563.14285pt x 385.75285pt>
+<sharding.png, id=636, 563.14285pt x 385.75285pt>
 File: sharding.png Graphic file (type png)
  <use sharding.png>
-Package pdftex.def Info: sharding.png used on input line 407.
+Package pdftex.def Info: sharding.png used on input line 408.
 (pdftex.def)             Requested size: 227.62206pt x 155.91708pt.
 )
 ("C:\Users\Debora Natsue\Google Drive\TG1\monografia\capitulos/testes.tex"
@@ -898,21 +894,21 @@ Package pdftex.def Info: sharding.png used on input line 407.
 Cap\'{\i }tulo 4.
 [22
 
-] [23] [24] [25] <testlink.jpg, id=777, 1267.73625pt x 835.12pt>
+] [23] [24] [25] <testlink.jpg, id=779, 1267.73625pt x 835.12pt>
 File: testlink.jpg Graphic file (type jpg)
 
 <use testlink.jpg>
 Package pdftex.def Info: testlink.jpg used on input line 166.
 (pdftex.def)             Requested size: 364.19667pt x 239.91035pt.
  [26 <C:/Users/Debora Natsue/Google Drive/TG1/monografia/testlink.jpg>] <jmeter
-.png, id=790, 913.16156pt x 461.47406pt>
+.png, id=792, 913.16156pt x 461.47406pt>
 File: jmeter.png Graphic file (type png)
  <use jmeter.png>
 Package pdftex.def Info: jmeter.png used on input line 176.
 (pdftex.def)             Requested size: 364.19667pt x 184.04414pt.
 
 [27 <C:/Users/Debora Natsue/Google Drive/TG1/monografia/jmeter.png>]
-<testador_insere_orgao.png, id=798, 818.30719pt x 459.96844pt>
+<testador_insere_orgao.png, id=800, 818.30719pt x 459.96844pt>
 File: testador_insere_orgao.png Graphic file (type png)
 
 <use testador_insere_orgao.png>
@@ -920,7 +916,7 @@ Package pdftex.def Info: testador_insere_orgao.png used on input line 218.
 (pdftex.def)             Requested size: 455.24411pt x 255.89612pt.
  [28 <C:/Users/Debora Natsue/Google Drive/TG1/monografia/testador_insere_orgao.
 png>]
-<configuracao_csv.png, id=805, 817.55438pt x 458.46281pt>
+<configuracao_csv.png, id=807, 817.55438pt x 458.46281pt>
 File: configuracao_csv.png Graphic file (type png)
 
 <use configuracao_csv.png>
@@ -942,19 +938,19 @@ Overfull \hbox (14.88145pt too wide) in paragraph at lines 112--122
 ("C:\Users\Debora Natsue\Google Drive\TG1\monografia\capitulos/arquitetura.tex"
 [34]
 Cap\'{\i }tulo 6.
-<diagrama_geral.jpg, id=873, 1204.5pt x 642.14906pt>
+<diagrama_geral.jpg, id=877, 1204.5pt x 642.14906pt>
 File: diagrama_geral.jpg Graphic file (type jpg)
  <use diagrama_geral.jpg>
 Package pdftex.def Info: diagrama_geral.jpg used on input line 12.
 (pdftex.def)             Requested size: 455.24411pt x 242.70619pt.
 
-<class_model.jpg, id=874, 823.57687pt x 406.51875pt>
+<class_model.jpg, id=878, 823.57687pt x 406.51875pt>
 File: class_model.jpg Graphic file (type jpg)
  <use class_model.jpg>
 Package pdftex.def Info: class_model.jpg used on input line 20.
 (pdftex.def)             Requested size: 455.24411pt x 224.70872pt.
 
-<arquitetura.jpg, id=876, 551.81157pt x 630.85687pt>
+<arquitetura.jpg, id=880, 551.81157pt x 630.85687pt>
 File: arquitetura.jpg Graphic file (type jpg)
  <use arquitetura.jpg>
 Package pdftex.def Info: arquitetura.jpg used on input line 73.
@@ -967,10 +963,6 @@ C:/Users/Debora Natsue/Google Drive/TG1/monografia/class_model.jpg>]
 [37] [38 <C:/Users/Debora Natsue/Google Drive/TG1/monografia/arquitetura.jpg>]
 [39] [40]
 Cap\'{\i }tulo 7.
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 135.
-
 [41
 
 ]) [42] ("C:\Users\Debora Natsue\Google Drive\TG1\monografia\monografia.bbl" ("
@@ -1028,17 +1020,17 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 116.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 116.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 116.
 Package rerunfilecheck Info: File `monografia.out' has not changed.
-(rerunfilecheck)             Checksum: 04A85F6911176E63CD4B800C0AC215D6;3894.
+(rerunfilecheck)             Checksum: 7AC639A08FC668FBBC3EFD05E4F9DED7;3853.
 Package rerunfilecheck Info: File `monografia.brf' has not changed.
-(rerunfilecheck)             Checksum: DD5DCEA6BA0AC45D6F760FF5BF5FA0CB;4627.
+(rerunfilecheck)             Checksum: A70434E46B67BADE55F3345D79AB34F0;4606.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 116.
  )
 (\end occurred when \iffalse on line 462 was incomplete) 
 Here is how much of TeX's memory you used:
- 10570 strings out of 494045
- 149187 string characters out of 3145945
- 392637 words of memory out of 3000000
- 13321 multiletter control sequences out of 15000+200000
+ 10574 strings out of 494045
+ 149208 string characters out of 3145945
+ 426834 words of memory out of 3000000
+ 13324 multiletter control sequences out of 15000+200000
  25731 words of font info for 37 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  43i,16n,72p,1666b,1556s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1058,9 +1050,9 @@ blic/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publi
 c/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/am
 sfonts/cm/cmsy10.pfb><C:/Users/Debora Natsue/AppData/Roaming/MiKTeX/2.9/fonts/t
 ype1/urw/arial/ua1b8a.pfb>
-Output written on monografia.pdf (56 pages, 1306505 bytes).
+Output written on monografia.pdf (56 pages, 1307629 bytes).
 PDF statistics:
  1583 PDF objects out of 1728 (max. 8388607)
- 352 named destinations out of 1000 (max. 500000)
+ 353 named destinations out of 1000 (max. 500000)
  560 words of extra memory for PDF output out of 10000 (max. 10000000)
 

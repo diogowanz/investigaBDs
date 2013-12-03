@@ -34,7 +34,7 @@ SOAP é:
 
 Atualmente as aplicações se comunicam via RPC (Remote Procedure Calls), mas o HTTP não foi desenhado para isso. RPC possui problemas de compatibilidade e segurança; firewalls e servidores de proxy normalmente bloqueiam mensagens desse tipo. Para resolver esses problemas foi criado o protocolo SOAP.
 
-Uma mensgem SOAP é basicamente um documento XML que contem os seguintes elementos:
+Uma mensagem SOAP (Exemplo \ref{listing:msgsoap}) é basicamente um documento XML que contem os seguintes elementos:
 
 \begin{itemize}
 	\item Um elemento 'Envelope' que identifica o documento XML como uma mensagem SOAP;
@@ -68,7 +68,7 @@ Uma mensgem SOAP é basicamente um documento XML que contem os seguintes element
 
 
 \lstset{language=XML}
-\begin{lstlisting}[title={` Estrutura de uma mensagem SOAP'}]
+\begin{lstlisting}[caption={Estrutura de uma mensagem SOAP},frame=trBL,breaklines=true,label=listing:msgsoap]
 <?xml version="1.0"?>
 
 <soap:Envelope
@@ -93,7 +93,7 @@ soap:encodingStyle="http://www.w3.org/2001/12/soap-encoding">
 
 WSDL é uma linguagem baseada em XML para localizar e descrever web services.
 
-O WSDL (Web Services Description Language) é uma linguagem baseada em XML, com a finalidade de documentar as mensagens que o Web service aceita e gera. É uma espécie de contrato. Esse mecanismo padrão facilita a interpretação dos 'contratos' pelos desenvolvedores e ferramentas de desenvolvimento. 
+O WSDL (Web Services Description Language) é uma linguagem baseada em XML, com a finalidade de documentar as mensagens que o Web service aceita e gera (Exemplo \ref{listing:wsdl}). É uma espécie de contrato. Esse mecanismo padrão facilita a interpretação dos 'contratos' pelos desenvolvedores e ferramentas de desenvolvimento. 
 
 WSDL é:
 
@@ -127,7 +127,7 @@ Um WSDL descreve um web service usando pricipalmente os seguintes elementos:
 Abaixo temos uma fração simplificada de um documento WSDL:
 
 \lstset{language=XML}
-\begin{lstlisting}[title={`WSDL'}]
+\begin{lstlisting}[caption={WSDL},frame=trBL,breaklines=true,label=listing:wsdl]
 <message name="getTermRequest">
   <part name="term" type="xs:string"/>
 </message>
