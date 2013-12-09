@@ -4,15 +4,14 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {2.1}{\ignorespaces Tabela de bytes}}{5}{table.2.1}
+\contentsline {table}{\numberline {2.2}{\ignorespaces BSON - Tipos Suportados}}{14}{table.2.2}
+\contentsline {table}{\numberline {2.3}{\ignorespaces Declara\IeC {\c c}\IeC {\~o}es SQL vs Declara\IeC {\c c}\IeC {\~o}es MongoDB. Adaptado de ~\cite {sitemongodb}}}{19}{table.2.3}
+\contentsline {table}{\numberline {2.4}{\ignorespaces SQL Select vs MongoDB Select. Adaptado de ~\cite {sitemongodb}}}{20}{table.2.4}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces BSON - Tipos Suportados}}{15}{table.3.1}
-\contentsline {table}{\numberline {3.2}{\ignorespaces Declara\IeC {\c c}\IeC {\~o}es SQL vs Declara\IeC {\c c}\IeC {\~o}es MongoDB. Adaptado de ~\cite {sitemongodb}}}{20}{table.3.2}
-\contentsline {table}{\numberline {3.3}{\ignorespaces SQL Select vs MongoDB Select. Adaptado de ~\cite {sitemongodb}}}{21}{table.3.3}
+\contentsline {table}{\numberline {3.1}{\ignorespaces Tipos de teste e sua caracter\IeC {\'\i }stica de qualidade correspondente}}{22}{table.3.1}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Tipos de teste e sua caracter\IeC {\'\i }stica de qualidade correspondente}}{23}{table.4.1}
+\contentsline {table}{\numberline {4.1}{\ignorespaces Elementos de um documento WSDL}}{32}{table.4.1}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces Elementos de um documento WSDL}}{33}{table.5.1}
-\addvspace {10\p@ }
-\contentsline {table}{\numberline {6.1}{\ignorespaces Descri\IeC {\c c}\IeC {\~a}o das Funcionalidades}}{37}{table.6.1}
-\contentsline {table}{\numberline {6.2}{\ignorespaces Principais configura\IeC {\c c}\IeC {\~o}es dos Planos de Teste}}{39}{table.6.2}
+\contentsline {table}{\numberline {5.1}{\ignorespaces Descri\IeC {\c c}\IeC {\~a}o das Funcionalidades}}{36}{table.5.1}
+\contentsline {table}{\numberline {5.2}{\ignorespaces Principais configura\IeC {\c c}\IeC {\~o}es dos Planos de Teste}}{38}{table.5.2}
 \addvspace {10\p@ }

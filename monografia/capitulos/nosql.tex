@@ -1,31 +1,36 @@
-\chapter{NoSql}
 
-Nesse capítulo iniciaremos com a definição de o que é o termo NoSQL e, após vermos como essa nova forma de se pensar em banco de dados surgiu, conheceremos os principais tipos de banco de dados não relacionais e como eles armazenam os seus dados. 
+As próximas seções discutem os modelos de dados NoSQL. Inicialmente é
+feita a definição do termo NoSQL e, em seguida,
+apresentamos diferentes formas de modelagem e armazenamento de bancos de
+dados que guiam as atuais alternativas ao modelo relacional. Apesar de
+discutirmos diferentes estratégias, o foco desse trabalho é comparar o
+modelo relacional, amplamente usado pela indústria desde o início da
+década de 90, com o modelo não relacional orientado a documentos. Por
+essa razão, a Seção~\ref{sec:mongo} detalha o banco de dados orientado
+a documentos MongoDB. 
 
 
-\section{Definição de NoSQL}
+\section{NoSQL}
 
 O termo NoSql é a junção de duas palavras. No and SQL. Ao pé da letra significa que é uma tecnologia/produto que trabalha de forma contrária à tecnologia dos banco relacionais (adeptos do SQL). O termo é usado com o sentido de Não Relacional. Atualmente o termo NoSql é traduzido para "Not only Sql", ou seja "Não só Sql".
 Saindo da definição, NoSql é um termo genérico para uma classe definida de banco de dados não-relacionais que armazenam os dados  de forma diferente da conhecida modelagem relacional e que surgiram com o propósito de sanar algumas dificuldades encontradas com o modelo relacional. NoSql não é um produto, mas a uma classe de produtos e conceitos de armazenagem e manipulação de dados. 
 
 O que diferencia os bancos de dados NoSql dos relacionais são os seus modelos de dados sem um schema definido. Os bancos de dados NoSql podem ser classificados, segundo seu modelo de dados, em quatro grupos: chave-valor, orientados a documentos, orientados a colunas e baseados em grafos~\cite{nosqlxrelacional,nosqlevaluation}.
 
-\section{História}
+Bancos de dados que usam a modelagem não relacionais não são novidades. Conforme discutido no livro \emph{NoSql Professional}\cite{} eles surgiram junto com as primeiras máquinas de computar. Bases não relacionais ficaram conhecidas e cresceram por causa do uso de mainframes e em dominios específicos como o armazenamento de credenciais para autenticação. Esse NoSql que conhecemos hoje é uma nova visão, ou como diz {\color{red}fulano} em (NoSql Professional), uma reincarnação que nasceu no mundo de aplicações web que necessitam de recursos escaláveis para tratar de sua enorme massa de dados. Apesar de o paradigma NoSql já ter sido criado há algum tempo nenhum ele só tomou as proporções atuais depois que grandes empresas como Google, Amazon e Facebook começam a usar em suas arquiteturas~\cite{nosqlevaluation}.
 
-Bancos de dados que usam a modelagem não relacionais não são novidades. Conforme discutido no livro (NoSql Professional) eles surgiram junto com as primeiras máquinas de computar. Bases não relacionais ficaram conhecidas e cresceram por causa do uso de mainframes e em dominios específicos como o armazenamento de credenciais para autenticação. Esse NoSql que conhecemos hoje é uma nova visão, ou como diz fulano em (NoSql Professional), uma reincarnação que nasceu no mundo de aplicações web que necessitam de recursos escaláveis para tratar de sua enorme massa de dados. Apesar de o paradigma NoSql já ter sido criado há algum tempo nenhum ele só tomou as proporções atuais depois que grandes empresas como Google, Amazon e Facebook começam a usar em suas arquiteturas~\cite{nosqlevaluation}.
-
-Ao utilizar SGBD's relacionais com grandes quantidade de dados surgem problemas como falta de eficiência no processamento, uma paralelização não efetiva, alto custo e scalabilitade limitada. Sendo um gigante da internet, o Google,  se não for a empresa que manipula a maior quantidade de dados, é com certeza uma das maiores e ao se deparar com essa problemática  construiu a sua própria infraestrutura para que o seu mecanismo de busca e outras aplicações pudessem tratar a massa de dados de forma eficiente.
+Ao utilizar SGBD's relacionais com grandes quantidade de dados surgem problemas como falta de eficiência no processamento, uma paralelização não efetiva, alto custo e scalabilitade limitada. Sendo um gigante da Internet, a Google,  se não for a empresa que manipula a maior quantidade de dados, é com certeza uma das maiores e ao se deparar com essa problemática  construiu a sua própria infraestrutura para que o seu mecanismo de busca e outras aplicações pudessem tratar a massa de dados de forma eficiente.
 
 Com o lançamento de artigos pelo Google que explicavam em partes como o problema foi solucionado, desenvolvedores de software livre criaram o primeiro motor de busca de código aberto que replicava algumas característica da infraestrutura do Google, o Lucene. Logo depois, os principais desenvolvedores do Lucene se juntaram ao Yahoo e com a ajuda de diversos outros desenvolvedores criaram uma estrutura que imitada todas as peças da infraestrutura de computação distribuida do 
 Google. Essa solução livre é o Hadoop. Nessa mesma época surgiu a idéia do NoSql. 
 
 O sucesso do Google e o Hadoop ajudaram a impulsionar novos conceitos de computação distribuída, NoSql e o próprio projeto Hadoop. Um ano após o lançamento dos artigos do Google outra gigante da internet resolveu compartilhar o seu caso de sucesso. Em 2007 a Amazon mostrou ao mundo sua solução de base de dados distribuída, disponível e consistente que se chama Dynamo.
 
-Após Google e Amazon mostrarem para o mundo que o NoSql dava certo começaram a surgim diversos outros produtos nessa linha. O NoSql e os conceitos de manipulação de Big Data ganharam espaço e forma surgindo diversos casos de uso de sucesso de grandes companias como o Facebook, Netflix, Yahoo, EBay, Hulu, IBM e diversas outras.
+Após Google e Amazon mostrarem a aplicabilidade do NoSql, diversos
+outros produtos surgiram nessa linha. O NoSql e os conceitos de manipulação de Big Data ganharam espaço e forma surgindo diversos casos de uso de sucesso de grandes companias como o Facebook, Netflix, Yahoo, EBay, Hulu, IBM e diversas outras.
 
 
-
-\section{Os Principais Tipos de Banco de Dados NoSql}
+\section{Modelos de Banco de Dados NoSql}
 
 
 \subsection{Chave-Valor}
@@ -81,11 +86,9 @@ Em geral esse tipo de banco é mais vantajoso para aplicações de agregação e
 
 Nessa categoria os dados são armazenados em nos de um grafo cujas arestas representam o tipo de associação entre esses nós. Esse tipo de banco é especializado em manter dados fortemente ligados. O twitter armazenar as relações entre os seus usuários no seu próprio banco de dados baseados em grafos, o FlockDB, que é otimizado para listas de relações muito grandes, leituras e escritas~\cite{nosqlevaluation}.  Alguns exemplos são: Neo4J, infoGrid e FlockDB~\cite{nosqldatabaseorg}.
 
-\section{MongoDB}
-
+\section{MongoDB}\label{sec:mongo}
 
 Essa seção foi baseada no site oficial do MongoDB~\cite{sitemongodb} exceto quando explicitamente citado.
-
 MongoDB é um banco de dados NoSQL,  de código aberto,  orientado a documentos, schema-free e escrito em C++.  Os dados são persistidos em coleções de dados que são representados usando o BSON, um formato binário similar ao JSON (Figura \ref{fig:exbson}). O MongoDB tem suporte a todos os tipos de dados  JSON  como string, inteiro, boleano, double, array e objeto. Por usar codificação BSON o MongoDB suporta alguns tipo de dados adicionais como data, binary data, regular expression e code ~\cite{nosqlprofessional}. Na Figura \ref{tab:bytes} podemos ver os tipos suportados pelo BSON.
 
 \begin{table}
@@ -416,7 +419,7 @@ Os servidores de conifguração armazenam os metadados do cluster. Ele contém o
 O MongoDB não utiliza log de transações para garantir a durabilidade dos dados. E por utilizar arquivos mapeados em memória, implementa escrita preguiçosa (lazy write). Sendo asssim, se um nó MongoDB falhar, provavelmente algum dado será perdido ~\cite{Orendanalysisand}.
 
 
-%\section{Cassandra}
+%\subsection{Cassandra}
 
 %Essa seção foi baseada no livro "Cassandra: The Definitive Guide"~\cite{cassandraguide} exceto quando explicitamente citado.
 

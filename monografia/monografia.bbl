@@ -17,11 +17,6 @@ Emc digital universe.
   http://www.emc.com/collateral/demos/microsites/emc-digital-universe-2011/index.htm.
 \newblock Acessado em 26 de Janeiro de 2013.
 
-\bibitem{hd}
-História do hdl.
-\newblock http://www.dicasparacomputador.com/.
-\newblock Acessado em 02 de julho de 2013.
-
 \bibitem{sitemongodb}
 Mongodb official site.
 \newblock http://www.mongodb.org/.
@@ -68,6 +63,10 @@ Vinayak~R. Borkar, Michael~J. Carey, and Chen Li.
 \newblock Big data platforms: What's next?
 \newblock {\em XRDS}, 19(1):44--49, 2012.
 
+\bibitem{portariaMP}
+BRAIL.
+\newblock Portaria normativa mp, n. 3, Novembro 2011.
+
 \bibitem{nosqlxrelacional}
 Ricardo~W. Brito.
 \newblock Banco de dados {N}o{SQL} x {SGBD}s relacionais: Análise comparativa.
@@ -77,11 +76,6 @@ Ricardo~W. Brito.
 Rick Cattell.
 \newblock Scalable sql and nosql data stores.
 \newblock {\em SIGMOD Rec.}, 39(4):12--27, May 2011.
-
-\bibitem{initBigData}
-Andrew Cron, Huy~L. Nguyen, and Aditya Parameswaran.
-\newblock Big data.
-\newblock {\em XRDS}, 19(1):7--8, 2012.
 
 \bibitem{SBElmasri}
 Ramez Elmasri and Shamkant~B. Navathe.
@@ -93,6 +87,12 @@ Benjamin Erb.
 \newblock Concurrent programming for scalable web architectures.
 \newblock Diploma thesis, Institute of Distributed Systems, Ulm University,
   April 2012.
+
+\bibitem{erl:2007}
+Thomas Erl.
+\newblock {\em SOA Principles of Service Design (The Prentice Hall
+  Service-Oriented Computing Series from Thomas Erl)}.
+\newblock Prentice Hall PTR, Upper Saddle River, NJ, USA, 2007.
 
 \bibitem{conceitoGartner}
 Gartner.
