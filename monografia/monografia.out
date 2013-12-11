@@ -22,37 +22,29 @@
 \BOOKMARK [2][-]{subsection.2.4.3}{Replica\347\343o}{section.2.4}% 22
 \BOOKMARK [2][-]{subsection.2.4.4}{Decomposi\347\343o \(Sharding\)}{section.2.4}% 23
 \BOOKMARK [2][-]{subsection.2.4.5}{Tratamento de Falhas}{section.2.4}% 24
-\BOOKMARK [0][-]{chapter.3}{Testes}{}% 25
-\BOOKMARK [1][-]{section.3.1}{Defini\347\343o}{chapter.3}% 26
-\BOOKMARK [1][-]{section.3.2}{Teste de Software e Qualidade de Software}{chapter.3}% 27
-\BOOKMARK [1][-]{section.3.3}{Tipos de Testes}{chapter.3}% 28
-\BOOKMARK [2][-]{subsection.3.3.1}{Aplicados a cada est\341gio de teste}{section.3.3}% 29
-\BOOKMARK [2][-]{subsection.3.3.2}{Est\341gios \(ou N\355veis\) de teste}{section.3.3}% 30
-\BOOKMARK [2][-]{subsection.3.3.3}{Outros tipos de testes}{section.3.3}% 31
-\BOOKMARK [1][-]{section.3.4}{Testes de Carga e de Performance}{chapter.3}% 32
-\BOOKMARK [2][-]{subsection.3.4.1}{Testes de carga}{section.3.4}% 33
-\BOOKMARK [2][-]{subsection.3.4.2}{Teste de Performance}{section.3.4}% 34
-\BOOKMARK [1][-]{section.3.5}{Automa\347\343o de Testes}{chapter.3}% 35
-\BOOKMARK [1][-]{section.3.6}{JMeter}{chapter.3}% 36
-\BOOKMARK [2][-]{subsection.3.6.1}{Testador}{section.3.6}% 37
-\BOOKMARK [2][-]{subsection.3.6.2}{Ouvintes}{section.3.6}% 38
-\BOOKMARK [2][-]{subsection.3.6.3}{Elemento de Configura\347\343o}{section.3.6}% 39
-\BOOKMARK [0][-]{chapter.4}{Web-Service}{}% 40
-\BOOKMARK [1][-]{section.4.1}{O que \351 web-service?}{chapter.4}% 41
-\BOOKMARK [1][-]{section.4.2}{Componentes de um Web-Service}{chapter.4}% 42
-\BOOKMARK [2][-]{subsection.4.2.1}{SOAP}{section.4.2}% 43
-\BOOKMARK [1][-]{section.4.3}{WSDL}{chapter.4}% 44
-\BOOKMARK [1][-]{section.4.4}{UDDI}{chapter.4}% 45
-\BOOKMARK [0][-]{chapter.5}{O Projeto}{}% 46
-\BOOKMARK [1][-]{section.5.1}{A Aplica\347\343o}{chapter.5}% 47
-\BOOKMARK [1][-]{section.5.2}{A Arquitetura do Projeto}{chapter.5}% 48
-\BOOKMARK [2][-]{subsection.5.2.1}{web2py}{section.5.2}% 49
-\BOOKMARK [1][-]{section.5.3}{Os Planos de Teste}{chapter.5}% 50
-\BOOKMARK [2][-]{subsection.5.3.1}{Planos de Teste de Inser\347\343o}{section.5.3}% 51
-\BOOKMARK [2][-]{subsection.5.3.2}{Planos de Teste de Consulta}{section.5.3}% 52
-\BOOKMARK [0][-]{chapter.6}{Execu\347\343o dos Testes}{}% 53
-\BOOKMARK [1][-]{section.6.1}{Ambiente de testes}{chapter.6}% 54
-\BOOKMARK [1][-]{section.6.2}{Massa de Dados}{chapter.6}% 55
-\BOOKMARK [1][-]{section.6.3}{M\351tricas}{chapter.6}% 56
-\BOOKMARK [1][-]{section.6.4}{Resultados}{chapter.6}% 57
-\BOOKMARK [0][-]{section*.30}{Refer\352ncias}{}% 58
+\BOOKMARK [1][-]{section.2.5}{Testes}{chapter.2}% 25
+\BOOKMARK [2][-]{subsection.2.5.1}{Defini\347\343o}{section.2.5}% 26
+\BOOKMARK [2][-]{subsection.2.5.2}{Teste de Software e Qualidade de Software}{section.2.5}% 27
+\BOOKMARK [2][-]{subsection.2.5.3}{Tipos de Testes}{section.2.5}% 28
+\BOOKMARK [2][-]{subsection.2.5.4}{Testes de Carga e de Performance}{section.2.5}% 29
+\BOOKMARK [2][-]{subsection.2.5.5}{Automa\347\343o de Testes}{section.2.5}% 30
+\BOOKMARK [2][-]{subsection.2.5.6}{JMeter}{section.2.5}% 31
+\BOOKMARK [0][-]{chapter.3}{Web-Service}{}% 32
+\BOOKMARK [1][-]{section.3.1}{O que \351 web-service?}{chapter.3}% 33
+\BOOKMARK [1][-]{section.3.2}{Componentes de um Web-Service}{chapter.3}% 34
+\BOOKMARK [2][-]{subsection.3.2.1}{SOAP}{section.3.2}% 35
+\BOOKMARK [1][-]{section.3.3}{WSDL}{chapter.3}% 36
+\BOOKMARK [1][-]{section.3.4}{UDDI}{chapter.3}% 37
+\BOOKMARK [0][-]{chapter.4}{O Projeto}{}% 38
+\BOOKMARK [1][-]{section.4.1}{A Aplica\347\343o}{chapter.4}% 39
+\BOOKMARK [1][-]{section.4.2}{A Arquitetura do Projeto}{chapter.4}% 40
+\BOOKMARK [2][-]{subsection.4.2.1}{web2py}{section.4.2}% 41
+\BOOKMARK [1][-]{section.4.3}{Os Planos de Teste}{chapter.4}% 42
+\BOOKMARK [2][-]{subsection.4.3.1}{Planos de Teste de Inser\347\343o}{section.4.3}% 43
+\BOOKMARK [2][-]{subsection.4.3.2}{Planos de Teste de Consulta}{section.4.3}% 44
+\BOOKMARK [0][-]{chapter.5}{Execu\347\343o dos Testes}{}% 45
+\BOOKMARK [1][-]{section.5.1}{Ambiente de testes}{chapter.5}% 46
+\BOOKMARK [1][-]{section.5.2}{Massa de Dados}{chapter.5}% 47
+\BOOKMARK [1][-]{section.5.3}{M\351tricas}{chapter.5}% 48
+\BOOKMARK [1][-]{section.5.4}{Resultados}{chapter.5}% 49
+\BOOKMARK [0][-]{section*.15}{Refer\352ncias}{}% 50

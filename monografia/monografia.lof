@@ -13,14 +13,13 @@
 \contentsline {figure}{\numberline {2.8}{\ignorespaces Modelagem utilizando sub-documento. Adaptado de ~\cite {sitemongodb}}}{16}{figure.2.8}
 \contentsline {figure}{\numberline {2.9}{\ignorespaces Arquitetura de Replica\IeC {\c c}\IeC {\~a}o ~\cite {sitemongodb}}}{17}{figure.2.9}
 \contentsline {figure}{\numberline {2.10}{\ignorespaces Cluster de Sharding ~\cite {sitemongodb}}}{18}{figure.2.10}
+\contentsline {figure}{\numberline {2.11}{\ignorespaces TestLink - acompanhamento/suporte ~\cite {siteTestLink}}}{22}{figure.2.11}
+\contentsline {figure}{\numberline {2.12}{\ignorespaces JMeter - Ferramenta para execu\IeC {\c c}\IeC {\~a}o de testes ~\cite {siteJmeter}}}{23}{figure.2.12}
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Testador de Requisi\IeC {\c c}\IeC {\~a}o SOAP/XML - RPC}}{24}{figure.2.13}
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Elemento de Configura\IeC {\c c}\IeC {\~a}o de Dados CSV}}{25}{figure.2.14}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces TestLink - acompanhamento/suporte ~\cite {siteTestLink}}}{25}{figure.3.1}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces JMeter - Ferramenta para execu\IeC {\c c}\IeC {\~a}o de testes ~\cite {siteJmeter}}}{26}{figure.3.2}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Testador de Requisi\IeC {\c c}\IeC {\~a}o SOAP/XML - RPC}}{27}{figure.3.3}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Elemento de Configura\IeC {\c c}\IeC {\~a}o de Dados CSV}}{29}{figure.3.4}
 \addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Modelo de Casos de Uso}}{35}{figure.5.1}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Descri\IeC {\c c}\IeC {\~a}o dos M\IeC {\'e}todos}}{35}{figure.5.2}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Arquitetura de Testes}}{37}{figure.5.3}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Modelo de Casos de Uso}}{34}{figure.4.1}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Descri\IeC {\c c}\IeC {\~a}o dos M\IeC {\'e}todos}}{34}{figure.4.2}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Arquitetura de Testes}}{36}{figure.4.3}
 \addvspace {10\p@ }

@@ -1,57 +1,15 @@
-This is BibTeX, Version 0.99d (TeX Live 2012)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: monografia.aux
+This is BibTeX, Version 0.99dThe top-level auxiliary file: monografia.aux
 The style file: plain.bst
 Database file #1: bibliografia.bib
-Warning--to sort, need author or key in sitemongodb
-Warning--to sort, need author or key in siteTestLink
-Warning--to sort, need author or key in siteJmeter
+Warning--I didn't find a database entry for ""
 Warning--to sort, need author or key in arqConarq
 Warning--to sort, need author or key in siteSIGEPE
 Warning--to sort, need author or key in apresentAFD
 Warning--to sort, need author or key in emcuniversedigital
 Warning--to sort, need author or key in nosqldatabaseorg
+Warning--to sort, need author or key in sitemongodb
+Warning--to sort, need author or key in siteTestLink
+Warning--to sort, need author or key in siteJmeter
 Warning--to sort, need author or key in msdn
 Warning--empty journal in nosqlxrelacional
-You've used 32 entries,
-            2118 wiz_defined-function locations,
-            662 strings with 7787 characters,
-and the built_in function-call counts, 7906 in all, are:
-= -- 773
-> -- 232
-< -- 4
-+ -- 104
-- -- 68
-* -- 379
-:= -- 1220
-add.period$ -- 100
-call.type$ -- 32
-change.case$ -- 124
-chr.to.int$ -- 0
-cite$ -- 42
-duplicate$ -- 352
-empty$ -- 792
-format.name$ -- 68
-if$ -- 1776
-int.to.chr$ -- 0
-int.to.str$ -- 32
-missing$ -- 25
-newline$ -- 164
-num.names$ -- 46
-pop$ -- 247
-preamble$ -- 1
-purify$ -- 98
-quote$ -- 0
-skip$ -- 255
-stack$ -- 0
-substring$ -- 351
-swap$ -- 74
-text.length$ -- 4
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 112
-warning$ -- 10
-while$ -- 60
-width$ -- 34
-write$ -- 327
-(There were 10 warnings)
+(There were 11 warnings)
