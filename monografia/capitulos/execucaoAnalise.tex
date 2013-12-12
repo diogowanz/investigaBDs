@@ -1,0 +1,37 @@
+\chapter {Execução dos Testes e Análise dos Resultados}
+
+Nesse capítulo vamos descrever o ambiente onde os testes foram realizados, as métricas que foram escolhidas para medir a performance e os resultados obtidos.
+
+\section{Ambiente de testes}
+
+Os testes foram realizados em uma máquina virtualizada, via VirtualBox, com as seguintes configurações:
+
+\begin{itemize}
+\item Sistema Operacional: Debian GNU/Linux 6.0
+\item Quantidade de Processadores: 1 
+\item Quantidade de Memória RAM: 2048 MB
+\item Capacidade do HD: 60 GB
+\item Mongo DB: Versão 2.4.0 com configurações padrão
+\item PostgreSQL: Versão 8.4.16
+\end{itemize}
+
+\section{Massa de Dados}
+
+Conforme Molyneaux diz ~\cite{theartoftestperf}, a importância de prover a quantidade de dados de qualidade para um teste não pode ser exagerada. Segundo ele a quantidade e a qualidade dos dados podem definir o sucesso ou insucesso dos testes. Para o nosso projeto foi desenvolvido um script em python para a geração da massa de dados. Os dados podem tanto ser inseridos diretamente na base de dados quanto em arquivos CSV que serão utilizados durante os testes. Os arquivos utilizados nos testes possuem tamanho médio de 400 KB. A quantidade de dados gerados também pode ser configurada pelo seguinte:
+
+\begin{enumerate}
+	\item Quantidade de Unidades Pagadoras (Orgãos);
+	\item Quantidade de empregados por orgão;
+	\item Quantidade de dependentes por empregado;
+	\item Quantidade de documentos por empregado;
+	\item Quantidade de documentos por dependente;
+\end{enumerate}
+
+\section{Métricas}
+
+Quando se quer balancear o custo e a performance, todos os envolvidos na produção do software se preocupam com a execução de testes de performance. A avaliação de performance é necessária em todas as etapas do ciclo de vida de software e é requerida sempre que o arquiteto precisa comparar alternativasv~\cite{rajjain}. Em um teste de performance a escolha das métricas é de grande importância. Segundo Raj Jain ~\cite{rajjain}, escolher as métricas erradas é um dos erros mais comuns. Para o nosso trabalho as métricas escolhidas foram a vazão e o tempo de resposta.
+
+\section{Resultados}
+
+
+

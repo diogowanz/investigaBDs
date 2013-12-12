@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2013.4.22)  10 DEC 2013 23:15
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2013.4.22)  11 DEC 2013 22:43
 entering extended mode
 **C:/Users/Debora*Natsue/Documents/investigaBDs/monografia/monografia.tex
 ("C:/Users/Debora Natsue/Documents/investigaBDs/monografia/monografia.tex"
@@ -650,7 +650,7 @@ File: t1ua1.fd 2006/03/21 Fontinst v1.928 font definitions for T1/ua1.
 LaTeX Font Info:    Font shape `T1/ua1/bx/n' in size <20> not available
 (Font)              Font shape `T1/ua1/b/n' tried instead on input line 77.
 
-<positivo_cor.pdf, id=203, 119.44624pt x 60.225pt>
+<positivo_cor.pdf, id=175, 119.44624pt x 60.225pt>
 File: positivo_cor.pdf Graphic file (type pdf)
  <use positivo_cor.pdf>
 Package pdftex.def Info: positivo_cor.pdf used on input line 77.
@@ -763,7 +763,7 @@ LaTeX Font Info:    Try loading font information for T1+cmtt on input line 21.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 ) [5]
-<modelo_relacional.jpg, id=443, 800.23969pt x 422.32782pt>
+<modelo_relacional.jpg, id=408, 800.23969pt x 422.32782pt>
 File: modelo_relacional.jpg Graphic file (type jpg)
 
 <use modelo_relacional.jpg>
@@ -771,21 +771,21 @@ Package pdftex.def Info: modelo_relacional.jpg used on input line 46.
 (pdftex.def)             Requested size: 364.19667pt x 192.20456pt.
  [6 <C:/Users/Debora Natsue/Documents/investigaBDs/monografia/modelo_relacional
 .jpg>] [7]
-<captheorem.jpg, id=465, 382.42876pt x 263.48438pt>
+<captheorem.jpg, id=430, 382.42876pt x 263.48438pt>
 File: captheorem.jpg Graphic file (type jpg)
  <use captheorem.jpg>
 Package pdftex.def Info: captheorem.jpg used on input line 81.
 (pdftex.def)             Requested size: 364.19667pt x 250.93591pt.
 
 [8 <C:/Users/Debora Natsue/Documents/investigaBDs/monografia/captheorem.jpg>]
-<strongconsistency.jpg, id=481, 554.82281pt x 162.6075pt>
+<strongconsistency.jpg, id=446, 554.82281pt x 162.6075pt>
 File: strongconsistency.jpg Graphic file (type jpg)
 
 <use strongconsistency.jpg>
 Package pdftex.def Info: strongconsistency.jpg used on input line 111.
 (pdftex.def)             Requested size: 364.19667pt x 106.73819pt.
 
-<eventualconsistency.jpg, id=486, 554.82281pt x 181.42781pt>
+<eventualconsistency.jpg, id=451, 554.82281pt x 181.42781pt>
 File: eventualconsistency.jpg Graphic file (type jpg)
 
 <use eventualconsistency.jpg>
@@ -798,21 +798,16 @@ jpg>] [10 <C:/Users/Debora Natsue/Documents/investigaBDs/monografia/eventualcon
 sistency.jpg>] [11]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 48.
-
-Overfull \hbox (1.38881pt too wide) in paragraph at lines 61--62
-[]\T1/cmr/m/n/12 Nesse tipo de mo-de-la-gem o pa-ra-digma passa a ser de ori-en
--ta-ção a atri-bu-tos(colunas).Ao
- []
-
-<columns.png, id=519, 578.16pt x 216.81pt>
+ <columns.png, id=489, 578.16pt x 216.81pt>
 File: columns.png Graphic file (type png)
- <use columns.png>
+
+<use columns.png>
 Package pdftex.def Info: columns.png used on input line 78.
 (pdftex.def)             Requested size: 364.19667pt x 136.57117pt.
- [12]
-<exbson.jpg, id=546, 677.53125pt x 132.495pt>
+ [12] <exbson.jpg, id=518, 677.53125pt x 132.495pt>
 File: exbson.jpg Graphic file (type jpg)
- <use exbson.jpg>
+
+<use exbson.jpg>
 Package pdftex.def Info: exbson.jpg used on input line 132.
 (pdftex.def)             Requested size: 546.29153pt x 106.83311pt.
 
@@ -822,13 +817,13 @@ Overfull \hbox (91.04742pt too wide) in paragraph at lines 132--133
 
 [13 <C:/Users/Debora Natsue/Documents/investigaBDs/monografia/columns.png> <C:/
 Users/Debora Natsue/Documents/investigaBDs/monografia/exbson.jpg>] [14]
-<referencia.png, id=562, 803.25093pt x 426.84468pt>
+<referencia.png, id=534, 803.25093pt x 426.84468pt>
 File: referencia.png Graphic file (type png)
  <use referencia.png>
 Package pdftex.def Info: referencia.png used on input line 156.
 (pdftex.def)             Requested size: 364.19667pt x 193.53726pt.
 
-<subdocumento.png, id=566, 514.92375pt x 267.24844pt>
+<subdocumento.png, id=538, 514.92375pt x 267.24844pt>
 File: subdocumento.png Graphic file (type png)
  <use subdocumento.png>
 Package pdftex.def Info: subdocumento.png used on input line 178.
@@ -869,13 +864,13 @@ Overfull \hbox (68.40823pt too wide) in paragraph at lines 372--373
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [16 <C:/Users/Debora Natsue/Documents/investigaBDs/monografia/subdocumento.png>
-] <replication.png, id=589, 495.0pt x 404.91pt>
+] <replication.png, id=561, 495.0pt x 404.91pt>
 File: replication.png Graphic file (type png)
  <use replication.png>
 Package pdftex.def Info: replication.png used on input line 392.
 (pdftex.def)             Requested size: 227.62206pt x 186.19907pt.
 
-<sharding.png, id=592, 563.14285pt x 385.75285pt>
+<sharding.png, id=564, 563.14285pt x 385.75285pt>
 File: sharding.png Graphic file (type png)
  <use sharding.png>
 Package pdftex.def Info: sharding.png used on input line 411.
@@ -885,160 +880,164 @@ Package pdftex.def Info: sharding.png used on input line 411.
 " [17 <C:/Users/Debora Natsue/Documents/investigaBDs/monografia/replication.png
 >] [18 <C:/Users/Debora Natsue/Documents/investigaBDs/monografia/sharding.png>]
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--68
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 71--72
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--79
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--83
+Underfull \hbox (badness 10000) in paragraph at lines 81--82
 
  []
 
 [19]
-Underfull \hbox (badness 10000) in paragraph at lines 86--87
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--91
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--104
+Underfull \hbox (badness 10000) in paragraph at lines 102--103
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--108
+Underfull \hbox (badness 10000) in paragraph at lines 106--107
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 111--112
+Underfull \hbox (badness 10000) in paragraph at lines 110--111
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--116
+Underfull \hbox (badness 10000) in paragraph at lines 114--115
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--120
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 123--124
+Underfull \hbox (badness 10000) in paragraph at lines 122--123
 
  []
 
-[20] [21] <testlink.jpg, id=637, 1267.73625pt x 835.12pt>
+[20] [21] <testlink.jpg, id=611, 1267.73625pt x 835.12pt>
 File: testlink.jpg Graphic file (type jpg)
  <use testlink.jpg>
-Package pdftex.def Info: testlink.jpg used on input line 169.
+Package pdftex.def Info: testlink.jpg used on input line 168.
 (pdftex.def)             Requested size: 364.19667pt x 239.91035pt.
 
-<jmeter.png, id=641, 913.16156pt x 461.47406pt>
+<jmeter.png, id=615, 913.16156pt x 461.47406pt>
 File: jmeter.png Graphic file (type png)
  <use jmeter.png>
-Package pdftex.def Info: jmeter.png used on input line 179.
+Package pdftex.def Info: jmeter.png used on input line 178.
 (pdftex.def)             Requested size: 364.19667pt x 184.04414pt.
  [22 <C:/Users/Debora Natsue/Documents/investigaBDs/monografia/testlink.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 207--208
+Underfull \hbox (badness 10000) in paragraph at lines 206--207
 
  []
 
-<testador_insere_orgao.png, id=649, 818.30719pt x 459.96844pt>
+<testador_insere_orgao.png, id=623, 818.30719pt x 459.96844pt>
 File: testador_insere_orgao.png Graphic file (type png)
 
 <use testador_insere_orgao.png>
-Package pdftex.def Info: testador_insere_orgao.png used on input line 220.
+Package pdftex.def Info: testador_insere_orgao.png used on input line 219.
 (pdftex.def)             Requested size: 455.24411pt x 255.89612pt.
  [23 <C:/Users/Debora Natsue/Documents/investigaBDs/monografia/jmeter.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 231--232
+Underfull \hbox (badness 10000) in paragraph at lines 230--231
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 235--236
+Underfull \hbox (badness 10000) in paragraph at lines 234--235
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 243--244
+Underfull \hbox (badness 10000) in paragraph at lines 242--243
 
  []
 
-<configuracao_csv.png, id=655, 817.55438pt x 458.46281pt>
+<configuracao_csv.png, id=629, 817.55438pt x 458.46281pt>
 File: configuracao_csv.png Graphic file (type png)
 
 <use configuracao_csv.png>
-Package pdftex.def Info: configuracao_csv.png used on input line 249.
+Package pdftex.def Info: configuracao_csv.png used on input line 248.
 (pdftex.def)             Requested size: 455.24411pt x 255.28934pt.
 ))
-("C:\Users\Debora Natsue\Documents\investigaBDs\monografia\capitulos/webservice
-.tex" [24 <C:/Users/Debora Natsue/Documents/investigaBDs/monografia/testador_in
-sere_orgao.png>] [25 <C:/Users/Debora Natsue/Documents/investigaBDs/monografia/
-configuracao_csv.png>] [26] [27] [28]
+("C:\Users\Debora Natsue\Documents\investigaBDs\monografia\capitulos/afdPlanoTe
+stes.tex" [24 <C:/Users/Debora Natsue/Documents/investigaBDs/monografia/testado
+r_insere_orgao.png>] [25 <C:/Users/Debora Natsue/Documents/investigaBDs/monogra
+fia/configuracao_csv.png>] [26] [27] [28]
 Cap\'{\i }tulo 3.
-[29
+
+("C:\Users\Debora Natsue\Documents\investigaBDs\monografia\capitulos\webservice
+.tex" [29
 
 ] [30]
-Overfull \hbox (14.88145pt too wide) in paragraph at lines 112--122
+Overfull \hbox (14.7662pt too wide) in paragraph at lines 112--122
  [] 
  []
 
-[31])
-("C:\Users\Debora Natsue\Documents\investigaBDs\monografia\capitulos/arquitetur
-a.tex" [32]
-Cap\'{\i }tulo 4.
-<diagrama_geral.jpg, id=814, 1204.5pt x 642.14906pt>
+[31]) <diagrama_geral.jpg, id=775, 1204.5pt x 642.14906pt>
 File: diagrama_geral.jpg Graphic file (type jpg)
- <use diagrama_geral.jpg>
-Package pdftex.def Info: diagrama_geral.jpg used on input line 12.
+
+<use diagrama_geral.jpg>
+Package pdftex.def Info: diagrama_geral.jpg used on input line 13.
 (pdftex.def)             Requested size: 455.24411pt x 242.70619pt.
-
-<class_model.jpg, id=815, 823.57687pt x 406.51875pt>
+ <class_model.jpg, id=776, 823.57687pt x 406.51875pt>
 File: class_model.jpg Graphic file (type jpg)
- <use class_model.jpg>
-Package pdftex.def Info: class_model.jpg used on input line 20.
-(pdftex.def)             Requested size: 455.24411pt x 224.70872pt.
 
-<arquitetura.jpg, id=817, 551.81157pt x 630.85687pt>
+<use class_model.jpg>
+Package pdftex.def Info: class_model.jpg used on input line 21.
+(pdftex.def)             Requested size: 455.24411pt x 224.70872pt.
+ [32] [33 <C:/Users/Debora Natsue/Documents/investigaBDs/monografia/diagrama_ge
+ral.jpg> <C:/Users/Debora Natsue/Documents/investigaBDs/monografia/class_model.
+jpg>] [34]
+<arquitetura.jpg, id=801, 551.81157pt x 630.85687pt>
 File: arquitetura.jpg Graphic file (type jpg)
  <use arquitetura.jpg>
-Package pdftex.def Info: arquitetura.jpg used on input line 73.
+Package pdftex.def Info: arquitetura.jpg used on input line 74.
 (pdftex.def)             Requested size: 227.62206pt x 260.23167pt.
 
-[33
+[35 <C:/Users/Debora Natsue/Documents/investigaBDs/monografia/arquitetura.jpg>]
+[36])
+("C:\Users\Debora Natsue\Documents\investigaBDs\monografia\capitulos/execucaoAn
+alise.tex" [37]
+Cap\'{\i }tulo 4.
+[38
 
-] [34 <C:/Users/Debora Natsue/Documents/investigaBDs/monografia/diagrama_geral.
-jpg> <C:/Users/Debora Natsue/Documents/investigaBDs/monografia/class_model.jpg>
-] [35] [36 <C:/Users/Debora Natsue/Documents/investigaBDs/monografia/arquitetur
-a.jpg>] [37] [38]
+])
+("C:\Users\Debora Natsue\Documents\investigaBDs\monografia\capitulos/considerac
+oesProjFuturos.tex" [39]
 Cap\'{\i }tulo 5.
-[39
+) [40
 
-]) [40]
-("C:\Users\Debora Natsue\Documents\investigaBDs\monografia\monografia.bbl"
-("C:\Users\Debora Natsue\Documents\investigaBDs\monografia\monografia.brf")
+] ("C:\Users\Debora Natsue\Documents\investigaBDs\monografia\monografia.bbl" ("
+C:\Users\Debora Natsue\Documents\investigaBDs\monografia\monografia.brf")
 \tf@brf=\write7
 
 Underfull \hbox (badness 2809) in paragraph at lines 19--19
@@ -1047,13 +1046,13 @@ microsites/emc-
  []
 
 
-Underfull \hbox (badness 7486) in paragraph at lines 40--40
+Underfull \hbox (badness 7486) in paragraph at lines 35--35
 []\T1/cmr/m/n/12 Recomendações para di-gi-ta-li-za-ção de do-cu-men-tos ar-qui-
 vís-ti-cos per-ma-nen-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 40--40
+Underfull \hbox (badness 10000) in paragraph at lines 35--35
 \T1/cmr/m/n/12 tes.  http://www.emc.com/collateral/demos/microsites/emc-digital
 -universe-
  []
@@ -1062,51 +1061,51 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--40
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 157--157
+Underfull \hbox (badness 10000) in paragraph at lines 162--162
 []\T1/cmr/m/n/12 Cezar Tau-rion.  Big data = vo-lume + va-ri-e-dade + ve-lo-ci-
 dade.
  []
 
 
-Underfull \hbox (badness 1817) in paragraph at lines 157--157
+Underfull \hbox (badness 1817) in paragraph at lines 162--162
 \T1/cmr/m/n/12 https://www.ibm.com/developerworks, 2012.  Aces-sado em 14 de De
 -zem-bro
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--163
+Underfull \hbox (badness 10000) in paragraph at lines 168--168
 []\T1/cmr/m/n/12 Cezar Tau-rion.  Você re-al-mente sabe o que é big data?
  []
 
 
-Underfull \hbox (badness 1817) in paragraph at lines 163--163
+Underfull \hbox (badness 1817) in paragraph at lines 168--168
 \T1/cmr/m/n/12 https://www.ibm.com/developerworks, 2012.  Aces-sado em 14 de De
 -zem-bro
  []
 
 [42])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 117.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 114.
  [43]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 117.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 114.
 
 ("C:\Users\Debora Natsue\Documents\investigaBDs\monografia\monografia.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 117.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 117.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 114.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 114.
 Package rerunfilecheck Info: File `monografia.out' has not changed.
-(rerunfilecheck)             Checksum: 7F0BAED0D5435F8F5B8D02B9D385DE25;3341.
+(rerunfilecheck)             Checksum: 9064C1AAC4D5EA7F0D96CBBC9A7BFEA5;2933.
 Package rerunfilecheck Info: File `monografia.brf' has not changed.
-(rerunfilecheck)             Checksum: 98F16882738097A4E6D8803292C21A4D;4626.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 117.
+(rerunfilecheck)             Checksum: 64E832F0E4B4ED7E943DB310819AE4BF;4831.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 114.
  )
 (\end occurred when \iffalse on line 462 was incomplete) 
 Here is how much of TeX's memory you used:
- 10546 strings out of 494045
- 149222 string characters out of 3145945
- 426792 words of memory out of 3000000
- 13316 multiletter control sequences out of 15000+200000
+ 10554 strings out of 494045
+ 149643 string characters out of 3145945
+ 411677 words of memory out of 3000000
+ 13315 multiletter control sequences out of 15000+200000
  28026 words of font info for 40 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 43i,16n,72p,1984b,1556s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,16n,72p,2011b,1903s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): 
 name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed o
 ne
@@ -1130,9 +1129,9 @@ ic/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/
 amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsf
 onts/cm/cmsy10.pfb><C:/Users/Debora Natsue/AppData/Roaming/MiKTeX/2.9/fonts/typ
 e1/urw/arial/ua1b8a.pfb>
-Output written on monografia.pdf (54 pages, 1278818 bytes).
+Output written on monografia.pdf (54 pages, 1280925 bytes).
 PDF statistics:
- 1556 PDF objects out of 1728 (max. 8388607)
- 327 named destinations out of 1000 (max. 500000)
- 491 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1541 PDF objects out of 1728 (max. 8388607)
+ 329 named destinations out of 1000 (max. 500000)
+ 435 words of extra memory for PDF output out of 10000 (max. 10000000)
 

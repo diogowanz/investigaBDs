@@ -1,11 +1,12 @@
-\chapter{O Projeto}
+\chapter{Protótipo AFD e Plano de Testes}
 
-Esse capítulo descreverá a aplicação que foi desenvolvida para a realização dos testes, qual a arquitetura que foi utilizada no projeto, além de descrever os planos de testes.
+Esse capítulo apresenta a arquitetura e a implementação de um protótipo para o AFD (Assentamento Funcional Digital) que objetiva servir para a investigação proposta nesse trabalho e descrita na introdução. Como o protótipo arquitetural foi baseado em uma arquitetura orientada a serviços ~\cite{erl:2007} que disponibiliza algumas das principais capacidades para manter os dados do AFD, iniciaremos o capítulo com a descrição de \textit{Web service}. Logo em seguida será descrita as principais características do projeto como tecnologias utilizadas e arquitetura proposta. Para finalizarmos o capítulo descrevemos os planos de testes que foram desenvolvidos para os testes de performance.
 
+\input{./capitulos/webservice}
 
 \section{A Aplicação}
 
-Para a execução dos testes de performance foi desenvolvido um Web service com as principais operações necessárias para manter os dados do AFD. O objetivo central da aplicação é manter os documentos da pasta funcional dos servidores. Como a aplicação deve armazenar aquivos, escolhemos gravar o arquivo no sistema operacional e armazenar o caminho para ele na base de dados. Na figura \ref{fig:ucmodel} temos o modelo de casos de uso e na figura \ref{fig:classmodel} temos uma breve descrição dos métodos do Web service. O objetivo ao se escolher realizar os testes de performance via Web service foi o de flexibilizar ao máximo as implementações em diversos bancos de dados. Na tabela \ref{tab:funcionalidades} a descrição das funcionalidades implementadas.
+Para a execução dos testes de performance foi desenvolvido um Web service com as principais operações necessárias para manter os dados do AFD. O objetivo central da aplicação é manter os documentos da pasta funcional dos servidores. Como a aplicação deve armazenar aquivos, escolhemos gravar o arquivo no sistema operacional e armazenar o caminho para ele na base de dados. Na Figura \ref{fig:ucmodel} temos o modelo de casos de uso e na figura \ref{fig:classmodel} temos uma breve descrição dos métodos do Web service. O objetivo ao se escolher realizar os testes de performance via \textit{web service} foi o de flexibilizar ao máximo as implementações em diversos bancos de dados. Na tabela \ref{tab:funcionalidades} a descrição das funcionalidades implementadas.
 
 	\begin{figure}[!htbp]
 		\begin{center}
@@ -66,7 +67,7 @@ Para a execução dos testes de performance foi desenvolvido um Web service com 
 
 \section{A Arquitetura do Projeto}
 
-Para cumprirmos o nosso objetivo, que é testar a nossa aplicação com diferentes bancos de dados, montamos uma arquitetura simples, mas que nos permitisse trocar as implementações da camada de persistência sem maiores esforços. Para a execução dos testes utilizamos o JMeter. A aplicação foi desenvolvida em python com o apoio do framework web2py na implementação do Web service. A linguagem de programação python foi escolhida pela facilidade de encontrar drivers de diversos bancos de dados relacionais e não relacionais, além de ser uma linguagem orientada a objetos e de ampla utilização. O framework web2py foi adicionado ao projeto pelo motivo de suportar a implementação de Web services de modo rápido e fácil, altém da geração automática do WSDL (arquivo que contém a descrição das operações do Web service). A diagramação da arquitetura pode ser vista na figura \ref{fig:arquitetura}
+Para cumprirmos o nosso objetivo, que é testar a nossa aplicação com diferentes bancos de dados, montamos uma arquitetura simples, mas que nos permitisse trocar as implementações da camada de persistência sem maiores esforços. Para a execução dos testes utilizamos o JMeter. A aplicação foi desenvolvida em Python com o apoio do framework web2py na implementação do \textit{web service}. A linguagem de programação Python foi escolhida pela facilidade de encontrar drivers de diversos bancos de dados relacionais e não relacionais, além de ser uma linguagem orientada a objetos e de ampla utilização. O framework web2py foi adicionado ao projeto pelo motivo de suportar a implementação de \textit{web services} de modo rápido e fácil, além da geração automática do WSDL (arquivo que contém a descrição das operações do Web service). A diagramação da arquitetura pode ser vista na figura \ref{fig:arquitetura}
 
 	\begin{figure}[!htbp]
 		\begin{center}
@@ -78,9 +79,9 @@ Para cumprirmos o nosso objetivo, que é testar a nossa aplicação com diferent
 
 \subsection{web2py}
 
-Web2py é um framework para desenvolvimento ágil de aplicações web, software livre e gratuito. Ele é escrito e programável em Python. [http://www.web2py.com/] web2py foi inspirado pelo Ruby on Rails e Django. Tem seu foco no desenvolvimento ágil e segue o MVC (Model View Controller). Toda aplicação web2py é composta por Models (arquivos que contem a descrição dos dados), Views (arquivos que contem a descrição dos dados que serão apresentados), Controlers (arquivos que contem a lógica e workflow do negócio), Cron Jobs (tarefas que precisam ser executadas regularmente) e Static Files (imagens, scripts, folhas de estilos, etc.)
+Web2py é um \textit{framework} para desenvolvimento ágil de aplicações web, software livre e gratuito. Ele é escrito e programável em Python. web2py foi inspirado pelo Ruby on Rails e Django. Tem seu foco no desenvolvimento ágil e segue o MVC (\textit{Model View Controller}). Toda aplicação web2py é composta por \textit{Models} (arquivos que contem a descrição dos dados), \textit{Views} (arquivos que contem a descrição dos dados que serão apresentados), \textit{Controlers} (arquivos que contem a lógica e \textit{workflow} do negócio), \textit{Cron Jobs} (tarefas que precisam ser executadas regularmente) e \textit{Static Files} (imagens, \textit{scripts}, folhas de estilos, etc.) ~\cite{siteweb2py}.
 
-Quando se trata de Web services, web2py oferece suporte para diversos protocolos, incluindo XML, JSON, RSS,CSV,XMLRPC,JSONRPC,AMFRPC, e SOAP.  O web2py inclui um cliente e servidor SOAP (pysimplesoap) criado por Mariano Reingart. Uma facilidade encontrada é a geração automática do WSDL e a pagina com a descrição dos métodos.
+Quando se trata de Web services, web2py oferece suporte para diversos protocolos, incluindo XML, JSON, RSS,CSV,XMLRPC,JSONRPC,AMFRPC, e SOAP.  O web2py inclui um cliente e servidor SOAP (pysimplesoap) criado por Mariano Reingart. Uma facilidade encontrada é a geração automática do WSDL e da página com a descrição das capacidades ~\cite{siteweb2py}.
 
 \section{Os Planos de Teste}
 
@@ -126,42 +127,3 @@ Os planos de Testes de Consulta executam os seguintes passos:
 \item Gráfico de Tempo de Resposta -  Elemento responsável por gerar um gráfico a partir dos dados da requisição feita. O gráfico exibe a  evolução do tempo de resposta das requisições feitas.
 \item Gráfico de Resultados - Elemento responsável por exibir a evolução dos tempos das requisições, a média dos tempos das requisições, a derivação do tempo das requisições e a vazão.
 \end{enumerate}
-
-
-\chapter {Execução dos Testes}
-
-Nesse capítulo vamos descrever o ambiente onde os testes foram realizados, as métricas que foram escolhidas para medir a performance e os resultados obtidos.
-
-\section{Ambiente de testes}
-
-Os testes foram realizados em uma máquina virtualizada, via VirtualBox, com as seguintes configurações:
-
-\begin{itemize}
-\item Sistema Operacional: Debian GNU/Linux 6.0
-\item Quantidade de Processadores: 1 
-\item Quantidade de Memória RAM: 2048 MB
-\item Capacidade do HD: 60 GB
-\item Mongo DB: Versão 2.4.0 com configurações padrão
-\item PostgreSQL: Versão 8.4.16
-\end{itemize}
-
-\section{Massa de Dados}
-
-Conforme Molyneaux diz ~\cite{theartoftestperf}, a importância de prover a quantidade de dados de qualidade para um teste não pode ser exagerada. Segundo ele a quantidade e a qualidade dos dados podem definir o sucesso ou insucesso dos testes. Para o nosso projeto foi desenvolvido um script em python para a geração da massa de dados. Os dados podem tanto ser inseridos diretamente na base de dados quanto em arquivos CSV que serão utilizados durante os testes. Os arquivos utilizados nos testes possuem tamanho médio de 400 KB. A quantidade de dados gerados também pode ser configurada pelo seguinte:
-
-\begin{enumerate}
-	\item Quantidade de Unidades Pagadoras (Orgãos);
-	\item Quantidade de empregados por orgão;
-	\item Quantidade de dependentes por empregado;
-	\item Quantidade de documentos por empregado;
-	\item Quantidade de documentos por dependente;
-\end{enumerate}
-
-\section{Métricas}
-
-Quando se quer balancear o custo e a performance, todos os envolvidos na produção do software se preocupam com a execução de testes de performance. A avaliação de performance é necessária em todas as etapas do ciclo de vida de software e é requerida sempre que o arquiteto precisa comparar alternativasv~\cite{rajjain}. Em um teste de performance a escolha das métricas é de grande importância. Segundo Raj Jain ~\cite{rajjain}, escolher as métricas erradas é um dos erros mais comuns. Para o nosso trabalho as métricas escolhidas foram a vazão e o tempo de resposta.
-
-\section{Resultados}
-
-
-

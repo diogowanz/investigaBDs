@@ -22,11 +22,6 @@ Mongodb official site.
 \newblock http://www.mongodb.org/.
 \newblock Acessado em 27 de Janeiro de 2013.
 
-\bibitem{msdn}
-Msdn - classe web services.
-\newblock http://msdn.microsoft.com/pt-br/library/cc564893.aspx.
-\newblock Acessado em 25 de junho de 2013.
-
 \bibitem{nosqldatabaseorg}
 nosql database org.
 \newblock http://nosql-database.org/.
@@ -47,6 +42,16 @@ Sigepe.org.
 Testlink.
 \newblock http://testlink.sourceforge.net/.
 \newblock Acessado em 02 de julho de 2013.
+
+\bibitem{w3cs}
+W3c schools.
+\newblock http://www.w3schools.com/.
+\newblock Acessado em 25 de junho de 2013.
+
+\bibitem{siteweb2py}
+web2py.
+\newblock http:///www.web2py.com.
+\newblock Acessado em 02 de novembro de 2013.
 
 \bibitem{bigdataarchitectureandapproach}
 K.~Bakshi.
