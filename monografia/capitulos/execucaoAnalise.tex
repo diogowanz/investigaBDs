@@ -18,7 +18,7 @@ Os testes foram realizados em uma máquina virtualizada, via VirtualBox, com as 
 
 \section{Massa de Dados}
 
-Conforme Molyneaux diz ~\cite{theartoftestperf}, a importância de prover a quantidade de dados de qualidade para um teste não pode ser exagerada. Segundo ele a quantidade e a qualidade dos dados podem definir o sucesso ou insucesso dos testes. Para o nosso projeto foi desenvolvido um script em python para a geração da massa de dados. Os dados podem tanto ser inseridos diretamente na base de dados quanto em arquivos CSV que serão utilizados durante os testes. Os arquivos utilizados nos testes possuem tamanho médio de 400 KB. A quantidade de dados gerados também pode ser configurada pelo seguinte:
+Conforme Molyneaux diz ~\cite{theartoftestperf}, a importância de prover a quantidade de dados de qualidade para um teste não pode ser exagerada. Segundo ele, a quantidade e a qualidade dos dados podem definir o sucesso ou insucesso dos testes. Para o nosso projeto foi desenvolvido um script em python para a geração da massa de dados. Os dados podem tanto ser inseridos diretamente na base de dados quanto em arquivos CSV, os quais serão utilizados durante os testes. Os arquivos (documentos para simular a pasta funcional) utilizados nos testes possuem tamanho médio de 400 KB. A não ser pela diferença das chaves primárias geradas nos dois bancos, os dados inseridos no MongoDB e no PostgreSQL são iguais. A quantidade de dados gerados também pode ser configurada pelo seguinte:
 
 \begin{enumerate}
 	\item Quantidade de Unidades Pagadoras (Orgãos);
@@ -62,7 +62,15 @@ Quando se quer balancear o custo e a performance, todos os envolvidos na produç
 
 \section{Resultados}
 
+Como podemos ver nos gráficos apresentados a seguir, a performance dos dois bancos foram bastante próximas. Após executar os testes, foram salvos os tempos de todas as requisições feitas à aplicação e calculado o tempo médio de resposta, em milisecundos, para cada teste realizado.
+
+Para os testes de consulta, exceto no 'consulta documentos do dependente' o MongoDB sempre foi mais lento que o PostgreSQL.
+
+No teste 'Consulta Usuários Ativos' é feito um cálculo interno e também foi utilizado agrupador nos dois bancos. Mais uma vez o PostgreSQL foi mais rápido ao respondes as requisições.
+
 \subsection{Insere Órgãos}
+
+ Na inserção de orgãos os tempos foram muito próximos e como a quantidade de registros inseridos foram poucos, podemos dizer que a performance dos dois bancos foram iguais.
 
 \begin{figure}[!htbp]
 	\begin{center}
@@ -74,6 +82,8 @@ Quando se quer balancear o custo e a performance, todos os envolvidos na produç
 
 \subsection{Insere Empregados}
 
+Ao inserir os dados dos empregados, trabalhamos com uma quantidade de registros maior e podemos ver que o MongoDB foi sempre mais lento que o PostgreSQL. Essa diferença de performance foi aumentando a medida em que a quantidade de usuários simultâneos foi incrementada. Esse teste não requeriu operações de \textit{join} ao PostgreSQL.
+
 \begin{figure}[!htbp]
 	\begin{center}
 		\includegraphics[width=0.8\textwidth]{resultados/insere_empregados}
@@ -83,6 +93,8 @@ Quando se quer balancear o custo e a performance, todos os envolvidos na produç
 \end{figure}
 
 \subsection{Insere Dependentes}
+
+Os dados usados para manter os cadastros de dependentes são muito próximos dos dados dos empregados, e nos testes podemos perceber resultados muito parecidos. O MongoDB foi sempre mais lento, aumentando a diferença de performance a medida em que a quantidade de usuários simultâneos foi incrementada.
 
 \begin{figure}[!htbp]
 	\begin{center}
@@ -94,6 +106,8 @@ Quando se quer balancear o custo e a performance, todos os envolvidos na produç
 
 \subsection{Insere Documento do Empregado}
 
+A grande diferença de performance desse teste em relação aos outros se deve ao fato de que foram adicionalmente necessárias operações de criação e leitura de arquivos e diretórios. Esse teste foi realizado apenas para 10 e 100 usuários simultâneos pois a arquitetura não nos permitiu mais. Podemos ver que a diferença se mostra para 100 usuários simultâneos, quando o PostgreSQL é aproximadamente um segundo mais rápido que o MongoDB.
+
 \begin{figure}[!htbp]
 	\begin{center}
 		\includegraphics[width=0.8\textwidth]{resultados/insere_doc_empregado}
@@ -103,6 +117,8 @@ Quando se quer balancear o custo e a performance, todos os envolvidos na produç
 \end{figure}
 
 \subsection{Insere Documento do Dependente}
+
+Nesse teste podemos ver que o tempo de resposta médios dos dois bancos foram bem próximos, porém, ao contrario da inserção anterior, o PostgreSQL foi mais veloz.
 
 \begin{figure}[!htbp]
 	\begin{center}

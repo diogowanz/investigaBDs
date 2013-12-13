@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2013.4.22)  13 DEC 2013 01:52
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2013.4.22)  13 DEC 2013 18:06
 entering extended mode
 **C:/Users/Debora*Natsue/Documents/investigaBDs/monografia/monografia.tex
 ("C:/Users/Debora Natsue/Documents/investigaBDs/monografia/monografia.tex"
@@ -1033,54 +1033,53 @@ alise.tex" [37]
 Cap\'{\i }tulo 4.
 [38
 
-] <resultados/insere_orgaos.jpg, id=917, 368.87813pt x 227.34938pt>
+] [39] <resultados/insere_orgaos.jpg, id=926, 368.87813pt x 227.34938pt>
 File: resultados/insere_orgaos.jpg Graphic file (type jpg)
 
 <use resultados/insere_orgaos.jpg>
-Package pdftex.def Info: resultados/insere_orgaos.jpg used on input line 69.
+Package pdftex.def Info: resultados/insere_orgaos.jpg used on input line 77.
 (pdftex.def)             Requested size: 364.19667pt x 224.46254pt.
- [39]
+
 <resultados/insere_empregados.jpg, id=927, 584.1825pt x 353.06906pt>
 File: resultados/insere_empregados.jpg Graphic file (type jpg)
 
 <use resultados/insere_empregados.jpg>
-Package pdftex.def Info: resultados/insere_empregados.jpg used on input line 79
+Package pdftex.def Info: resultados/insere_empregados.jpg used on input line 89
 .
 (pdftex.def)             Requested size: 364.19667pt x 220.1181pt.
-
-<resultados/insere_dependentes.jpg, id=928, 584.1825pt x 353.06906pt>
+ [40 <C:/Users/Debora Natsue/Documents/investigaBDs/monografia/resultados/inser
+e_orgaos.jpg>]
+<resultados/insere_dependentes.jpg, id=932, 584.1825pt x 353.06906pt>
 File: resultados/insere_dependentes.jpg Graphic file (type jpg)
 
 <use resultados/insere_dependentes.jpg>
-Package pdftex.def Info: resultados/insere_dependentes.jpg used on input line 8
-9.
+Package pdftex.def Info: resultados/insere_dependentes.jpg used on input line 1
+01.
 (pdftex.def)             Requested size: 364.19667pt x 220.1181pt.
- [40 <C:/Users/Debora Natsue/Documents/investigaBDs/monografia/resultados/inser
-e_orgaos.jpg> <C:/Users/Debora Natsue/Documents/investigaBDs/monografia/resulta
-dos/insere_empregados.jpg>]
-<resultados/insere_doc_empregado.jpg, id=933, 476.53032pt x 318.43968pt>
+ [41 <C:/Users/Debora Natsue/Documents/investigaBDs/monografia/resultados/inser
+e_empregados.jpg> <C:/Users/Debora Natsue/Documents/investigaBDs/monografia/res
+ultados/insere_dependentes.jpg>]
+<resultados/insere_doc_empregado.jpg, id=937, 476.53032pt x 318.43968pt>
 File: resultados/insere_doc_empregado.jpg Graphic file (type jpg)
 
 <use resultados/insere_doc_empregado.jpg>
 Package pdftex.def Info: resultados/insere_doc_empregado.jpg used on input line
- 99.
+ 113.
 (pdftex.def)             Requested size: 364.19667pt x 243.3869pt.
 
-<resultados/insere_doc_dependentes.jpg, id=934, 476.53032pt x 318.43968pt>
+<resultados/insere_doc_dependentes.jpg, id=938, 476.53032pt x 318.43968pt>
 File: resultados/insere_doc_dependentes.jpg Graphic file (type jpg)
 
 <use resultados/insere_doc_dependentes.jpg>
 Package pdftex.def Info: resultados/insere_doc_dependentes.jpg used on input li
-ne 109.
+ne 125.
 (pdftex.def)             Requested size: 364.19667pt x 243.3869pt.
- [41 <C:/Users/Debora Natsue/Documents/investigaBDs/monografia/resultados/inser
-e_dependentes.jpg> <C:/Users/Debora Natsue/Documents/investigaBDs/monografia/re
-sultados/insere_doc_empregado.jpg>]
+
 <resultados/consulta_orgaos.jpg, id=939, 612.03656pt x 390.70969pt>
 File: resultados/consulta_orgaos.jpg Graphic file (type jpg)
 
 <use resultados/consulta_orgaos.jpg>
-Package pdftex.def Info: resultados/consulta_orgaos.jpg used on input line 119.
+Package pdftex.def Info: resultados/consulta_orgaos.jpg used on input line 135.
 
 (pdftex.def)             Requested size: 364.19667pt x 232.49005pt.
 
@@ -1089,43 +1088,46 @@ File: resultados/consulta_empregados.jpg Graphic file (type jpg)
 
 <use resultados/consulta_empregados.jpg>
 Package pdftex.def Info: resultados/consulta_empregados.jpg used on input line 
-129.
+145.
 (pdftex.def)             Requested size: 364.19667pt x 232.49005pt.
- [42 <C:/Users/Debora Natsue/Documents/investigaBDs/monografia/resultados/inser
-e_doc_dependentes.jpg> <C:/Users/Debora Natsue/Documents/investigaBDs/monografi
-a/resultados/consulta_orgaos.jpg>]
-<resultados/consulta_doc_empregado.jpg, id=945, 481.04718pt x 304.13625pt>
+
+<resultados/consulta_doc_empregado.jpg, id=941, 481.04718pt x 304.13625pt>
 File: resultados/consulta_doc_empregado.jpg Graphic file (type jpg)
 
 <use resultados/consulta_doc_empregado.jpg>
 Package pdftex.def Info: resultados/consulta_doc_empregado.jpg used on input li
-ne 139.
+ne 155.
 (pdftex.def)             Requested size: 364.19667pt x 230.2642pt.
 
-<resultados/consulta_doc_dependente.jpg, id=946, 481.04718pt x 304.13625pt>
+<resultados/consulta_doc_dependente.jpg, id=942, 481.04718pt x 304.13625pt>
 File: resultados/consulta_doc_dependente.jpg Graphic file (type jpg)
 
 <use resultados/consulta_doc_dependente.jpg>
 Package pdftex.def Info: resultados/consulta_doc_dependente.jpg used on input l
-ine 149.
+ine 165.
 (pdftex.def)             Requested size: 364.19667pt x 230.2642pt.
- [43 <C:/Users/Debora Natsue/Documents/investigaBDs/monografia/resultados/consu
-lta_empregados.jpg> <C:/Users/Debora Natsue/Documents/investigaBDs/monografia/r
-esultados/consulta_doc_empregado.jpg>] <resultados/consulta_estatistica.jpg, id
-=951, 591.71063pt x 323.70938pt>
+
+<resultados/consulta_estatistica.jpg, id=943, 591.71063pt x 323.70938pt>
 File: resultados/consulta_estatistica.jpg Graphic file (type jpg)
 
 <use resultados/consulta_estatistica.jpg>
 Package pdftex.def Info: resultados/consulta_estatistica.jpg used on input line
- 159.
+ 175.
 (pdftex.def)             Requested size: 364.19667pt x 199.24556pt.
 )
 ("C:\Users\Debora Natsue\Documents\investigaBDs\monografia\capitulos/considerac
-oesProjFuturos.tex" [44 <C:/Users/Debora Natsue/Documents/investigaBDs/monograf
-ia/resultados/consulta_doc_dependente.jpg> <C:/Users/Debora Natsue/Documents/in
-vestigaBDs/monografia/resultados/consulta_estatistica.jpg>] [45]
+oesProjFuturos.tex" [42 <C:/Users/Debora Natsue/Documents/investigaBDs/monograf
+ia/resultados/insere_doc_empregado.jpg>] [43 <C:/Users/Debora Natsue/Documents/
+investigaBDs/monografia/resultados/insere_doc_dependentes.jpg> <C:/Users/Debora
+ Natsue/Documents/investigaBDs/monografia/resultados/consulta_orgaos.jpg>]
+[44 <C:/Users/Debora Natsue/Documents/investigaBDs/monografia/resultados/consul
+ta_empregados.jpg> <C:/Users/Debora Natsue/Documents/investigaBDs/monografia/re
+sultados/consulta_doc_empregado.jpg>] [45 <C:/Users/Debora Natsue/Documents/inv
+estigaBDs/monografia/resultados/consulta_doc_dependente.jpg> <C:/Users/Debora N
+atsue/Documents/investigaBDs/monografia/resultados/consulta_estatistica.jpg>]
+[46]
 Cap\'{\i }tulo 5.
-) [46
+) [47
 
 ] ("C:\Users\Debora Natsue\Documents\investigaBDs\monografia\monografia.bbl" ("
 C:\Users\Debora Natsue\Documents\investigaBDs\monografia\monografia.brf")
@@ -1148,7 +1150,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--35
 -universe-
  []
 
-[47
+[48
 
 
 ]
@@ -1174,9 +1176,9 @@ Underfull \hbox (badness 1817) in paragraph at lines 168--168
 -zem-bro
  []
 
-[48])
+[49])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 114.
- [49]
+ [50]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 114.
 
 ("C:\Users\Debora Natsue\Documents\investigaBDs\monografia\monografia.aux")
@@ -1190,8 +1192,8 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 114.
  )
 (\end occurred when \iffalse on line 462 was incomplete) 
 Here is how much of TeX's memory you used:
- 10657 strings out of 494045
- 152299 string characters out of 3145945
+ 10658 strings out of 494045
+ 152306 string characters out of 3145945
  412368 words of memory out of 3000000
  13378 multiletter control sequences out of 15000+200000
  28026 words of font info for 40 fonts, out of 3000000 for 9000
@@ -1220,9 +1222,9 @@ ic/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/
 amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsf
 onts/cm/cmsy10.pfb><C:/Users/Debora Natsue/AppData/Roaming/MiKTeX/2.9/fonts/typ
 e1/urw/arial/ua1b8a.pfb>
-Output written on monografia.pdf (60 pages, 1741184 bytes).
+Output written on monografia.pdf (61 pages, 1743447 bytes).
 PDF statistics:
- 1676 PDF objects out of 1728 (max. 8388607)
- 358 named destinations out of 1000 (max. 500000)
+ 1680 PDF objects out of 1728 (max. 8388607)
+ 359 named destinations out of 1000 (max. 500000)
  581 words of extra memory for PDF output out of 10000 (max. 10000000)
 
