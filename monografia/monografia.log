@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2013.4.22)  11 DEC 2013 22:43
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2013.4.22)  13 DEC 2013 01:52
 entering extended mode
 **C:/Users/Debora*Natsue/Documents/investigaBDs/monografia/monografia.tex
 ("C:/Users/Debora Natsue/Documents/investigaBDs/monografia/monografia.tex"
@@ -650,7 +650,7 @@ File: t1ua1.fd 2006/03/21 Fontinst v1.928 font definitions for T1/ua1.
 LaTeX Font Info:    Font shape `T1/ua1/bx/n' in size <20> not available
 (Font)              Font shape `T1/ua1/b/n' tried instead on input line 77.
 
-<positivo_cor.pdf, id=175, 119.44624pt x 60.225pt>
+<positivo_cor.pdf, id=223, 119.44624pt x 60.225pt>
 File: positivo_cor.pdf Graphic file (type pdf)
  <use positivo_cor.pdf>
 Package pdftex.def Info: positivo_cor.pdf used on input line 77.
@@ -763,7 +763,7 @@ LaTeX Font Info:    Try loading font information for T1+cmtt on input line 21.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 ) [5]
-<modelo_relacional.jpg, id=408, 800.23969pt x 422.32782pt>
+<modelo_relacional.jpg, id=490, 800.23969pt x 422.32782pt>
 File: modelo_relacional.jpg Graphic file (type jpg)
 
 <use modelo_relacional.jpg>
@@ -771,21 +771,21 @@ Package pdftex.def Info: modelo_relacional.jpg used on input line 46.
 (pdftex.def)             Requested size: 364.19667pt x 192.20456pt.
  [6 <C:/Users/Debora Natsue/Documents/investigaBDs/monografia/modelo_relacional
 .jpg>] [7]
-<captheorem.jpg, id=430, 382.42876pt x 263.48438pt>
+<captheorem.jpg, id=512, 382.42876pt x 263.48438pt>
 File: captheorem.jpg Graphic file (type jpg)
  <use captheorem.jpg>
 Package pdftex.def Info: captheorem.jpg used on input line 81.
 (pdftex.def)             Requested size: 364.19667pt x 250.93591pt.
 
 [8 <C:/Users/Debora Natsue/Documents/investigaBDs/monografia/captheorem.jpg>]
-<strongconsistency.jpg, id=446, 554.82281pt x 162.6075pt>
+<strongconsistency.jpg, id=528, 554.82281pt x 162.6075pt>
 File: strongconsistency.jpg Graphic file (type jpg)
 
 <use strongconsistency.jpg>
 Package pdftex.def Info: strongconsistency.jpg used on input line 111.
 (pdftex.def)             Requested size: 364.19667pt x 106.73819pt.
 
-<eventualconsistency.jpg, id=451, 554.82281pt x 181.42781pt>
+<eventualconsistency.jpg, id=533, 554.82281pt x 181.42781pt>
 File: eventualconsistency.jpg Graphic file (type jpg)
 
 <use eventualconsistency.jpg>
@@ -798,13 +798,13 @@ jpg>] [10 <C:/Users/Debora Natsue/Documents/investigaBDs/monografia/eventualcon
 sistency.jpg>] [11]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 48.
- <columns.png, id=489, 578.16pt x 216.81pt>
+ <columns.png, id=571, 578.16pt x 216.81pt>
 File: columns.png Graphic file (type png)
 
 <use columns.png>
 Package pdftex.def Info: columns.png used on input line 78.
 (pdftex.def)             Requested size: 364.19667pt x 136.57117pt.
- [12] <exbson.jpg, id=518, 677.53125pt x 132.495pt>
+ [12] <exbson.jpg, id=600, 677.53125pt x 132.495pt>
 File: exbson.jpg Graphic file (type jpg)
 
 <use exbson.jpg>
@@ -817,13 +817,13 @@ Overfull \hbox (91.04742pt too wide) in paragraph at lines 132--133
 
 [13 <C:/Users/Debora Natsue/Documents/investigaBDs/monografia/columns.png> <C:/
 Users/Debora Natsue/Documents/investigaBDs/monografia/exbson.jpg>] [14]
-<referencia.png, id=534, 803.25093pt x 426.84468pt>
+<referencia.png, id=616, 803.25093pt x 426.84468pt>
 File: referencia.png Graphic file (type png)
  <use referencia.png>
 Package pdftex.def Info: referencia.png used on input line 156.
 (pdftex.def)             Requested size: 364.19667pt x 193.53726pt.
 
-<subdocumento.png, id=538, 514.92375pt x 267.24844pt>
+<subdocumento.png, id=620, 514.92375pt x 267.24844pt>
 File: subdocumento.png Graphic file (type png)
  <use subdocumento.png>
 Package pdftex.def Info: subdocumento.png used on input line 178.
@@ -864,13 +864,13 @@ Overfull \hbox (68.40823pt too wide) in paragraph at lines 372--373
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [16 <C:/Users/Debora Natsue/Documents/investigaBDs/monografia/subdocumento.png>
-] <replication.png, id=561, 495.0pt x 404.91pt>
+] <replication.png, id=643, 495.0pt x 404.91pt>
 File: replication.png Graphic file (type png)
  <use replication.png>
 Package pdftex.def Info: replication.png used on input line 392.
 (pdftex.def)             Requested size: 227.62206pt x 186.19907pt.
 
-<sharding.png, id=564, 563.14285pt x 385.75285pt>
+<sharding.png, id=646, 563.14285pt x 385.75285pt>
 File: sharding.png Graphic file (type png)
  <use sharding.png>
 Package pdftex.def Info: sharding.png used on input line 411.
@@ -944,13 +944,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 122--123
 
  []
 
-[20] [21] <testlink.jpg, id=611, 1267.73625pt x 835.12pt>
+[20] [21] <testlink.jpg, id=693, 1267.73625pt x 835.12pt>
 File: testlink.jpg Graphic file (type jpg)
  <use testlink.jpg>
 Package pdftex.def Info: testlink.jpg used on input line 168.
 (pdftex.def)             Requested size: 364.19667pt x 239.91035pt.
 
-<jmeter.png, id=615, 913.16156pt x 461.47406pt>
+<jmeter.png, id=697, 913.16156pt x 461.47406pt>
 File: jmeter.png Graphic file (type png)
  <use jmeter.png>
 Package pdftex.def Info: jmeter.png used on input line 178.
@@ -960,7 +960,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 206--207
 
  []
 
-<testador_insere_orgao.png, id=623, 818.30719pt x 459.96844pt>
+<testador_insere_orgao.png, id=705, 818.30719pt x 459.96844pt>
 File: testador_insere_orgao.png Graphic file (type png)
 
 <use testador_insere_orgao.png>
@@ -981,7 +981,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 242--243
 
  []
 
-<configuracao_csv.png, id=629, 817.55438pt x 458.46281pt>
+<configuracao_csv.png, id=711, 817.55438pt x 458.46281pt>
 File: configuracao_csv.png Graphic file (type png)
 
 <use configuracao_csv.png>
@@ -1002,39 +1002,130 @@ Overfull \hbox (14.7662pt too wide) in paragraph at lines 112--122
  [] 
  []
 
-[31]) <diagrama_geral.jpg, id=775, 1204.5pt x 642.14906pt>
+[31]) <diagrama_geral.jpg, id=857, 1204.5pt x 642.14906pt>
 File: diagrama_geral.jpg Graphic file (type jpg)
 
 <use diagrama_geral.jpg>
 Package pdftex.def Info: diagrama_geral.jpg used on input line 13.
 (pdftex.def)             Requested size: 455.24411pt x 242.70619pt.
- <class_model.jpg, id=776, 823.57687pt x 406.51875pt>
+ <class_model.jpg, id=858, 823.57687pt x 406.51875pt>
 File: class_model.jpg Graphic file (type jpg)
 
 <use class_model.jpg>
 Package pdftex.def Info: class_model.jpg used on input line 21.
 (pdftex.def)             Requested size: 455.24411pt x 224.70872pt.
- [32] [33 <C:/Users/Debora Natsue/Documents/investigaBDs/monografia/diagrama_ge
-ral.jpg> <C:/Users/Debora Natsue/Documents/investigaBDs/monografia/class_model.
-jpg>] [34]
-<arquitetura.jpg, id=801, 551.81157pt x 630.85687pt>
-File: arquitetura.jpg Graphic file (type jpg)
- <use arquitetura.jpg>
-Package pdftex.def Info: arquitetura.jpg used on input line 74.
-(pdftex.def)             Requested size: 227.62206pt x 260.23167pt.
 
-[35 <C:/Users/Debora Natsue/Documents/investigaBDs/monografia/arquitetura.jpg>]
-[36])
+
+LaTeX Warning: Float too large for page by 77.3219pt on input line 70.
+
+[32] [33 <C:/Users/Debora Natsue/Documents/investigaBDs/monografia/diagrama_ger
+al.jpg> <C:/Users/Debora Natsue/Documents/investigaBDs/monografia/class_model.j
+pg>] [34] <arquitetura.jpg, id=883, 551.81157pt x 630.85687pt>
+File: arquitetura.jpg Graphic file (type jpg)
+
+<use arquitetura.jpg>
+Package pdftex.def Info: arquitetura.jpg used on input line 78.
+(pdftex.def)             Requested size: 227.62206pt x 260.23167pt.
+ [35 <C:/Users/Debora Natsue/Documents/investigaBDs/monografia/arquitetura.jpg>
+] [36])
 ("C:\Users\Debora Natsue\Documents\investigaBDs\monografia\capitulos/execucaoAn
 alise.tex" [37]
 Cap\'{\i }tulo 4.
 [38
 
-])
+] <resultados/insere_orgaos.jpg, id=917, 368.87813pt x 227.34938pt>
+File: resultados/insere_orgaos.jpg Graphic file (type jpg)
+
+<use resultados/insere_orgaos.jpg>
+Package pdftex.def Info: resultados/insere_orgaos.jpg used on input line 69.
+(pdftex.def)             Requested size: 364.19667pt x 224.46254pt.
+ [39]
+<resultados/insere_empregados.jpg, id=927, 584.1825pt x 353.06906pt>
+File: resultados/insere_empregados.jpg Graphic file (type jpg)
+
+<use resultados/insere_empregados.jpg>
+Package pdftex.def Info: resultados/insere_empregados.jpg used on input line 79
+.
+(pdftex.def)             Requested size: 364.19667pt x 220.1181pt.
+
+<resultados/insere_dependentes.jpg, id=928, 584.1825pt x 353.06906pt>
+File: resultados/insere_dependentes.jpg Graphic file (type jpg)
+
+<use resultados/insere_dependentes.jpg>
+Package pdftex.def Info: resultados/insere_dependentes.jpg used on input line 8
+9.
+(pdftex.def)             Requested size: 364.19667pt x 220.1181pt.
+ [40 <C:/Users/Debora Natsue/Documents/investigaBDs/monografia/resultados/inser
+e_orgaos.jpg> <C:/Users/Debora Natsue/Documents/investigaBDs/monografia/resulta
+dos/insere_empregados.jpg>]
+<resultados/insere_doc_empregado.jpg, id=933, 476.53032pt x 318.43968pt>
+File: resultados/insere_doc_empregado.jpg Graphic file (type jpg)
+
+<use resultados/insere_doc_empregado.jpg>
+Package pdftex.def Info: resultados/insere_doc_empregado.jpg used on input line
+ 99.
+(pdftex.def)             Requested size: 364.19667pt x 243.3869pt.
+
+<resultados/insere_doc_dependentes.jpg, id=934, 476.53032pt x 318.43968pt>
+File: resultados/insere_doc_dependentes.jpg Graphic file (type jpg)
+
+<use resultados/insere_doc_dependentes.jpg>
+Package pdftex.def Info: resultados/insere_doc_dependentes.jpg used on input li
+ne 109.
+(pdftex.def)             Requested size: 364.19667pt x 243.3869pt.
+ [41 <C:/Users/Debora Natsue/Documents/investigaBDs/monografia/resultados/inser
+e_dependentes.jpg> <C:/Users/Debora Natsue/Documents/investigaBDs/monografia/re
+sultados/insere_doc_empregado.jpg>]
+<resultados/consulta_orgaos.jpg, id=939, 612.03656pt x 390.70969pt>
+File: resultados/consulta_orgaos.jpg Graphic file (type jpg)
+
+<use resultados/consulta_orgaos.jpg>
+Package pdftex.def Info: resultados/consulta_orgaos.jpg used on input line 119.
+
+(pdftex.def)             Requested size: 364.19667pt x 232.49005pt.
+
+<resultados/consulta_empregados.jpg, id=940, 612.03656pt x 390.70969pt>
+File: resultados/consulta_empregados.jpg Graphic file (type jpg)
+
+<use resultados/consulta_empregados.jpg>
+Package pdftex.def Info: resultados/consulta_empregados.jpg used on input line 
+129.
+(pdftex.def)             Requested size: 364.19667pt x 232.49005pt.
+ [42 <C:/Users/Debora Natsue/Documents/investigaBDs/monografia/resultados/inser
+e_doc_dependentes.jpg> <C:/Users/Debora Natsue/Documents/investigaBDs/monografi
+a/resultados/consulta_orgaos.jpg>]
+<resultados/consulta_doc_empregado.jpg, id=945, 481.04718pt x 304.13625pt>
+File: resultados/consulta_doc_empregado.jpg Graphic file (type jpg)
+
+<use resultados/consulta_doc_empregado.jpg>
+Package pdftex.def Info: resultados/consulta_doc_empregado.jpg used on input li
+ne 139.
+(pdftex.def)             Requested size: 364.19667pt x 230.2642pt.
+
+<resultados/consulta_doc_dependente.jpg, id=946, 481.04718pt x 304.13625pt>
+File: resultados/consulta_doc_dependente.jpg Graphic file (type jpg)
+
+<use resultados/consulta_doc_dependente.jpg>
+Package pdftex.def Info: resultados/consulta_doc_dependente.jpg used on input l
+ine 149.
+(pdftex.def)             Requested size: 364.19667pt x 230.2642pt.
+ [43 <C:/Users/Debora Natsue/Documents/investigaBDs/monografia/resultados/consu
+lta_empregados.jpg> <C:/Users/Debora Natsue/Documents/investigaBDs/monografia/r
+esultados/consulta_doc_empregado.jpg>] <resultados/consulta_estatistica.jpg, id
+=951, 591.71063pt x 323.70938pt>
+File: resultados/consulta_estatistica.jpg Graphic file (type jpg)
+
+<use resultados/consulta_estatistica.jpg>
+Package pdftex.def Info: resultados/consulta_estatistica.jpg used on input line
+ 159.
+(pdftex.def)             Requested size: 364.19667pt x 199.24556pt.
+)
 ("C:\Users\Debora Natsue\Documents\investigaBDs\monografia\capitulos/considerac
-oesProjFuturos.tex" [39]
+oesProjFuturos.tex" [44 <C:/Users/Debora Natsue/Documents/investigaBDs/monograf
+ia/resultados/consulta_doc_dependente.jpg> <C:/Users/Debora Natsue/Documents/in
+vestigaBDs/monografia/resultados/consulta_estatistica.jpg>] [45]
 Cap\'{\i }tulo 5.
-) [40
+) [46
 
 ] ("C:\Users\Debora Natsue\Documents\investigaBDs\monografia\monografia.bbl" ("
 C:\Users\Debora Natsue\Documents\investigaBDs\monografia\monografia.brf")
@@ -1057,7 +1148,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--35
 -universe-
  []
 
-[41
+[47
 
 
 ]
@@ -1083,26 +1174,26 @@ Underfull \hbox (badness 1817) in paragraph at lines 168--168
 -zem-bro
  []
 
-[42])
+[48])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 114.
- [43]
+ [49]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 114.
 
 ("C:\Users\Debora Natsue\Documents\investigaBDs\monografia\monografia.aux")
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 114.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 114.
 Package rerunfilecheck Info: File `monografia.out' has not changed.
-(rerunfilecheck)             Checksum: 9064C1AAC4D5EA7F0D96CBBC9A7BFEA5;2933.
+(rerunfilecheck)             Checksum: 84194A5918C7E3D82CC4B035BDC4659F;3890.
 Package rerunfilecheck Info: File `monografia.brf' has not changed.
 (rerunfilecheck)             Checksum: 64E832F0E4B4ED7E943DB310819AE4BF;4831.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 114.
  )
 (\end occurred when \iffalse on line 462 was incomplete) 
 Here is how much of TeX's memory you used:
- 10554 strings out of 494045
- 149643 string characters out of 3145945
- 411677 words of memory out of 3000000
- 13315 multiletter control sequences out of 15000+200000
+ 10657 strings out of 494045
+ 152299 string characters out of 3145945
+ 412368 words of memory out of 3000000
+ 13378 multiletter control sequences out of 15000+200000
  28026 words of font info for 40 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  43i,16n,72p,2011b,1903s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1129,9 +1220,9 @@ ic/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/
 amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsf
 onts/cm/cmsy10.pfb><C:/Users/Debora Natsue/AppData/Roaming/MiKTeX/2.9/fonts/typ
 e1/urw/arial/ua1b8a.pfb>
-Output written on monografia.pdf (54 pages, 1280925 bytes).
+Output written on monografia.pdf (60 pages, 1741184 bytes).
 PDF statistics:
- 1541 PDF objects out of 1728 (max. 8388607)
- 329 named destinations out of 1000 (max. 500000)
- 435 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1676 PDF objects out of 1728 (max. 8388607)
+ 358 named destinations out of 1000 (max. 500000)
+ 581 words of extra memory for PDF output out of 10000 (max. 10000000)
 

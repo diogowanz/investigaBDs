@@ -4,7 +4,7 @@ Esse capítulo apresenta a arquitetura e a implementação de um protótipo para
 
 \input{./capitulos/webservice}
 
-\section{A Aplicação}
+\section{O Protótipo}
 
 Para a execução dos testes de performance foi desenvolvido um Web service com as principais operações necessárias para manter os dados do AFD. O objetivo central da aplicação é manter os documentos da pasta funcional dos servidores. Como a aplicação deve armazenar aquivos, escolhemos gravar o arquivo no sistema operacional e armazenar o caminho para ele na base de dados. Na Figura \ref{fig:ucmodel} temos o modelo de casos de uso e na figura \ref{fig:classmodel} temos uma breve descrição dos métodos do Web service. O objetivo ao se escolher realizar os testes de performance via \textit{web service} foi o de flexibilizar ao máximo as implementações em diversos bancos de dados. Na tabela \ref{tab:funcionalidades} a descrição das funcionalidades implementadas.
 
@@ -53,11 +53,15 @@ Para a execução dos testes de performance foi desenvolvido um Web service com 
 		\hline
 			Lista Documentos Dependentes & \noindent\parbox[c]{\hsize}{Retorna os documentos dos dependentes dos empregados.} \\
 		\hline
-			Relatório Sintético de Empregados Ativos & \noindent\parbox[c]{\hsize}{Calcula e exibe a quantidade de empregados ativos por orgão.} \\
+			Relatório de Empregados Ativos & \noindent\parbox[c]{\hsize}{Calcula e exibe a quantidade de empregados ativos por orgão.} \\
 		\hline
 			Lista Vínculos & \noindent\parbox[c]{\hsize}{Lista os valores possíveis para os tipos de vínculos entre empregados e dependentes.} \\
 		\hline
 			Lista Tipo Documentos & \noindent\parbox[c]{\hsize}{Lista os valores possíveis para os tipos de documentos.} \\
+		\hline
+			Remove Dependente & \noindent\parbox[c]{\hsize}{Exclui o depente e seus arquivos.} \\
+		\hline
+			Desliga Empregado & \noindent\parbox[c]{\hsize}{Atualiza o status do empregado incluindo a data de desligamento.} \\
 		\hline
 	\end {tabularx}
 	\end{center}
@@ -85,7 +89,7 @@ Quando se trata de Web services, web2py oferece suporte para diversos protocolos
 
 \section{Os Planos de Teste}
 
-Foi desenvolvido um plano de testes no JMeter para cada funcionalidade da nossa aplicação. O testador utilizado no nosso projeto foi o de Requisição SOAP/XML - RPC. É nele que configuramos as requisições que serão feitas ao Web service da aplicação. Além de configurar uma requisição para cada plano de teste, temos como parametrizar outras configurações como a quantidade de usuários virtuais e o intervalo entre a inicialização de cada usuário. Na tabela \ref{tab:configplanoteste} temos as principais configurações dos nossos planos de teste. Os planos de testes desenvolvidos são basicamente de dois tipos: inserção e consulta. Sendo assim, os passos que eles executam são os mesmos.
+Foi desenvolvido um plano de testes no JMeter a maioria das funcionalidade da nossa aplicação. Os testes serão individualmente discutidos na seção de resultados do próximo capítulo. O testador utilizado no nosso projeto foi o de Requisição SOAP/XML - RPC. É nele que configuramos as requisições que serão feitas ao Web service da aplicação. Além de configurar uma requisição para cada plano de teste, temos como parametrizar outras configurações como a quantidade de usuários virtuais e o intervalo entre a inicialização de cada usuário. Na tabela \ref{tab:configplanoteste} temos as principais configurações dos nossos planos de teste. O passo a passo da execução dos planos de testes se dividem em dois tipos: Inserção/Exclusão/Atualização e Consulta.
 
 \begin{table}
 	\caption{Principais configurações dos Planos de Teste}
@@ -107,7 +111,7 @@ Foi desenvolvido um plano de testes no JMeter para cada funcionalidade da nossa 
 	\label{tab:configplanoteste}
 \end{table}
 
-\subsection{Planos de Teste de Inserção}
+\subsection{Planos de Teste de Inserção/Exclusão/Atualização}
 
 Os planos de Testes de Inserção executam os seguintes passos:
 
@@ -118,6 +122,10 @@ Os planos de Testes de Inserção executam os seguintes passos:
 \item Gráfico de Resultados - Elemento responsável por exibir a evolução dos tempos das requisições, a média dos tempos das requisições, a derivação do tempo das requisições e a vazão.
 \end{enumerate}
 
+As funcionalidades que seguem esses passos são: insere órgão, insere empregado, insere dependente, insere documento dependente, insere documento empregado, desliga empregado e remove dependente.
+
+Os testes que manipulam os arquivos da pasta funcional, devido à limitação da arquitetura disponível, e o teste de inserção de órgãos, devido a baixa massa de dados, só foram realizados para 10 e 100 usuários simultâneos. O restante foi executado para 10, 100 e 500 usuários simultâneos
+
 \subsection{Planos de Teste de Consulta}
 
 Os planos de Testes de Consulta executam os seguintes passos:
@@ -127,3 +135,7 @@ Os planos de Testes de Consulta executam os seguintes passos:
 \item Gráfico de Tempo de Resposta -  Elemento responsável por gerar um gráfico a partir dos dados da requisição feita. O gráfico exibe a  evolução do tempo de resposta das requisições feitas.
 \item Gráfico de Resultados - Elemento responsável por exibir a evolução dos tempos das requisições, a média dos tempos das requisições, a derivação do tempo das requisições e a vazão.
 \end{enumerate}
+
+As funcionalidades que seguem esses passos são: lista órgãos, lista empregados, lista dependentes, lista documentos dos empregados, lista documentos dos dependentes e relatório de empregados ativos.
+
+Cada plano de teste de consulta foi executado durante um minuto. Os testes que manipulam os arquivos da pasta funcional, devido à limitação da arquitetura disponível, só foram realizados para 10 e 100 usuários simultâneos. O restante foi executado para 10,100 e 500 usuários simultâneos.
