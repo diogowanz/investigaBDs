@@ -4,11 +4,11 @@ Nesse capítulo vamos descrever o ambiente onde os testes foram realizados, as m
 
 \section{Ambiente de testes}
 
-Os testes foram realizados em uma máquina virtualizada, via VirtualBox, com as seguintes configurações:
+Os testes foram realizados em uma máquina física com as seguintes configurações:
 
 \begin{itemize}
 \item Sistema Operacional: Debian GNU/Linux 6.0
-\item Processador: 1 
+\item Processador: Intel Pentium Quad Core
 \item Quantidade de Memória RAM: 4 GB
 \item MongoDB: Versão 2.4.0 padrão
 \item PostgreSQL: Versão 8.4.16 padrão
@@ -45,9 +45,7 @@ A quantidade de dados utilizados pode ser vista na tabela \ref{tab:massadadosuti
 	\hline
 		Quantidade de documentos por dependente & 2\\
 	\hline
-	\hline
-		Quantidade de dependentes excluídos & 500\\
-	\hline
+		Quantidade de dependentes excluídos & 250\\
 	\hline
 		Quantidade de empregados desligados & 250\\
 	\hline
@@ -58,19 +56,26 @@ A quantidade de dados utilizados pode ser vista na tabela \ref{tab:massadadosuti
 
 \section{Métricas}
 
-Quando se quer balancear o custo e a performance, todos os envolvidos na produção do software se preocupam com a execução de testes de performance. A avaliação de performance é necessária em todas as etapas do ciclo de vida de software e é requerida sempre que o arquiteto precisa comparar alternativasv~\cite{rajjain}. Em um teste de performance a escolha das métricas é de grande importância. Segundo Raj Jain ~\cite{rajjain}, escolher as métricas erradas é um dos erros mais comuns. Para o nosso trabalho as métricas escolhidas foram a vazão e o tempo de resposta.
+Quando se quer balancear o custo e a performance, todos os envolvidos na produção do software se preocupam com a execução de testes de performance. A avaliação de performance é necessária em todas as etapas do ciclo de vida de software e é requerida sempre que o arquiteto precisa comparar alternativasv~\cite{rajjain}. Em um teste de performance a escolha das métricas é de grande importância. Segundo Raj Jain ~\cite{rajjain}, escolher as métricas erradas é um dos erros mais comuns. Nesse trabalho a performance será avaliada pelo tempo médio de resposta.
 
 \section{Resultados}
 
 Como podemos ver nos gráficos apresentados a seguir, a performance dos dois bancos foram bastante próximas. Após executar os testes, foram salvos os tempos de todas as requisições feitas à aplicação e calculado o tempo médio de resposta, em milisecundos, para cada teste realizado.
 
-Para os testes de consulta, exceto no 'consulta documentos do dependente' o MongoDB sempre foi mais lento que o PostgreSQL.
+Para os testes de consulta, exceto no teste 'Consulta Documentos do Dependente' o MongoDB sempre foi mais lento em relação ao PostgreSQL.
 
-No teste 'Consulta Usuários Ativos' é feito um cálculo interno e também foi utilizado agrupador nos dois bancos. Mais uma vez o PostgreSQL foi mais rápido ao respondes as requisições.
+Na inserção de orgãos os tempos foram muito próximos e, como a quantidade de registros inseridos foram poucos, podemos dizer que a performance dos dois bancos foram iguais.
 
-\subsection{Insere Órgãos}
+Ao inserir os dados dos empregados e dos dependentes, trabalhamos com uma quantidade de registros maior e assim podemos ver que o MongoDB foi sempre mais lento em relação ao PostgreSQL. Essa diferença de performance foi aumentando a medida em que a quantidade de usuários simultâneos foi incrementada.
 
- Na inserção de orgãos os tempos foram muito próximos e como a quantidade de registros inseridos foram poucos, podemos dizer que a performance dos dois bancos foram iguais.
+No teste 'Consulta Usuários Ativos' é feito um cálculo interno e também foi utilizado agrupador nas consultas realizadas nos dois bancos. Mais uma vez o PostgreSQL foi mais rápido ao responder as requisições.
+
+Ao testarmos a inserção de documentos, tanto de empregados quanto dos seus dependentes,percebemos que o tempo de resposta aumentou muito em relação aos outros teste. Isso se deve ao fato de que foram adicionalmente necessárias operações de criação e leitura de arquivos e diretórios. Esses testes foram realizados apenas para 10 e 100 usuários simultâneos, pois a arquitetura não nos permitiu mais. Ao inserir os documentos dos empregados podemos ver que a diferença se mostra maior ao testarmos com 100 usuários simultâneos, quando o PostgreSQL é aproximadamente um segundo mais rápido que o MongoDB. Já na inserção dos documentos dos dependentes, a performance dos dois bancos são bem parecidadas, com uma pequena vantagem para o MongoDB.
+
+Ao testarmos a atualização de registros no teste 'Desliga Empregado' e a exclusão de registros no teste 'Remove Dependente', mesmo com operação de \textit{join} nesse, também foi verificado que o PostgreSQL é mais rápido ao responder às requisições. É importante realçar que no teste 'Remove Depen'
+
+Ao final dos testes pode-se verificar que nenhum bando de dados foi consideravelmente mais veloz que o outro e que, para praticamente todos os testes realizados, o PostgreSQL se mostrou mais rápido. Dessa maneira, para o cenário de manutenção dos dados do AFD, com a arquitetura, massa de dados e modelagem utilizadas, não é vantajoso utilizar o MongoDB para a persistência dos dados, visto que, mesmo com todos os recursos de segurança e controle de transações oferecidos pelo PostgreSQL, ele ainda continua sendo mais performático.
+
 
 \begin{figure}[!htbp]
 	\begin{center}
@@ -80,10 +85,6 @@ No teste 'Consulta Usuários Ativos' é feito um cálculo interno e também foi 
 	\label{fig:resultinsereorgaos}
 \end{figure}
 
-\subsection{Insere Empregados}
-
-Ao inserir os dados dos empregados, trabalhamos com uma quantidade de registros maior e podemos ver que o MongoDB foi sempre mais lento que o PostgreSQL. Essa diferença de performance foi aumentando a medida em que a quantidade de usuários simultâneos foi incrementada. Esse teste não requeriu operações de \textit{join} ao PostgreSQL.
-
 \begin{figure}[!htbp]
 	\begin{center}
 		\includegraphics[width=0.8\textwidth]{resultados/insere_empregados}
@@ -91,10 +92,6 @@ Ao inserir os dados dos empregados, trabalhamos com uma quantidade de registros 
 	\caption{Resultados - Insere Empregados}
 	\label{fig:resultinsereempregados}
 \end{figure}
-
-\subsection{Insere Dependentes}
-
-Os dados usados para manter os cadastros de dependentes são muito próximos dos dados dos empregados, e nos testes podemos perceber resultados muito parecidos. O MongoDB foi sempre mais lento, aumentando a diferença de performance a medida em que a quantidade de usuários simultâneos foi incrementada.
 
 \begin{figure}[!htbp]
 	\begin{center}
@@ -104,10 +101,6 @@ Os dados usados para manter os cadastros de dependentes são muito próximos dos
 	\label{fig:resultinseredependentes}
 \end{figure}
 
-\subsection{Insere Documento do Empregado}
-
-A grande diferença de performance desse teste em relação aos outros se deve ao fato de que foram adicionalmente necessárias operações de criação e leitura de arquivos e diretórios. Esse teste foi realizado apenas para 10 e 100 usuários simultâneos pois a arquitetura não nos permitiu mais. Podemos ver que a diferença se mostra para 100 usuários simultâneos, quando o PostgreSQL é aproximadamente um segundo mais rápido que o MongoDB.
-
 \begin{figure}[!htbp]
 	\begin{center}
 		\includegraphics[width=0.8\textwidth]{resultados/insere_doc_empregado}
@@ -116,9 +109,6 @@ A grande diferença de performance desse teste em relação aos outros se deve a
 	\label{fig:resultinseredocempregado}
 \end{figure}
 
-\subsection{Insere Documento do Dependente}
-
-Nesse teste podemos ver que o tempo de resposta médios dos dois bancos foram bem próximos, porém, ao contrario da inserção anterior, o PostgreSQL foi mais veloz.
 
 \begin{figure}[!htbp]
 	\begin{center}
@@ -128,8 +118,6 @@ Nesse teste podemos ver que o tempo de resposta médios dos dois bancos foram be
 	\label{fig:resultinseredocdependente}
 \end{figure}
 
-\subsection{Lista Órgãos}
-
 \begin{figure}[!htbp]
 	\begin{center}
 		\includegraphics[width=0.8\textwidth]{resultados/consulta_orgaos}
@@ -137,8 +125,6 @@ Nesse teste podemos ver que o tempo de resposta médios dos dois bancos foram be
 	\caption{Resultados - Lista Órgãos}
 	\label{fig:resultlistaorgaos}
 \end{figure}
-
-\subsection{Lista Empregados}
 
 \begin{figure}[!htbp]
 	\begin{center}
@@ -148,8 +134,6 @@ Nesse teste podemos ver que o tempo de resposta médios dos dois bancos foram be
 	\label{fig:resultlistaempregados}
 \end{figure}
 
-\subsection{Lista Documentos do Empregado}
-
 \begin{figure}[!htbp]
 	\begin{center}
 		\includegraphics[width=0.8\textwidth]{resultados/consulta_doc_empregado}
@@ -157,8 +141,6 @@ Nesse teste podemos ver que o tempo de resposta médios dos dois bancos foram be
 	\caption{Resultados - Lista Documentos do Empregado}
 	\label{fig:resultlistadocempregado}
 \end{figure}
-
-\subsection{Lista Documentos do Dependente}
 
 \begin{figure}[!htbp]
 	\begin{center}
@@ -168,8 +150,6 @@ Nesse teste podemos ver que o tempo de resposta médios dos dois bancos foram be
 	\label{fig:resultlistadocdependente}
 \end{figure}
 
-\subsection{Consulta Empregados Ativos}
-
 \begin{figure}[!htbp]
 	\begin{center}
 		\includegraphics[width=0.8\textwidth]{resultados/consulta_estatistica}
@@ -178,9 +158,20 @@ Nesse teste podemos ver que o tempo de resposta médios dos dois bancos foram be
 	\label{fig:resultlistaempregadosativos}
 \end{figure}
 
-\subsection{Remove Dependentes}
+\begin{figure}[!htbp]
+	\begin{center}
+		\includegraphics[width=0.8\textwidth]{resultados/remove_dependentes}
+	\end{center}
+	\caption{Resultados - Remove Dependentes}
+	\label{fig:resultremovedependentes}
+\end{figure}
 
-
-\subsection{Desliga Empregado}
+\begin{figure}[!htbp]
+	\begin{center}
+		\includegraphics[width=0.8\textwidth]{resultados/desliga_empregado}
+	\end{center}
+	\caption{Resultados - Desliga Empregado}
+	\label{fig:resultdesliga_empregado}
+\end{figure}
 
 

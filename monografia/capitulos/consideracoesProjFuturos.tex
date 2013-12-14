@@ -1,5 +1,104 @@
 \chapter{Considerações Finais e Projeto Futuros}
 
+Nesse capítulo temos algumas considerações finais sobre o projeto e também a enumeração de alguns possíveis trabalhos futuros.
+
 \section{Considerações Finais}
 
+É claro que o MongoDB já se figura entre os mais populares bancos de dados NoSQL e que o PostgreSQL já é uma solução consolidada. O nosso trabalho visou testar a performance dessas duas soluções em um cenário definido, mas ambos possuem aplicação nas mais diversas soluções feitas no mundo. Como exemplo temos a implantação do MongoDB no CartolaFC ~\cite{mongocartola} da Globo.com e, em relação ao PostgreSQL, no site oficial ~\cite{usecasepostgresql}  temos diversos casos de sucesso.
+
+\begin{itemize}
+	\item O código fonte da aplicação, \textit{scripts} utilizados e todos os planos de teste podem ser encontrados no repositório do projeto ~\cite{github}.
+\end{itemize}
+
 \section{Projetos Futuros}
+
+Ao concluir esse trabalho é possível ver diversos outros testes para enriquecer os estudos sobres as tecnologias apresentadas nesse trabalho. A seguir vou enumerar três possíveis trabalhos:
+
+\begin{enumerate}
+\item Modelar a estrutura do MongoDB usando somente sub-documentos e verificar qual o impacto na performance;
+\item Implementar a arquitetura em uma infraestrutura mais robusta, com mais de uma máquina executando o JMeter e realizando requisições distribuidas, além de realizar os testes com uma massa de dados maior. Na tabela \ref{tab:infra1}, \ref{tab:infra2} e \ref{tab:infra3} temos uma sugestão de infra-estrutura para a realização de testes;
+\item Expandir esses testes para outros bancos de dados como o MySQL e Cassandra.
+\end{enumerate}
+
+\begin{table}[h]
+	\caption{Infra-Estrutura para Trabalhos Futuros}
+	\begin{center}
+	\begin{tabular} {|l|l|}
+		\hline
+			\multicolumn{2}{|c|}{SERVIDOR 1 - APLICAÇÃO - QTD: 1} \\
+		\hline
+			Sistema Operacional & Debian 6.0 - Squeeze com interface gráfica \\
+		\hline
+			\multicolumn{2}{|c|}{SOFTWARES}\\
+		\hline
+			Python & Versão 2.6.6 com pymongo e psycopg2\\
+		\hline
+			PostgreSQL & 8.4.16\\
+		\hline
+			MongoDB & 2.4\\
+		\hline
+			web2py & 2.5.1\\
+		\hline
+			Servidor Web Apache & 2.2\\
+		\hline
+			\multicolumn{2}{|c|}{HARDWARE}\\
+		\hline
+			Disco & 30 TB\\
+		\hline
+			Memória & 8 GB\\
+		\hline
+	\end {tabular}
+	\end{center}
+	\label{tab:infra1}
+\end{table}
+
+\begin{table}[h]
+	\caption{Infra-Estrutura para Trabalhos Futuros}
+	\begin{center}
+	\begin{tabular} {|l|l|}
+		\hline
+			\multicolumn{2}{|c|}{JMETER MÁSTER - QTD: 1} \\
+		\hline
+			Sistema Operacional & Debian 6.0 - Squeeze com interface gráfica \\
+		\hline
+			\multicolumn{2}{|c|}{SOFTWARES}\\
+		\hline
+			JMeter & 2.9\\
+		\hline
+			\multicolumn{2}{|c|}{HARDWARE}\\
+		\hline
+			Disco & 200 GB\\
+		\hline
+			Memória & 6 GB\\
+		\hline
+	\end {tabular}
+	\end{center}
+	\label{tab:infra2}
+\end{table}
+
+
+\begin{table}[h]
+	\caption{Infra-Estrutura para Trabalhos Futuros}
+	\begin{center}
+	\begin{tabular} {|l|l|}
+		\hline
+			\multicolumn{2}{|c|}{JMETER - CLIENTES - QTD: 5} \\
+		\hline
+			Sistema Operacional & Debian 6.0 - Squeeze com interface gráfica \\
+		\hline
+			\multicolumn{2}{|c|}{SOFTWARES}\\
+		\hline
+			JMeter & 2.9\\
+		\hline
+			\multicolumn{2}{|c|}{HARDWARE}\\
+		\hline
+			Disco & 200 GB\\
+		\hline
+			Memória & 4 GB\\
+		\hline
+	\end {tabular}
+	\end{center}
+	\label{tab:infra3}
+\end{table}
+
+

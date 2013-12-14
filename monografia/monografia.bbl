@@ -1,5 +1,8 @@
 \begin{thebibliography}{10}
 
+\bibitem{github}
+
+
 \bibitem{siteJmeter}
 Apache jmeter.
 \newblock http://jmeter.apache.org.
@@ -11,11 +14,22 @@ Apresentação - assentamento funcional digital.
   www.sigepe.gov.br/assentamento-funcional-digital/apresentacao-assentamento-funcional-digital.
 \newblock Acessado em 23 de Abril de 2013.
 
+\bibitem{usecasepostgresql}
+Casos de sucesso postgresql.
+\newblock http://www.postgresql.org/about/casestudies/.
+\newblock Acessado em 14 de novembro de 2013.
+
 \bibitem{emcuniversedigital}
 Emc digital universe.
 \newblock
   http://www.emc.com/collateral/demos/microsites/emc-digital-universe-2011/index.htm.
 \newblock Acessado em 26 de Janeiro de 2013.
+
+\bibitem{mongocartola}
+Implantação do mongodb no cartolafc.
+\newblock
+  http://www.gonow.com.br/blog/2011/07/29/o-mongodb-aplicado-ao-cartolafc-da-globo-com/.
+\newblock Acessado em 14 de dezembro de 2013.
 
 \bibitem{sitemongodb}
 Mongodb official site.
