@@ -15,19 +15,19 @@ a documentos MongoDB.
 O termo NoSql é a junção de duas palavras. \textit{No} e \textit{SQL}. Ao pé da letra significa que é uma tecnologia/produto que trabalha de forma contrária à tecnologia dos banco relacionais (adeptos do SQL). O termo é usado com o sentido de Não Relacional. Atualmente o termo NoSql é traduzido para \textit{"Not only Sql"}, ou seja "Não só Sql".
 Saindo da definição, NoSql é um termo genérico para uma classe definida de banco de dados não-relacionais que armazenam os dados  de forma diferente da conhecida modelagem relacional e que surgiram com o propósito de sanar algumas dificuldades encontradas com o modelo relacional. NoSql não é um produto, mas a uma classe de produtos e conceitos de armazenagem e manipulação de dados. 
 
-O que diferencia os bancos de dados NoSql dos relacionais são os seus modelos de dados sem um schema definido. Os bancos de dados NoSql podem ser classificados, segundo seu modelo de dados, em quatro grupos: chave-valor, orientados a documentos, orientados a colunas e baseados em grafos~\cite{nosqlxrelacional,nosqlevaluation}.
+O que diferencia os bancos de dados NoSql dos relacionais são os seus modelos de dados sem um \textit{schema} definido. Os bancos de dados NoSql podem ser classificados, segundo seu modelo de dados, em quatro grupos: chave-valor, orientados a documentos, orientados a colunas e baseados em grafos~\cite{nosqlxrelacional,nosqlevaluation}.
 
-Bancos de dados que usam a modelagem não relacionais não são novidades. Conforme discutido no livro \emph{NoSql Professional}~\cite{nosqlprofessional} eles surgiram junto com as primeiras máquinas de computar. Bases não relacionais ficaram conhecidas e cresceram por causa do uso de \textit{mainframes} e em dominios específicos como o armazenamento de credenciais para autenticação. Esse NoSql que conhecemos hoje é uma nova visão, ou como diz Tiwari em ~\cite{nosqlprofessional}, uma reencarnação que nasceu no mundo de aplicações web que necessitam de recursos escaláveis para tratar de sua enorme massa de dados. Apesar de o paradigma NoSql já ter sido criado há algum tempo nenhum ele só tomou as proporções atuais depois que grandes empresas como Google, Amazon e Facebook começam a usar em suas arquiteturas~\cite{nosqlevaluation}.
+Bancos de dados que usam a modelagem não relacionais não são novidades. Conforme discutido no livro \emph{NoSql Professional}~\cite{nosqlprofessional} eles surgiram junto com as primeiras máquinas de computar. Bases não relacionais ficaram conhecidas e cresceram por causa do uso de \textit{mainframes} e em domínios específicos como o armazenamento de credenciais para autenticação. Esse NoSql que conhecemos hoje é uma nova visão, ou como diz Tiwari em \emph{NoSql Professional} ~\cite{nosqlprofessional}, uma reencarnação que nasceu no mundo de aplicações web que necessitam de recursos escaláveis para tratar de sua enorme massa de dados. Apesar de o paradigma NoSql já ter sido criado há algum tempo ele só tomou as proporções atuais depois que grandes empresas como Google, Amazon e Facebook começaram a usá-los em suas arquiteturas~\cite{nosqlevaluation}.
 
-Ao utilizar SGBD's relacionais com grandes quantidade de dados surgem problemas como falta de eficiência no processamento, uma paralelização não efetiva, alto custo e scalabilidade limitada. Sendo um gigante da Internet, a Google,  se não for a empresa que manipula a maior quantidade de dados, é com certeza uma das maiores e ao se deparar com essa problemática  construiu a sua própria infraestrutura para que o seu mecanismo de busca e outras aplicações pudessem tratar a massa de dados de forma eficiente.
+Ao utilizar SGBD's relacionais com grandes quantidades de dados surgem problemas como falta de eficiência no processamento, uma paralelização não efetiva, alto custo e escalabilidade limitada. Sendo um gigante da Internet, a Google,  se não for a empresa que manipula a maior quantidade de dados, é com certeza uma das maiores e ao se deparar com essa problemática  construiu a sua própria infraestrutura para que o seu mecanismo de busca e outras aplicações pudessem tratar a massa de dados de forma eficiente.
 
-Com o lançamento de artigos pelo Google que explicavam em partes como o problema foi solucionado, desenvolvedores de \textit{software} livre criaram o primeiro motor de busca de código aberto que replicava algumas característica da infraestrutura do Google, o Lucene. Logo depois, os principais desenvolvedores do Lucene se juntaram ao Yahoo e com a ajuda de diversos outros desenvolvedores criaram uma estrutura que imitada todas as peças da infraestrutura de computação distribuida do 
-Google. Essa solução livre é o Hadoop. Nessa mesma época surgiu a idéia do NoSql. 
+Com o lançamento de artigos pelo Google que explicavam em partes como o problema foi solucionado, desenvolvedores de \textit{software} livre criaram o primeiro motor de busca de código aberto que replicava algumas características da infraestrutura do Google, o Lucene. Logo depois, os principais desenvolvedores do Lucene se juntaram ao Yahoo e com a ajuda de diversos outros desenvolvedores criaram uma estrutura que imitava todas as peças da infraestrutura de computação distribuída do 
+Google. Essa solução livre é o Hadoop. Nessa mesma época surgiu a ideia do NoSql. 
 
 O sucesso do Google e o Hadoop ajudaram a impulsionar novos conceitos de computação distribuída, NoSql e o próprio projeto Hadoop. Um ano após o lançamento dos artigos do Google outra gigante da internet resolveu compartilhar o seu caso de sucesso. Em 2007 a Amazon mostrou ao mundo sua solução de base de dados distribuída, disponível e consistente que se chama Dynamo.
 
 Após Google e Amazon mostrarem a aplicabilidade do NoSql, diversos
-outros produtos surgiram nessa linha. O NoSql e os conceitos de manipulação de \textit{big data} ganharam espaço e forma surgindo diversos casos de uso de sucesso de grandes companias como o Facebook, Netflix, Yahoo, EBay, Hulu, IBM e diversas outras.
+outros produtos surgiram nessa linha. O NoSql e os conceitos de manipulação de \textit{big data} ganharam espaço e foram surgindo diversos casos de uso de sucesso de grandes companhias como o Facebook, Netflix, Yahoo, EBay, Hulu, IBM e diversas outras.
 
 
 \subsection{Modelos de Banco de Dados NoSql}
@@ -35,13 +35,13 @@ outros produtos surgiram nessa linha. O NoSql e os conceitos de manipulação de
 
 \subsubsection{Chave-Valor}
 
-Bancos de dados NoSql que usam a modelagem Chave-Valor armazenam os dados indexados por um valor chave. A base é similar a um dicionário, onde os dados são endereçados por uma única chave. Uma vez que os dados são armazenados, é através das suas chaves a única forma de recuperá-los. Os valores sao isolados e independentes um dos outros, sendo necessário tratar isso na aplicação. Por isso banco chave-valor são livres de schema. Isso permite que novos tipos de dados sejam inseridos em tempo de execução sem que o banco entre em conflito e sem influenciar na disponibilidade do sistema~\cite{nosqlevaluation,nosqlliveup}.
+Bancos de dados NoSql que usam a modelagem Chave-Valor armazenam os dados indexados por um valor chave. A base é similar a um dicionário, onde os dados são endereçados por uma única chave. Uma vez que os dados são armazenados, é através das suas chaves a única forma de recuperá-los. Os valores são isolados e independentes um dos outros, sendo necessário tratar isso na aplicação. Por isso os bancos chave-valor são livres de \textit{schema}. Isso permite que novos tipos de dados sejam inseridos em tempo de execução sem que o banco entre em conflito e sem influenciar na disponibilidade do sistema~\cite{nosqlevaluation,nosqlliveup}.
 
 Alguns exemplos de banco de dados que usam esse tipo de modelagem são: RIAK, LevelDB, Voldemort, redis~\cite{nosqldatabaseorg}.
 
 \subsubsection{Orientados a Documentos}
 
-A modelagem orientada a documentos armazena os dados encapsulados em pares de chave-valor em JSON ou em outro padão semelhante. Dentro dos documentos as chaves devem ser únicas. Cada documento recebe um identificador que também é único dentro de uma coleção de documentos. Os documentos são as unidades básicas e não têm uma estrutuda definida como nas tabelas do modelo relacional, ou seja, não tem um schema de dados definido. Ao armazenar os dados em JSON há uma vantagem adicional que é o suporte a tipos de dados, o que torna a forma de armazenamento mais amigável para os desenvolvedores~\cite{nosqlevaluation,nosqlxrelacional}. O exemplo de codificação \ref{listing:excouchdb} nos mostra como é a estrutura desse tipo de banco de dados.
+A modelagem orientada a documentos armazena os dados encapsulados em pares de chave-valor em JSON ou em outro padrão semelhante. Dentro dos documentos as chaves devem ser únicas. Cada documento recebe um identificador que também é único dentro de uma coleção de documentos. Os documentos são as unidades básicas e não têm uma estrutura definida como nas tabelas do modelo relacional, ou seja, não tem um \textit{schema} de dados definido. Ao armazenar os dados em JSON há uma vantagem adicional que é o suporte a tipos de dados, o que torna a forma de armazenamento mais amigável para os desenvolvedores~\cite{nosqlevaluation,nosqlxrelacional}. O exemplo de codificação \ref{listing:excouchdb} nos mostra como é a estrutura desse tipo de banco de dados.
 
 Os exemplos mais significativos são: CouchDB, MongoDB e Riak~\cite{nosqlevaluation}.
 
@@ -58,7 +58,7 @@ Os exemplos mais significativos são: CouchDB, MongoDB e Riak~\cite{nosqlevaluat
 
 \subsubsection{Orientados a Colunas}
 
-Nesse tipo de modelagem o paradigma passa a ser de orientação a atributos(colunas). Ao contrário da modelagem chave-valor, agora os dados são armazenados usando tabelas sem um schema definido, mas sem suporte a associação entre elas . Figura ~\ref{fig:mdcolumns} Segundo Jing Han et all, um banco orientado a colunas tem as seguintes caracteristicas ~\cite{surveynosql}:
+Nesse tipo de modelagem o paradigma passa a ser de orientação a atributos(colunas). Ao contrário da modelagem chave-valor, agora os dados são armazenados usando tabelas sem um \textit{schema} definido, mas sem suporte a associação entre elas . Figura ~\ref{fig:mdcolumns} Segundo Jing Han et all, um banco orientado a colunas tem as seguintes características ~\cite{surveynosql}:
 
 
 \begin{enumerate}
@@ -123,9 +123,9 @@ MongoDB é um banco de dados NoSQL,  de código aberto,  orientado a documentos,
 	\label{tab:bsontypes}
 \end{table}
 
-Como não usa o mesmo formato de armazenamento dos SGBDS relacionais, o MongoDB armazena os seus dados em coleções, que são equivalentes às tabelas.  Uma Coleção pode ter um ou mais documentos; são equivalentes as linhas em uma tabela de um banco de dados relacional. Cada documento tem um ou mais campos, o que corresponde a uma coluna.
+Como não usa o mesmo formato de armazenamento dos SGBDs relacionais, o MongoDB armazena os seus dados em coleções, que são equivalentes às tabelas.  Uma Coleção pode ter um ou mais documentos; são equivalentes as linhas em uma tabela de um banco de dados relacional. Cada documento tem um ou mais campos, o que corresponde a uma coluna.
 
-Diferente do que a maioria das pessoas estão acostumadas, o MongoDB não trabalha com uma estrutura de dados bem definida (schema), ou melhor dizendo, ele usa schemas dinâmicos. Com ele é possível criar coleções sem que a estrutura, campos ou tipos de valores dos documentos estejam definidos. Essa forma flexível de armazenar os dados nos permite trabalhar com estruturas e dados bastante heterogêneos.
+Diferente do que a maioria das pessoas estão acostumadas, o MongoDB não trabalha com uma estrutura de dados bem definida (\textit{schema}), ou melhor dizendo, ele usa \textit{schemas} dinâmicos. Com ele é possível criar coleções sem que a estrutura, campos ou tipos de valores dos documentos estejam definidos. Essa forma flexível de armazenar os dados nos permite trabalhar com estruturas e dados bastante heterogêneos.
 
 	\begin{figure}[!htbp]
 		\begin{center}
@@ -135,7 +135,7 @@ Diferente do que a maioria das pessoas estão acostumadas, o MongoDB não trabal
 		\label{fig:exbson}
 	\end{figure}
 
-Quanto mais controle, mais custosa é uma operação para o sistema gerenciador de banco de dados.  Os banco de dados NoSQL, como dito anteriormente, foram criados para suprir algumas características que os banco de dados relacionais não atendiam. Uma dessas características é a velocidade com que operações de consulta, escrita, atualização e exclusão são executadas.  Para que a velocidade dessas transações fosse aumentada, foi preciso retirar alguns controles e, com isso, os banco de dados NoSQL não se comprometem com todas as características ACID.
+Quanto mais controle, mais custosa é uma operação para o sistema gerenciador de banco de dados.  Os bancos de dados NoSQL, como dito anteriormente, foram criados para suprir algumas características que os bancos de dados relacionais não atendiam. Uma dessas características é a velocidade com que operações de consulta, escrita, atualização e exclusão são executadas.  Para que a velocidade dessas transações fosse aumentada foi preciso retirar alguns controles e, com isso, os bancos de dados NoSQL não se comprometem com todas as características ACID.
 
 O MongoDB não provê transações ACID, mas possui alguns recursos transacionais básicos. Operações atômicas são possíveis no escopo de um único documento. Na tabela abaixo temos alguns exemplos de operações em SQL e suas correspondentes no MongoDB.
 
@@ -143,7 +143,7 @@ O MongoDB não provê transações ACID, mas possui alguns recursos transacionai
 
 Cada documento tem um campo chamado ID que é utilizado como chave primária. Para aumentar a velocidade das \textit{queries} é possível habilitar índices para os campos que são utilizados nas consultas. O MongoDB também suporta índices em sub-documentos e em arrays.
 
-Ao contrário dos bancos de dados convencionais o MongoDB possui um schema flexível e não nos força a determinar uma estrutura antes de inserir os dados. As coleções no MongoDB não nos impedem de evoluir a estrutura dos documentos ~\cite{Orendanalysisand}.
+Ao contrário dos bancos de dados convencionais o MongoDB possui um \textit{schema} flexível e não nos força a determinar uma estrutura antes de inserir os dados. As coleções no MongoDB não nos impedem de evoluir a estrutura dos documentos ~\cite{Orendanalysisand}.
 
 Para representar as relações entre os objetos temos duas estratégias: referências e sub-documentos ~\cite{Orendanalysisand}.
 
@@ -385,7 +385,7 @@ Replicação é o processo de sincronizar dados através de diferentes servidore
 
 Um conjunto de réplicas é um grupo de instâncias do MongoDB com os mesmos dados. Na arquitetura de um conjunto de replicação somente um servidor, o primário, recebe todas as requisições de escrita. Os outros servidores somente replicam as operações em suas instâncias. A Figura \ref{fig:replication} representa a arquitetura para replicação.
 
-Como somente um nó recebe todas as operações de escrita, para suportar a replicação, o nó primário armazena em log todas as operações. Os nós secundarios replicam os logs do nó primário e, em seguida, realizam as operações em suas instâncias. Caso o nó primário fique indisponível, o conjunto de replicação eleje um novo nó para ser o primário. Por padrão, as requisições de leitura são feitas ao nó primário, porém isso pode ser alterado. Como a replicação é assíncrona, se as preferências de leitura forem alteradas os dados retornados podem não ser os mais atuais.
+Como somente um nó recebe todas as operações de escrita, para suportar a replicação, o nó primário armazena em \textit{log} todas as operações. Os nós secundários replicam os \textit{logs} do nó primário e, em seguida, realizam as operações em suas instâncias. Caso o nó primário fique indisponível, o conjunto de replicação eleje um novo nó para ser o primário. Por padrão, as requisições de leitura são feitas ao nó primário, porém isso pode ser alterado. Como a replicação é assíncrona, se as preferências de leitura forem alteradas os dados retornados podem não ser os mais atuais.
 
 	\begin{figure}[!htbp]
 		\begin{center}
@@ -398,7 +398,7 @@ Como somente um nó recebe todas as operações de escrita, para suportar a repl
 
 \subsubsection{Decomposição (Sharding)}
 
-\textit{Sharding}, ou decomposição, é quando separamos a localização fisica dos dados, despedaçando cada informação e colocando-as em nós diferentes. Essa técnica é utilizada para trabalhar com dados de grande volume e com alta vazão de operações. A decomposição é a alternativa à scalabilidade vertical. No MongoDB a decomposição é implementada com o uso de um cluster de decomposição. Os componentes desse cluster são: \textit{Shards}, rotiadores de consulta e servidores de configuração (Figura \ref{fig:sharding}).
+\textit{Sharding}, ou decomposição, é quando separamos a localização física dos dados, despedaçando cada informação e colocando-as em nós diferentes. Essa técnica é utilizada para trabalhar com dados de grande volume e com alta vazão de operações. A decomposição é a alternativa à escalabilidade vertical. No MongoDB a decomposição é implementada com o uso de um cluster de decomposição. Os componentes desse cluster são: \textit{Shards}, rotiadores de consulta e servidores de configuração (Figura \ref{fig:sharding}).
 
 Os \textit{shards} armazenam os dados.
 
@@ -416,4 +416,4 @@ Os servidores de conifguração armazenam os metadados do cluster. Ele contém o
 
 \subsubsection{Tratamento de Falhas}
 
-O MongoDB não utiliza log de transações para garantir a durabilidade dos dados. E por utilizar arquivos mapeados em memória, implementa escrita preguiçosa (\textit{lazy write}). Sendo asssim, se um nó MongoDB falhar, provavelmente algum dado será perdido ~\cite{Orendanalysisand}.
+O MongoDB não utiliza \textit{log}  de transações para garantir a durabilidade dos dados. E por utilizar arquivos mapeados em memória, implementa escrita preguiçosa (\textit{lazy write}). Sendo asssim, se um nó MongoDB falhar, provavelmente algum dado será perdido ~\cite{Orendanalysisand}.

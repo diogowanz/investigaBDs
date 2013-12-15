@@ -56,7 +56,7 @@ A quantidade de dados utilizados pode ser vista na tabela \ref{tab:massadadosuti
 
 \section{Métricas}
 
-Quando se quer balancear o custo e a performance, todos os envolvidos na produção do software se preocupam com a execução de testes de performance. A avaliação de performance é necessária em todas as etapas do ciclo de vida de software e é requerida sempre que o arquiteto precisa comparar alternativasv~\cite{rajjain}. Em um teste de performance a escolha das métricas é de grande importância. Segundo Raj Jain ~\cite{rajjain}, escolher as métricas erradas é um dos erros mais comuns. Nesse trabalho a performance será avaliada pelo tempo médio de resposta.
+Quando se quer balancear o custo e a performance, todos os envolvidos na produção do software se preocupam com a execução de testes de performance. A avaliação de performance é necessária em todas as etapas do ciclo de vida de software e é requerida sempre que o arquiteto precisa comparar alternativas~\cite{rajjain}. Em um teste de performance a escolha das métricas é de grande importância. Segundo Raj Jain ~\cite{rajjain}, escolher as métricas erradas é um dos erros mais comuns. Nesse trabalho a performance será avaliada pelo tempo médio de resposta.
 
 \section{Resultados}
 
@@ -66,15 +66,15 @@ Para os testes de consulta, exceto no teste 'Consulta Documentos do Dependente' 
 
 Na inserção de orgãos os tempos foram muito próximos e, como a quantidade de registros inseridos foram poucos, podemos dizer que a performance dos dois bancos foram iguais.
 
-Ao inserir os dados dos empregados e dos dependentes, trabalhamos com uma quantidade de registros maior e assim podemos ver que o MongoDB foi sempre mais lento em relação ao PostgreSQL. Essa diferença de performance foi aumentando a medida em que a quantidade de usuários simultâneos foi incrementada.
+Ao inserir os dados dos empregados e dos dependentes, trabalhamos com uma quantidade de registros maior e assim podemos ver que o MongoDB foi sempre mais lento em relação ao PostgreSQL. Essa diferença de performance foi aumentando à medida em que a quantidade de usuários simultâneos foi incrementada.
 
 No teste 'Consulta Usuários Ativos' é feito um cálculo interno e também foi utilizado agrupador nas consultas realizadas nos dois bancos. Mais uma vez o PostgreSQL foi mais rápido ao responder as requisições.
 
-Ao testarmos a inserção de documentos, tanto de empregados quanto dos seus dependentes,percebemos que o tempo de resposta aumentou muito em relação aos outros teste. Isso se deve ao fato de que foram adicionalmente necessárias operações de criação e leitura de arquivos e diretórios. Esses testes foram realizados apenas para 10 e 100 usuários simultâneos, pois a arquitetura não nos permitiu mais. Ao inserir os documentos dos empregados podemos ver que a diferença se mostra maior ao testarmos com 100 usuários simultâneos, quando o PostgreSQL é aproximadamente um segundo mais rápido que o MongoDB. Já na inserção dos documentos dos dependentes, a performance dos dois bancos são bem parecidadas, com uma pequena vantagem para o MongoDB.
+Ao testarmos a inserção de documentos, tanto de empregados quanto dos seus dependentes,percebemos que o tempo de resposta aumentou muito em relação aos outros testes. Isso se deve ao fato de que foram adicionalmente necessárias operações de criação e leitura de arquivos e diretórios. Esses testes foram realizados apenas para 10 e 100 usuários simultâneos, pois a arquitetura não nos permitiu mais. Ao inserir os documentos dos empregados podemos ver que a diferença se mostra maior ao testarmos com 100 usuários simultâneos, quando o PostgreSQL é aproximadamente um segundo mais rápido que o MongoDB. Já na inserção dos documentos dos dependentes, a performance dos dois bancos são bem parecidadas, com uma pequena vantagem para o MongoDB.
 
-Ao testarmos a atualização de registros no teste 'Desliga Empregado' e a exclusão de registros no teste 'Remove Dependente', mesmo com operação de \textit{join} nesse, também foi verificado que o PostgreSQL é mais rápido ao responder às requisições. É importante realçar que no teste 'Remove Depen'
+Ao testarmos a atualização de registros no teste 'Desliga Empregado' e a exclusão de registros no teste 'Remove Dependente', mesmo com operação de \textit{join} nesse, também foi verificado que o PostgreSQL é mais rápido ao responder às requisições.
 
-Ao final dos testes pode-se verificar que nenhum bando de dados foi consideravelmente mais veloz que o outro e que, para praticamente todos os testes realizados, o PostgreSQL se mostrou mais rápido. Dessa maneira, para o cenário de manutenção dos dados do AFD, com a arquitetura, massa de dados e modelagem utilizadas, não é vantajoso utilizar o MongoDB para a persistência dos dados, visto que, mesmo com todos os recursos de segurança e controle de transações oferecidos pelo PostgreSQL, ele ainda continua sendo mais performático.
+Ao final dos testes pode-se verificar que nenhum banco de dados foi consideravelmente mais veloz que o outro e que, para praticamente todos os testes realizados, o PostgreSQL se mostrou mais rápido. Dessa maneira, para o cenário de manutenção dos dados do AFD, com a arquitetura, massa de dados e modelagem utilizadas, não é vantajoso utilizar o MongoDB para a persistência dos dados, visto que, mesmo com todos os recursos de segurança e controle de transações oferecidos pelo PostgreSQL, ele ainda continua sendo mais performático.
 
 
 \begin{figure}[!htbp]
