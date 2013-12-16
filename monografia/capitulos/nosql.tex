@@ -145,7 +145,15 @@ Cada documento tem um campo chamado ID que é utilizado como chave primária. Pa
 
 Ao contrário dos bancos de dados convencionais o MongoDB possui um \textit{schema} flexível e não nos força a determinar uma estrutura antes de inserir os dados. As coleções no MongoDB não nos impedem de evoluir a estrutura dos documentos ~\cite{Orendanalysisand}.
 
-Para representar as relações entre os objetos temos duas estratégias: referências e sub-documentos ~\cite{Orendanalysisand}.
+Para representar as relações entre os objetos temos duas estratégias: referências e sub-documentos ~\cite{Orendanalysisand}. O modelo implementado no protótipo utilizado para a realização dos testes pode ser visto na Figura \ref{fig:modeloorientadodocumentos} e utiliza as duas estratégias de modelagem.
+
+	\begin{figure}[!htbp]
+		\begin{center}
+			\includegraphics[width=0.9\textwidth]{modelo_orientado_documentos}
+		\end{center}
+		\caption{ Modelagem orientada a documentos implementada no protótipo.}
+		\label{fig:modeloorientadodocumentos}
+	\end{figure}
 
 %\subsubsection{Referências}
 

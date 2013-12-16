@@ -6,23 +6,7 @@ Esse capítulo apresenta a arquitetura e a implementação de um protótipo para
 
 \section{O Protótipo}
 
-Para a execução dos testes de performance foi desenvolvido um Web service com as principais operações necessárias para manter os dados do AFD. O objetivo central da aplicação é manter os documentos da pasta funcional dos servidores. Como a aplicação deve armazenar aquivos, escolhemos gravar o arquivo no sistema operacional e armazenar o caminho para ele na base de dados. Na Figura \ref{fig:ucmodel} temos o modelo de casos de uso e na figura \ref{fig:classmodel} temos uma breve descrição dos métodos do Web service. O objetivo ao se escolher realizar os testes de performance via \textit{web service} foi o de flexibilizar ao máximo as implementações em diversos bancos de dados. Na tabela \ref{tab:funcionalidades} a descrição das funcionalidades implementadas.
-
-	\begin{figure}[!htbp]
-		\begin{center}
-			\includegraphics[width=1\textwidth]{diagrama_geral}
-		\end{center}
-		\caption{Modelo de Casos de Uso}
-		\label{fig:ucmodel}
-	\end{figure}
-
-	\begin{figure}[!htbp]
-		\begin{center}
-			\includegraphics[width=1\textwidth]{class_model}
-		\end{center}
-		\caption{Descrição dos Métodos}
-		\label{fig:classmodel}
-	\end{figure}
+Para a execução dos testes de performance foi desenvolvido uma aplicação orientada a serviços ~\cite{erl:2007} com as principais capacidades necessárias para manter os dados do AFD. O objetivo central da aplicação é manter os documentos da pasta funcional dos servidores. Como a aplicação deve armazenar aquivos, escolhemos gravar o arquivo no sistema operacional e armazenar o caminho para ele na base de dados. O objetivo ao se escolher realizar os testes de performance em uma arquitetura orientada a serviços foi o de flexibilizar ao máximo as implementações em diversos bancos de dados. Na tabela \ref{tab:funcionalidades} a descrição das funcionalidades implementadas.
 
 \renewcommand{\arraystretch}{3}
 
@@ -71,7 +55,7 @@ Para a execução dos testes de performance foi desenvolvido um Web service com 
 
 \section{A Arquitetura do Projeto}
 
-Para cumprirmos o nosso objetivo, que é testar a nossa aplicação com diferentes bancos de dados, montamos uma arquitetura simples, mas que nos permitisse trocar as implementações da camada de persistência sem maiores esforços. Para a execução dos testes utilizamos o JMeter. A aplicação foi desenvolvida em Python com o apoio do framework web2py na implementação do \textit{web service}. A linguagem de programação Python foi escolhida pela facilidade de encontrar drivers de diversos bancos de dados relacionais e não relacionais, além de ser uma linguagem orientada a objetos e de ampla utilização. O framework web2py foi adicionado ao projeto pelo motivo de suportar a implementação de \textit{web services} de modo rápido e fácil, além da geração automática do WSDL (arquivo que contém a descrição das operações do Web service). A diagramação da arquitetura pode ser vista na figura \ref{fig:arquitetura}
+Para cumprirmos o nosso objetivo, que é testar a aplicação com diferentes bancos de dados, montamos uma arquitetura simples, mas que nos permite trocar as implementações da camada de persistência sem maiores esforços. Para a execução dos testes utilizamos o JMeter. A aplicação foi desenvolvida em Python com o apoio do framework web2py na implementação do \textit{web service}. A linguagem de programação Python foi escolhida pela facilidade de encontrar drivers de diversos bancos de dados relacionais e não relacionais, além de ser uma linguagem orientada a objetos e de ampla utilização. O framework web2py foi adicionado ao projeto pelo motivo de suportar a implementação de \textit{web services} de modo rápido e fácil, além da geração automática do WSDL (arquivo que contém a descrição das operações do Web service). A diagramação da arquitetura pode ser vista na figura \ref{fig:arquitetura}
 
 	\begin{figure}[!htbp]
 		\begin{center}

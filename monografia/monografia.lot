@@ -5,11 +5,11 @@
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {2.1}{\ignorespaces Tabela de bytes}}{5}{table.2.1}
 \contentsline {table}{\numberline {2.2}{\ignorespaces BSON - Tipos Suportados}}{14}{table.2.2}
-\contentsline {table}{\numberline {2.3}{\ignorespaces Declara\IeC {\c c}\IeC {\~o}es SQL vs Declara\IeC {\c c}\IeC {\~o}es MongoDB. Adaptado de ~\cite {sitemongodb}}}{26}{table.2.3}
-\contentsline {table}{\numberline {2.4}{\ignorespaces SQL Select vs MongoDB Select. Adaptado de ~\cite {sitemongodb}}}{27}{table.2.4}
-\contentsline {table}{\numberline {2.5}{\ignorespaces Tipos de teste e sua caracter\IeC {\'\i }stica de qualidade correspondente}}{28}{table.2.5}
+\contentsline {table}{\numberline {2.3}{\ignorespaces Declara\IeC {\c c}\IeC {\~o}es SQL vs Declara\IeC {\c c}\IeC {\~o}es MongoDB. Adaptado de ~\cite {sitemongodb}}}{27}{table.2.3}
+\contentsline {table}{\numberline {2.4}{\ignorespaces SQL Select vs MongoDB Select. Adaptado de ~\cite {sitemongodb}}}{28}{table.2.4}
+\contentsline {table}{\numberline {2.5}{\ignorespaces Tipos de teste e sua caracter\IeC {\'\i }stica de qualidade correspondente}}{29}{table.2.5}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces Elementos de um documento WSDL}}{31}{table.3.1}
+\contentsline {table}{\numberline {3.1}{\ignorespaces Elementos de um documento WSDL}}{32}{table.3.1}
 \contentsline {table}{\numberline {3.2}{\ignorespaces Descri\IeC {\c c}\IeC {\~a}o das Funcionalidades}}{34}{table.3.2}
 \contentsline {table}{\numberline {3.3}{\ignorespaces Principais configura\IeC {\c c}\IeC {\~o}es dos Planos de Teste}}{36}{table.3.3}
 \addvspace {10\p@ }
