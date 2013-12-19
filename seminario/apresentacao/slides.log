@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.12.16)  18 FEB 2013 00:20
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2013.10.1)  19 DEC 2013 19:18
 entering extended mode
-**C:/Users/EU/Google*Drive/SEMINARIO/template/apresentacao/slides.tex
-("C:/Users/EU/Google Drive/SEMINARIO/template/apresentacao/slides.tex"
+**D:/Users/EU/Documents/investigaBDs/seminario/apresentacao/slides.tex
+(D:/Users/EU/Documents/investigaBDs/seminario/apresentacao/slides.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -34,10 +34,10 @@ If that doesn't work, type  X <return>  to quit.
  
 Here is how much of TeX's memory you used:
  9 strings out of 494045
- 395 string characters out of 3145977
+ 398 string characters out of 3145978
  48890 words of memory out of 3000000
  3400 multiletter control sequences out of 15000+200000
  3640 words of font info for 14 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 7i,0n,5p,141b,20s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 7i,0n,5p,142b,20s stack positions out of 5000i,500n,10000p,200000b,50000s
 !  ==> Fatal error occurred, no output PDF file produced!

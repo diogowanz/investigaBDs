@@ -28,6 +28,7 @@
     \item Validação, verificações e garantias de integridade, controle de concorrências...
     \item Problemas causados pelo layout rígido.
     \item PostgreSQL, MySQL, Oracle, MS SQL, DB2
+    \item ACID - \textit{Atomicity}(Atomicidade), \textit{Consistency}(Consitência), \textit{Isolation} (Isolamento) e \textit{Durability} (Durabilidade)
     \end{itemize}
 \end{frame}
 
@@ -48,6 +49,8 @@
     \item Chave-Valor / Orientados a Documentos / Orientados a Colunas / Baseados em Grafos;
     \item Google, Amazon, Facebook...
     \item MongoDB, Cassandra, NEO4j, Redis
+    \item CAP - Consistência,  disponibilidade e tolerância a particionamento de rede
+    \item BASE - \textit{Basically Available} (Basicamente Disponível), \textit{Soft-state}(base otimizada pelo uso) e \textit{Eventual consistency} (Disponibilidade Eventual)
     \end{itemize}
 \end{frame}
 
@@ -72,8 +75,8 @@
 
 \begin{frame}{O Projeto}
     \begin{itemize}
-	\item AFD - Criação de um dossiê, em mídia digital;
-	\item Fonte Primária de informações cadastrais do Servidor Público Civil Federal. \textit{citar site do SIGEPE}
+	\item Assentamento Digital Funcional (AFD) - Criação de um dossiê, em mídia digital;
+	\item Fonte Primária de informações cadastrais do Servidor Público Civil Federal.
     \end{itemize}
 \end{frame}
 
@@ -147,6 +150,7 @@ feita observando determinado comportamento do sistema ou do componente;
 
 \begin{frame}{Protótipo AFD}
     \begin{itemize}
+    \item Flexibilizar os testes com diversas bases de dados;
     \item Arquitetura SOA;
     \item Principais capacidades para manter os dados do AFD;
     \item Inserção e consulta de órgãos, empregados, dependentes, documentos;
@@ -357,12 +361,12 @@ item Expandir os testes para outros bancos de dados como o MySQL, Cassandra, HBa
 \begin{frame}{Bibliografia I}
 \begin{itemize}
 
-\item E. Hewitt. Cassandra: The Definitive Guide. Definitive Guide Series. O'Reilly Media,
-2010.
-
 \item S. Tiwari. Professional NoSQL. Wrox Programmer to Programmer. Wiley, 2011.
 
 \item Mongodb oficial site. \url{http://www.mongodb.org/}
+
+\item Kai Orend. \textit{Analysis and classification of nosql databases and evaluation of their
+ability to replace an object-relational persistence layer, 2010.}
 
 \end{itemize}
 \end{frame}
@@ -373,26 +377,20 @@ item Expandir os testes para outros bancos de dados como o MySQL, Cassandra, HBa
 \item R. Hecht and S. Jablonski. Nosql evaluation: A use case oriented survey. In Cloud
 and Service Computing (CSC), 2011 International Conference on, pages 336 - 341,
 dec. 2011.
-\end{itemize}
-\end{frame}
-
-\begin{frame}{Bibliografia III}
-\begin{itemize}
 
 \item Vinayak R. Borkar, Michael J. Carey, and Chen Li. Big data platforms: What's
 next? XRDS, September 2012.
 
-\item Ricardo W. Brito. Banco de dados nosql x sgbds relacionais: Análise comparativa.
-2010.
+\item Raj Jain. \textit{The art of computer systems performance analysis - techniques for experimental
+design, measurement, simulation, and modeling. Wiley professional computing.}
+Wiley, 1991.
+
+\item Ian Molyneaux. The Art of Application Performance Testing - Help for Programmers
+and Quality Assurance. O'Reilly, 2009.
+
 \end{itemize}
 \end{frame}
 
-\begin{frame}\frametitle{Bibliografia}
-  % estilo da bibliografia
-  \bibliographystyle{abbrv}
-  % chamando o arquivo refs.bib
-  \bibliography{refs}
-\end{frame}
 
 \appendix
 

@@ -1,10 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2013.4.22)  19 DEC 2013 12:31
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2013.10.1)  19 DEC 2013 19:45
 entering extended mode
-**C:/Users/Debora*Natsue/Documents/investigaBDs/seminario/apresentacao/apres-be
-amer.tex
-
-("C:/Users/Debora Natsue/Documents/investigaBDs/seminario/apresentacao/apres-be
-amer.tex"
+**D:/Users/EU/Documents/investigaBDs/seminario/apresentacao/apres-beamer.tex
+(D:/Users/EU/Documents/investigaBDs/seminario/apresentacao/apres-beamer.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -16,33 +13,29 @@ an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese,
 romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
 sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
 senglishmax, welsh, loaded.
-
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\beame
-r.cls"
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\beame
-rbasercs.sty"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\beamer.cls
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\beamerbasercs.sty
 Package: beamerbasercs 2013/11/24 (rcs-revision 8ee54e934cd6)
 )
 Document Class: beamer 2013/04/04 3.32 A class for typesetting presentations (r
 cs-revision dca7db0ccda1)
 
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\beame
-rbasemodes.sty"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\beamerbasemodes.s
+ty
 Package: beamerbasemodes 2013/09/03 (rcs-revision 768f2d98ca64)
 \beamer@tempbox=\box26
 \beamer@tempcount=\count79
 \c@beamerpauses=\count80
 
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\beame
-rbasedecode.sty"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\beamerbasedecode.
+sty
 Package: beamerbasedecode 2010/05/01 (rcs-revision efa082c6111d)
 \beamer@slideinframe=\count81
 \beamer@minimum=\count82
 )
 \beamer@commentbox=\box27
 \beamer@modecount=\count83
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
@@ -89,11 +82,10 @@ Package ifpdf Info: pdfTeX in PDF mode is detected.
 \beamer@sectionadjust=\count100
 \beamer@tocsectionnumber=\count101
 
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\beame
-rbaseoptions.sty"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\beamerbaseoptions
+.sty
 Package: beamerbaseoptions 2013/03/10 (rcs-revision 47431932db0d)
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks14
 ))
@@ -127,9 +119,10 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size11.clo"
 File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\basiclayer\pg
-fcore.sty" ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\basiclayer\pgfcore.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
@@ -155,36 +148,33 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen127
 \Gin@req@width=\dimen128
 )
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\systemlayer\p
-gfsys.sty"
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\utilities\pgf
-rcs.sty"
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\p
-gfutil-common.tex"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\systemlayer\pgfsys.sty
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\utilities\pgfrcs.sty
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfutil-commo
+n.tex
 \pgfutil@everybye=\toks16
 )
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\p
-gfutil-latex.def"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfutil-latex
+.def
 \pgfutil@abb=\box34
-
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\latex\ms\everyshi.sty"
+ (C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\latex\ms\everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\p
-gfrcs.code.tex"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfrcs.code.t
+ex
 Package: pgfrcs 2010/10/25 v2.10 (rcs-revision 1.24)
 ))
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer
-\pgfsys.code.tex"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsys.code
+.tex
 Package: pgfsys 2010/06/30 v2.10 (rcs-revision 1.37)
 
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\p
-gfkeys.code.tex"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfkeys.code.
+tex
 \pgfkeys@pathtoks=\toks17
 \pgfkeys@temptoks=\toks18
 
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\p
-gfkeysfiltered.code.tex"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfkeysfilter
+ed.code.tex
 \pgfkeys@tmptoks=\toks19
 ))
 \pgf@x=\dimen129
@@ -202,34 +192,33 @@ gfkeysfiltered.code.tex"
 \c@pgf@countc=\count108
 \c@pgf@countd=\count109
 
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer
-\pgf.cfg"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
 Package pgfsys Info: Driver file for pgf: pgfsys-pdftex.def on input line 900.
 
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer
-\pgfsys-pdftex.def"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsys-pdft
+ex.def
 File: pgfsys-pdftex.def 2009/05/22  (rcs-revision 1.26)
 
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer
-\pgfsys-common-pdf.def"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsys-comm
+on-pdf.def
 File: pgfsys-common-pdf.def 2008/05/19  (rcs-revision 1.10)
 )))
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer
-\pgfsyssoftpath.code.tex"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsyssoftp
+ath.code.tex
 File: pgfsyssoftpath.code.tex 2008/07/18  (rcs-revision 1.7)
 \pgfsyssoftpath@smallbuffer@items=\count110
 \pgfsyssoftpath@bigbuffer@items=\count111
 )
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer
-\pgfsysprotocol.code.tex"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsysproto
+col.code.tex
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
 ))
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\latex\xcolor\xcolor.sty
-"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\latex\xcolor\xcolor.sty
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -243,18 +232,17 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 )
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\
-pgfcore.code.tex"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcore.code
+.tex
 Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
 
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmat
-h.code.tex"
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmat
-hcalc.code.tex"
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmat
-hutil.code.tex")
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmat
-hparser.code.tex"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmath.code.tex
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathcalc.code.t
+ex
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathutil.code.t
+ex)
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathparser.code
+.tex
 \pgfmath@dimen=\dimen137
 \pgfmath@count=\count112
 \pgfmath@box=\box35
@@ -262,28 +250,28 @@ hparser.code.tex"
 \pgfmath@stack@operand=\toks21
 \pgfmath@stack@operation=\toks22
 )
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmat
-hfunctions.code.tex"
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmat
-hfunctions.basic.code.tex")
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmat
-hfunctions.trigonometric.code.tex")
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmat
-hfunctions.random.code.tex")
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmat
-hfunctions.comparison.code.tex")
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmat
-hfunctions.base.code.tex")
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmat
-hfunctions.round.code.tex")
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmat
-hfunctions.misc.code.tex")))
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmat
-hfloat.code.tex"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctions.c
+ode.tex
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctions.b
+asic.code.tex)
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctions.t
+rigonometric.code.tex)
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctions.r
+andom.code.tex)
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctions.c
+omparison.code.tex)
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctions.b
+ase.code.tex)
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctions.r
+ound.code.tex)
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctions.m
+isc.code.tex)))
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfloat.code.
+tex
 \c@pgfmathroundto@lastzeros=\count113
 ))
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\
-pgfcorepoints.code.tex"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorepoint
+s.code.tex
 File: pgfcorepoints.code.tex 2010/04/09  (rcs-revision 1.20)
 \pgf@picminx=\dimen138
 \pgf@picmaxx=\dimen139
@@ -300,88 +288,89 @@ File: pgfcorepoints.code.tex 2010/04/09  (rcs-revision 1.20)
 \pgf@zx=\dimen150
 \pgf@zy=\dimen151
 )
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\
-pgfcorepathconstruct.code.tex"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorepathc
+onstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2010/08/03  (rcs-revision 1.24)
 \pgf@path@lastx=\dimen152
 \pgf@path@lasty=\dimen153
 )
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\
-pgfcorepathusage.code.tex"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorepathu
+sage.code.tex
 File: pgfcorepathusage.code.tex 2008/04/22  (rcs-revision 1.12)
 \pgf@shorten@end@additional=\dimen154
 \pgf@shorten@start@additional=\dimen155
 )
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\
-pgfcorescopes.code.tex"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorescope
+s.code.tex
 File: pgfcorescopes.code.tex 2010/09/08  (rcs-revision 1.34)
 \pgfpic=\box36
 \pgf@hbox=\box37
 \pgf@layerbox@main=\box38
 \pgf@picture@serial@count=\count114
 )
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\
-pgfcoregraphicstate.code.tex"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoregraph
+icstate.code.tex
 File: pgfcoregraphicstate.code.tex 2008/04/22  (rcs-revision 1.9)
 \pgflinewidth=\dimen156
 )
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\
-pgfcoretransformations.code.tex"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoretrans
+formations.code.tex
 File: pgfcoretransformations.code.tex 2009/06/10  (rcs-revision 1.11)
 \pgf@pt@x=\dimen157
 \pgf@pt@y=\dimen158
 \pgf@pt@temp=\dimen159
 )
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\
-pgfcorequick.code.tex"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorequick
+.code.tex
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
 )
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\
-pgfcoreobjects.code.tex"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoreobjec
+ts.code.tex
 File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
 )
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\
-pgfcorepathprocessing.code.tex"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorepathp
+rocessing.code.tex
 File: pgfcorepathprocessing.code.tex 2008/10/09  (rcs-revision 1.8)
 )
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\
-pgfcorearrows.code.tex"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorearrow
+s.code.tex
 File: pgfcorearrows.code.tex 2008/04/23  (rcs-revision 1.11)
 )
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\
-pgfcoreshade.code.tex"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoreshade
+.code.tex
 File: pgfcoreshade.code.tex 2008/11/23  (rcs-revision 1.13)
 \pgf@max=\dimen160
 \pgf@sys@shading@range@num=\count115
 )
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\
-pgfcoreimage.code.tex"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoreimage
+.code.tex
 File: pgfcoreimage.code.tex 2010/03/25  (rcs-revision 1.16)
 
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\
-pgfcoreexternal.code.tex"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoreexter
+nal.code.tex
 File: pgfcoreexternal.code.tex 2010/09/01  (rcs-revision 1.17)
 \pgfexternal@startupbox=\box39
 ))
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\
-pgfcorelayers.code.tex"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorelayer
+s.code.tex
 File: pgfcorelayers.code.tex 2010/08/27  (rcs-revision 1.2)
 )
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\
-pgfcoretransparency.code.tex"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoretrans
+parency.code.tex
 File: pgfcoretransparency.code.tex 2008/01/17  (rcs-revision 1.2)
 )
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\
-pgfcorepatterns.code.tex"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorepatte
+rns.code.tex
 File: pgfcorepatterns.code.tex 2009/07/02  (rcs-revision 1.3)
 )))
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\utilities\xxc
-olor.sty"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\utilities\xxcolor.sty
 Package: xxcolor 2003/10/24 ver 0.1
 \XC@nummixins=\count116
 \XC@countmixins=\count117
-) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
 Package: hyperref 2012/05/13 v6.82q Hypertext links for LaTeX
+
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
 Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
 
@@ -488,19 +477,18 @@ Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 ))
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\beame
-rbaserequires.sty"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\beamerbaserequire
+s.sty
 Package: beamerbaserequires 2010/05/01  (rcs-revision efa082c6111d)
 
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\beame
-rbasecompatibility.sty"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\beamerbasecompati
+bility.sty
 Package: beamerbasecompatibility 2012/05/01  (rcs-revision 67c48b3b652d)
 )
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\beame
-rbasefont.sty"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\beamerbasefont.st
+y
 Package: beamerbasefont 2013/10/18  (rcs-revision 72f39e01808a)
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
 Package: amssymb 2009/06/22 v3.00
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
@@ -511,45 +499,43 @@ Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
 ))
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\latex\sansmathaccent\sa
-nsmathaccent.sty"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\latex\sansmathaccent\sansmathaccent
+.sty
 Package: sansmathaccent 2013/03/28
-
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\latex\filehook\filehook
-.sty"
+ (C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\latex\filehook\filehook.sty
 Package: filehook 2011/10/12 v0.5d Hooks for input files
 )))
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\beame
-rbasetranslator.sty"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\beamerbasetransla
+tor.sty
 Package: beamerbasetranslator 2010/06/11  (rcs-revision 85fd1cc7fc42)
 
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\trans
-lator\translator.sty"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\translator\transl
+ator.sty
 Package: translator 2010/06/12 ver 1.10
 
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\trans
-lator\translator-language-mappings.tex")))
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\beame
-rbasemisc.sty"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\translator\transl
+ator-language-mappings.tex)))
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\beamerbasemisc.st
+y
 Package: beamerbasemisc 2013/09/03  (rcs-revision a55719c41d85)
 )
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\beame
-rbasetwoscreens.sty"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\beamerbasetwoscre
+ens.sty
 Package: beamerbasetwoscreens 2010/05/01  (rcs-revision efa082c6111d)
 )
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\beame
-rbaseoverlay.sty"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\beamerbaseoverlay
+.sty
 Package: beamerbaseoverlay 2013/11/17  (rcs-revision 39bc573c5bfc)
 \beamer@argscount=\count126
 \beamer@lastskipcover=\skip44
 \beamer@trivlistdepth=\count127
 )
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\beame
-rbasetitle.sty"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\beamerbasetitle.s
+ty
 Package: beamerbasetitle 2010/09/21  (rcs-revision f0446ed0b6ae)
 )
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\beame
-rbasesection.sty"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\beamerbasesection
+.sty
 Package: beamerbasesection 2013/06/07  (rcs-revision 60b9fe0f342f)
 \c@lecture=\count128
 \c@part=\count129
@@ -557,8 +543,8 @@ Package: beamerbasesection 2013/06/07  (rcs-revision 60b9fe0f342f)
 \c@subsection=\count131
 \c@subsubsection=\count132
 )
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\beame
-rbaseframe.sty"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\beamerbaseframe.s
+ty
 Package: beamerbaseframe 2013/10/02  (rcs-revision cdc8e9a3aaac)
 \beamer@framebox=\box40
 \beamer@frametitlebox=\box41
@@ -575,13 +561,13 @@ Package: beamerbaseframe 2013/10/02  (rcs-revision cdc8e9a3aaac)
 \framewidth=\dimen165
 \c@framenumber=\count136
 )
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\beame
-rbaseverbatim.sty"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\beamerbaseverbati
+m.sty
 Package: beamerbaseverbatim 2012/08/30  (rcs-revision dfdb135076b3)
 \beamer@verbatimfileout=\write4
 )
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\beame
-rbaseframesize.sty"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\beamerbaseframesi
+ze.sty
 Package: beamerbaseframesize 2011/09/12  (rcs-revision 70f9d8411e54)
 \beamer@splitbox=\box43
 \beamer@autobreakcount=\count137
@@ -589,35 +575,34 @@ Package: beamerbaseframesize 2011/09/12  (rcs-revision 70f9d8411e54)
 \beamer@frametitletoks=\toks25
 \beamer@framesubtitletoks=\toks26
 )
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\beame
-rbaseframecomponents.sty"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\beamerbaseframeco
+mponents.sty
 Package: beamerbaseframecomponents 2013/10/18  (rcs-revision 5cf6c5555a45)
 \beamer@footins=\box44
 )
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\beame
-rbasecolor.sty"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\beamerbasecolor.s
+ty
 Package: beamerbasecolor 2010/06/06  (rcs-revision d1a9b48be06d)
 )
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\beame
-rbasenotes.sty"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\beamerbasenotes.s
+ty
 Package: beamerbasenotes 2012/12/19  (rcs-revision 1686da3db3c9)
 \beamer@frameboxcopy=\box45
 )
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\beame
-rbasetoc.sty"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\beamerbasetoc.sty
 Package: beamerbasetoc 2013/05/23  (rcs-revision 0fdf5bc43be8)
 )
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\beame
-rbasetemplates.sty"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\beamerbasetemplat
+es.sty
 Package: beamerbasetemplates 2010/05/01  (rcs-revision efa082c6111d)
 \beamer@sbttoks=\toks27
 
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\beame
-rbaseauxtemplates.sty"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\beamerbaseauxtemp
+lates.sty
 Package: beamerbaseauxtemplates 2013/09/04  (rcs-revision 4ac715c499d0)
 
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\beame
-rbaseboxes.sty"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\beamerbaseboxes.s
+ty
 Package: beamerbaseboxes 2012/05/13  (rcs-revision 56972908a390)
 \bmb@box=\box46
 \bmb@colorbox=\box47
@@ -631,11 +616,10 @@ Package: beamerbaseboxes 2012/05/13  (rcs-revision 56972908a390)
 )
 \beamer@blockheadheight=\dimen171
 ))
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\beame
-rbaselocalstructure.sty"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\beamerbaselocalst
+ructure.sty
 Package: beamerbaselocalstructure 2013/09/04  (rcs-revision 4ac715c499d0)
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\enumerate.sty"
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\enumerate.sty"
 Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
 \@enLab=\toks28
 )
@@ -644,16 +628,15 @@ Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
 )
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\beame
-rbasenavigation.sty"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\beamerbasenavigat
+ion.sty
 Package: beamerbasenavigation 2013/10/05  (rcs-revision 62be157fe783)
 \beamer@section@min@dim=\dimen172
 )
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\beame
-rbasetheorems.sty"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\beamerbasetheorem
+s.sty
 Package: beamerbasetheorems 2010/06/06  (rcs-revision 7e7cc5e53e9d)
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsmath.sty"
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsmath.sty"
 Package: amsmath 2000/07/18 v2.13 AMS math features
 \@mathmargin=\skip51
 
@@ -725,36 +708,35 @@ Package: amsthm 2004/08/06 v2.20
 )
 \c@theorem=\count152
 )
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\beame
-rbasethemes.sty"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\beamerbasethemes.
+sty
 Package: beamerbasethemes 2010/05/01  (rcs-revision efa082c6111d)
 ))
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\theme
-s\theme\beamerthemedefault.sty"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\themes\theme\beam
+erthemedefault.sty
 Package: beamerthemedefault 2010/06/17  (rcs-revision d02a7cf4d8ae)
 
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\theme
-s\font\beamerfontthemedefault.sty"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\themes\font\beame
+rfontthemedefault.sty
 Package: beamerfontthemedefault 2012/12/19  (rcs-revision 1686da3db3c9)
 )
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\theme
-s\color\beamercolorthemedefault.sty"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\themes\color\beam
+ercolorthemedefault.sty
 Package: beamercolorthemedefault 2012/12/19  (rcs-revision 1686da3db3c9)
 )
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\theme
-s\inner\beamerinnerthemedefault.sty"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\themes\inner\beam
+erinnerthemedefault.sty
 Package: beamerinnerthemedefault 2013/10/15  (rcs-revision 65cb471f9634)
 \beamer@dima=\dimen182
 \beamer@dimb=\dimen183
 )
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\theme
-s\outer\beamerouterthemedefault.sty"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\themes\outer\beam
+erouterthemedefault.sty
 Package: beamerouterthemedefault 2012/12/19  (rcs-revision 1686da3db3c9)
 )))
 \@input{header.aux}
-
-("C:\Users\Debora Natsue\Documents\investigaBDs\seminario\apresentacao\header.t
-ex" ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.sty"
+(D:\Users\EU\Documents\investigaBDs\seminario\apresentacao\header.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.sty"
 Package: babel 2008/07/08 v3.8m The Babel package
 
 *************************************
@@ -1037,8 +1019,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
 )
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\microty
-pe.sty"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\microtype.sty
 Package: microtype 2013/05/23 v2.5a Micro-typographical refinements (RS)
 \MT@toks=\toks42
 \MT@count=\count154
@@ -1047,8 +1028,8 @@ LaTeX Info: Redefining \textls on input line 766.
 LaTeX Info: Redefining \textmicrotypecontext on input line 1285.
 \MT@listname@count=\count155
 
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\microty
-pe-pdftex.def"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\microtype-pdftex.de
+f
 File: microtype-pdftex.def 2013/05/23 v2.5a Definitions specific to pdftex (RS)
 
 LaTeX Info: Redefining \lsstyle on input line 915.
@@ -1056,15 +1037,13 @@ LaTeX Info: Redefining \lslig on input line 915.
 \MT@outer@space=\skip57
 )
 Package microtype Info: Loading configuration file microtype.cfg.
-
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\microty
-pe.cfg"
+ (C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\microtype.cfg
 File: microtype.cfg 2013/05/23 v2.5a microtype main configuration file (RS)
 ))
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\latex\setspace\setspace
-.sty"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\latex\setspace\setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
-) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\array.sty"
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\array.sty"
 Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen186
 \extrarowheight=\dimen187
@@ -1079,34 +1058,32 @@ Package: charter 2005/04/12 PSNFSS-v9.2a (P.Dyballa)
 Package: mathpazo 2005/04/12 PSNFSS-v9.2a Palatino w/ Pazo Math (D.Puga, WaS) 
 \symupright=\mathgroup6
 )
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\theme
-s\theme\beamerthemeWarsaw.sty"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\themes\theme\beam
+erthemeWarsaw.sty
 Package: beamerthemeWarsaw 2010/06/17  (rcs-revision d02a7cf4d8ae)
 
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\theme
-s\inner\beamerinnerthemerounded.sty"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\themes\inner\beam
+erinnerthemerounded.sty
 Package: beamerinnerthemerounded 2010/06/17  (rcs-revision d02a7cf4d8ae)
 )
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\theme
-s\outer\beamerouterthemeshadow.sty"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\themes\outer\beam
+erouterthemeshadow.sty
 Package: beamerouterthemeshadow 2010/06/17  (rcs-revision d02a7cf4d8ae)
 
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\theme
-s\outer\beamerouterthemesplit.sty"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\themes\outer\beam
+erouterthemesplit.sty
 Package: beamerouterthemesplit 2012/10/16  (rcs-revision 51a8c72084af)
 ))
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\theme
-s\color\beamercolorthemeorchid.sty"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\themes\color\beam
+ercolorthemeorchid.sty
 Package: beamercolorthemeorchid 2010/06/17  (rcs-revision d02a7cf4d8ae)
 )
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\theme
-s\color\beamercolorthemewhale.sty"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\themes\color\beam
+ercolorthemewhale.sty
 Package: beamercolorthemewhale 2010/06/17  (rcs-revision d02a7cf4d8ae)
 )))
-("C:\Users\Debora Natsue\Documents\investigaBDs\seminario\apresentacao\apres-be
-amer.aux"
-("C:\Users\Debora Natsue\Documents\investigaBDs\seminario\apresentacao\slides.a
-ux"))
+(D:\Users\EU\Documents\investigaBDs\seminario\apresentacao\apres-beamer.aux
+(D:\Users\EU\Documents\investigaBDs\seminario\apresentacao\slides.aux))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
 LaTeX Font Info:    ... okay on input line 8.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
@@ -1122,7 +1099,8 @@ LaTeX Font Info:    ... okay on input line 8.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 8.
 LaTeX Font Info:    ... okay on input line 8.
 LaTeX Font Info:    Try loading font information for T1+lmss on input line 8.
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmss.fd"
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmss.fd"
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 *geometry* driver: auto-detecting
@@ -1159,9 +1137,7 @@ File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.m
-kii"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count156
 \scratchdimen=\dimen188
@@ -1190,10 +1166,8 @@ LaTeX Info: Redefining \ref on input line 8.
 LaTeX Info: Redefining \pageref on input line 8.
 LaTeX Info: Redefining \nameref on input line 8.
 
-("C:\Users\Debora Natsue\Documents\investigaBDs\seminario\apresentacao\apres-be
-amer.out")
-("C:\Users\Debora Natsue\Documents\investigaBDs\seminario\apresentacao\apres-be
-amer.out")
+(D:\Users\EU\Documents\investigaBDs\seminario\apresentacao\apres-beamer.out)
+(D:\Users\EU\Documents\investigaBDs\seminario\apresentacao\apres-beamer.out)
 \@outlinefile=\write5
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/ppl/m/n --> OT1/cmss/m/n on input line 8.
@@ -1242,34 +1216,30 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  T1/lmtt/m/n --> T1/lmtt/b/n on input line 8.
 
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\trans
-lator\dicts\translator-basic-dictionary\translator-basic-dictionary-English.dic
-t"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\translator\dicts\
+translator-basic-dictionary\translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 )
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\trans
-lator\dicts\translator-bibliography-dictionary\translator-bibliography-dictiona
-ry-English.dict"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\translator\dicts\
+translator-bibliography-dictionary\translator-bibliography-dictionary-English.d
+ict
 Dictionary: translator-bibliography-dictionary, Language: English 
 )
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\trans
-lator\dicts\translator-environment-dictionary\translator-environment-dictionary
--English.dict"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\translator\dicts\
+translator-environment-dictionary\translator-environment-dictionary-English.dic
+t
 Dictionary: translator-environment-dictionary, Language: English 
 )
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\trans
-lator\dicts\translator-months-dictionary\translator-months-dictionary-English.d
-ict"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\translator\dicts\
+translator-months-dictionary\translator-months-dictionary-English.dict
 Dictionary: translator-months-dictionary, Language: English 
 )
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\trans
-lator\dicts\translator-numbers-dictionary\translator-numbers-dictionary-English
-.dict"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\translator\dicts\
+translator-numbers-dictionary\translator-numbers-dictionary-English.dict
 Dictionary: translator-numbers-dictionary, Language: English 
 )
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\trans
-lator\dicts\translator-theorem-dictionary\translator-theorem-dictionary-English
-.dict"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\translator\dicts\
+translator-theorem-dictionary\translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
 LaTeX Info: Redefining \includegraphics on input line 8.
@@ -1296,59 +1266,56 @@ Package microtype Warning: \nonfrenchspacing is active. Adjustment of
 (microtype)                to add `\microtypecontext{spacing=nonfrench}'
 (microtype)                to your preamble.
 
-
-("C:\Users\Debora Natsue\Documents\investigaBDs\seminario\apresentacao\apres-be
-amer.nav")
-("C:\Users\Debora Natsue\Documents\investigaBDs\seminario\apresentacao\slides.t
-ex" [1{C:/Users/Debora Natsue/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map
-}
+(D:\Users\EU\Documents\investigaBDs\seminario\apresentacao\apres-beamer.nav)
+(D:\Users\EU\Documents\investigaBDs\seminario\apresentacao\slides.tex [1{C:/Use
+rs/EU/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
 
 
 ]
-("C:\Users\Debora Natsue\Documents\investigaBDs\seminario\apresentacao\apres-be
-amer.toc") [2
+(D:\Users\EU\Documents\investigaBDs\seminario\apresentacao\apres-beamer.toc)
+[2
 
 ] [3
 
-] [4
+]
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 33.
+ [4
 
 ]
-<../images/modelo_relacional.jpg, id=216, 800.23969pt x 422.32782pt>
+<../images/modelo_relacional.jpg, id=217, 800.23969pt x 422.32782pt>
 File: ../images/modelo_relacional.jpg Graphic file (type jpg)
 
 <use ../images/modelo_relacional.jpg>
-Package pdftex.def Info: ../images/modelo_relacional.jpg used on input line 42.
+Package pdftex.def Info: ../images/modelo_relacional.jpg used on input line 43.
 
 (pdftex.def)             Requested size: 245.83282pt x 129.73453pt.
  [5
 
- <C:/Users/Debora Natsue/Documents/investigaBDs/seminario/images/modelo_relacio
-nal.jpg>] [6
+ <D:/Users/EU/Documents/investigaBDs/seminario/images/modelo_relacional.jpg>] [
+6
 
 ]
-<../images/modelo_orientado_documentos.jpeg, id=285, 1706.375pt x 1198.4775pt>
+<../images/modelo_orientado_documentos.jpeg, id=286, 1706.375pt x 1198.4775pt>
 File: ../images/modelo_orientado_documentos.jpeg Graphic file (type jpg)
 
 <use ../images/modelo_orientado_documentos.jpeg>
 Package pdftex.def Info: ../images/modelo_orientado_documentos.jpeg used on inp
-ut line 62.
+ut line 65.
 (pdftex.def)             Requested size: 184.3758pt x 129.49216pt.
  [7
 
- <C:/Users/Debora Natsue/Documents/investigaBDs/seminario/images/modelo_orienta
-do_documentos.jpeg>]
-[8
+ <D:/Users/EU/Documents/investigaBDs/seminario/images/modelo_orientado_document
+os.jpeg>] [8
 
-]
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 78.
- [9
+] [9
 
 ] [10
 
-] [11
+]
+[11
 
 ] [12
 
@@ -1367,12 +1334,11 @@ LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
 File: ../images/arquitetura.jpg Graphic file (type jpg)
 
 <use ../images/arquitetura.jpg>
-Package pdftex.def Info: ../images/arquitetura.jpg used on input line 166.
+Package pdftex.def Info: ../images/arquitetura.jpg used on input line 170.
 (pdftex.def)             Requested size: 122.91406pt x 140.52164pt.
  [18
 
- <C:/Users/Debora Natsue/Documents/investigaBDs/seminario/images/arquitetura.jp
-g>] [19
+ <D:/Users/EU/Documents/investigaBDs/seminario/images/arquitetura.jpg>] [19
 
 ] [20
 
@@ -1387,94 +1353,92 @@ g>] [19
 File: ../images/insere_empregados.jpg Graphic file (type jpg)
 
 <use ../images/insere_empregados.jpg>
-Package pdftex.def Info: ../images/insere_empregados.jpg used on input line 229
+Package pdftex.def Info: ../images/insere_empregados.jpg used on input line 233
 .
 (pdftex.def)             Requested size: 245.83282pt x 149.75096pt.
 
-Overfull \vbox (1.61852pt too high) detected at line 229
+Overfull \vbox (1.61852pt too high) detected at line 233
  []
 
 [24
 
- <C:/Users/Debora Natsue/Documents/investigaBDs/seminario/images/insere_emprega
-dos.jpg>]
-<../images/insere_doc_dependentes.jpg, id=906, 462.22687pt x 359.09157pt>
+ <D:/Users/EU/Documents/investigaBDs/seminario/images/insere_empregados.jpg>] <
+../images/insere_doc_dependentes.jpg, id=906, 462.22687pt x 359.09157pt>
 File: ../images/insere_doc_dependentes.jpg Graphic file (type jpg)
 
 <use ../images/insere_doc_dependentes.jpg>
 Package pdftex.def Info: ../images/insere_doc_dependentes.jpg used on input lin
-e 239.
+e 243.
 (pdftex.def)             Requested size: 184.3758pt x 143.23409pt.
  [25
 
- <C:/Users/Debora Natsue/Documents/investigaBDs/seminario/images/insere_doc_dep
-endentes.jpg>]
+ <D:/Users/EU/Documents/investigaBDs/seminario/images/insere_doc_dependentes.jp
+g>]
 <../images/consulta_empregados.jpg, id=943, 621.07031pt x 363.60844pt>
 File: ../images/consulta_empregados.jpg Graphic file (type jpg)
 
 <use ../images/consulta_empregados.jpg>
 Package pdftex.def Info: ../images/consulta_empregados.jpg used on input line 2
-49.
+53.
 (pdftex.def)             Requested size: 245.83282pt x 143.92058pt.
  [26
 
- <C:/Users/Debora Natsue/Documents/investigaBDs/seminario/images/consulta_empre
-gados.jpg>]
+ <D:/Users/EU/Documents/investigaBDs/seminario/images/consulta_empregados.jpg>]
+
 <../images/consulta_doc_empregado.jpg, id=979, 466.74374pt x 329.73187pt>
 File: ../images/consulta_doc_empregado.jpg Graphic file (type jpg)
 
 <use ../images/consulta_doc_empregado.jpg>
 Package pdftex.def Info: ../images/consulta_doc_empregado.jpg used on input lin
-e 259.
+e 263.
 (pdftex.def)             Requested size: 184.3758pt x 130.2502pt.
  [27
 
- <C:/Users/Debora Natsue/Documents/investigaBDs/seminario/images/consulta_doc_e
-mpregado.jpg>]
+ <D:/Users/EU/Documents/investigaBDs/seminario/images/consulta_doc_empregado.jp
+g>]
 <../images/consulta_estatistica.jpg, id=1015, 618.81187pt x 358.33875pt>
 File: ../images/consulta_estatistica.jpg Graphic file (type jpg)
 
 <use ../images/consulta_estatistica.jpg>
 Package pdftex.def Info: ../images/consulta_estatistica.jpg used on input line 
-269.
+273.
 (pdftex.def)             Requested size: 245.83282pt x 142.35422pt.
  [28
 
- <C:/Users/Debora Natsue/Documents/investigaBDs/seminario/images/consulta_estat
-istica.jpg>]
+ <D:/Users/EU/Documents/investigaBDs/seminario/images/consulta_estatistica.jpg>
+]
 <../images/remove_dependentes.jpg, id=1051, 557.08125pt x 338.76563pt>
 File: ../images/remove_dependentes.jpg Graphic file (type jpg)
 
 <use ../images/remove_dependentes.jpg>
-Package pdftex.def Info: ../images/remove_dependentes.jpg used on input line 27
-9.
+Package pdftex.def Info: ../images/remove_dependentes.jpg used on input line 28
+3.
 (pdftex.def)             Requested size: 245.83282pt x 149.49153pt.
 
-Overfull \vbox (1.35909pt too high) detected at line 279
+Overfull \vbox (1.35909pt too high) detected at line 283
  []
 
 [29
 
- <C:/Users/Debora Natsue/Documents/investigaBDs/seminario/images/remove_depende
-ntes.jpg>]
+ <D:/Users/EU/Documents/investigaBDs/seminario/images/remove_dependentes.jpg>] 
 <../images/desliga_empregado.jpg, id=1087, 618.05907pt x 323.70938pt>
 File: ../images/desliga_empregado.jpg Graphic file (type jpg)
 
 <use ../images/desliga_empregado.jpg>
-Package pdftex.def Info: ../images/desliga_empregado.jpg used on input line 289
+Package pdftex.def Info: ../images/desliga_empregado.jpg used on input line 293
 .
 (pdftex.def)             Requested size: 245.83282pt x 128.75536pt.
  [30
 
- <C:/Users/Debora Natsue/Documents/investigaBDs/seminario/images/desliga_empreg
-ado.jpg>] [31
+ <D:/Users/EU/Documents/investigaBDs/seminario/images/desliga_empregado.jpg>] [
+31
 
 ] [32
 
 ] [33
 
 ]
-LaTeX Font Info:    Try loading font information for OT1+lmss on input line 353
+LaTeX Font Info:    Try loading font information for OT1+lmss on input line 357
 .
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\ot1lmss.fd"
@@ -1484,49 +1448,48 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `lmss' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for OML+zplm on input line 353
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 357
 .
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omlzplm.fd"
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMS+zplm on input line 353
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 357
 .
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omszplm.fd"
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMX+zplm on input line 353
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 357
 .
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omxzplm.fd"
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 11.40997pt on input line 353.
+(Font)              scaled to size 11.40997pt on input line 357.
 
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\mt-msa.
-cfg"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 353.
+(Font)              scaled to size 8.33606pt on input line 357.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 353.
+(Font)              scaled to size 6.25204pt on input line 357.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 11.40997pt on input line 353.
+(Font)              scaled to size 11.40997pt on input line 357.
 
-("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\mt-msb.
-cfg"
+(C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 353.
+(Font)              scaled to size 8.33606pt on input line 357.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 353.
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 353
+(Font)              scaled to size 6.25204pt on input line 357.
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 357
 .
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1zplm.fd"
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1zplm.fd"
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
 Package microtype Info: Loading generic settings for font family
@@ -1534,18 +1497,18 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <8> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 353.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 357.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <6> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 353.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 357.
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <10.95> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 353.
-
-[34
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 357.
+ [34
 
 ]
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 368.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 372.
 
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 Package microtype Info: Loading generic settings for font family
@@ -1556,14 +1519,7 @@ Package microtype Info: Loading generic settings for font family
 
 ] [36
 
-]
-[37
-
-]
-No file apres-beamer.bbl.
-[38
-
-] [39
+] [37
 
 ])
 \tf@nav=\write6
@@ -1572,10 +1528,8 @@ No file apres-beamer.bbl.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 10.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 10.
 
-("C:\Users\Debora Natsue\Documents\investigaBDs\seminario\apresentacao\apres-be
-amer.aux"
-("C:\Users\Debora Natsue\Documents\investigaBDs\seminario\apresentacao\slides.a
-ux"))
+(D:\Users\EU\Documents\investigaBDs\seminario\apresentacao\apres-beamer.aux
+(D:\Users\EU\Documents\investigaBDs\seminario\apresentacao\slides.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 10.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 10.
 Package rerunfilecheck Info: File `apres-beamer.out' has not changed.
@@ -1583,13 +1537,13 @@ Package rerunfilecheck Info: File `apres-beamer.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 10.
  ) 
 Here is how much of TeX's memory you used:
- 18323 strings out of 494045
- 346695 string characters out of 3145945
+ 18316 strings out of 494045
+ 343825 string characters out of 3145978
  444692 words of memory out of 3000000
- 21000 multiletter control sequences out of 15000+200000
- 51296 words of font info for 65 fonts, out of 3000000 for 9000
+ 20996 multiletter control sequences out of 15000+200000
+ 51397 words of font info for 66 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 56i,19n,69p,650b,594s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 56i,19n,69p,639b,594s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program F
 iles (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmss10.pfb><C:/Program Files (x86)/
 MiKTeX 2.9/fonts/type1/public/lm/lmss12.pfb><C:/Program Files (x86)/MiKTeX 2.9/
@@ -1597,9 +1551,9 @@ fonts/type1/public/lm/lmss17.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
 /public/lm/lmss8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/l
 mssbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsso10.pf
 b><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb>
-Output written on apres-beamer.pdf (39 pages, 1179222 bytes).
+Output written on apres-beamer.pdf (37 pages, 1171100 bytes).
 PDF statistics:
- 1470 PDF objects out of 1728 (max. 8388607)
- 96 named destinations out of 1000 (max. 500000)
+ 1402 PDF objects out of 1440 (max. 8388607)
+ 92 named destinations out of 1000 (max. 500000)
  15551 words of extra memory for PDF output out of 17280 (max. 10000000)
 
