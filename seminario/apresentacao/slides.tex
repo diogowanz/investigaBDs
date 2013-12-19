@@ -54,7 +54,7 @@
 \begin{frame}{Relacional x NoSQL}
 	\begin{figure}[!htbp]
 		\begin{center}
-			\includegraphics[width=0.9\textwidth]{modelo_orientado_documentos}
+			\includegraphics[width=0.6\textwidth]{modelo_orientado_documentos}
 		\end{center}
 		\caption{ Modelagem orientada a documentos implementada no protótipo.}
 		\label{fig:modeloorientadodocumentos}
@@ -84,11 +84,11 @@
 \end{frame}
 
 
-\begin{frame}{Hipótese}
-    \begin{itemize}
-           \item Podemos melhorar a performance nas consultas e armazenamento, porém o grau de consistência e confiabilidade necessários devem ser medidos e implementados na aplicação.
-    \end{itemize}
-\end{frame}
+%\begin{frame}{Hipótese}
+%    \begin{itemize}
+%           \item Podemos melhorar a performance nas consultas e armazenamento, porém o grau de consistência e confiabilidade necessários devem ser medidos e implementados na aplicação.
+%    \end{itemize}
+%\end{frame}
 
 
 \begin{frame}{Motivação}
@@ -133,13 +133,187 @@
 \end{frame}
 
 
-\begin{frame}{Metodologia}
+\begin{frame}{Teste de Software}
     \begin{itemize}
-    \item Entender o problema;
-    \item Estudar as soluções;
-    \item Testar as soluções;
+    \item Qualidade de software;
+    \item Teste: atividades nas quais um sistema ou um componente é executado sob determinadas
+condições e os resultados são observados ou gravados, e uma avaliação é
+feita observando determinado comportamento do sistema ou do componente; 
+    \item Vários tipos: Testes de sistema, usabilidade, back-to-back, carga, performance.
+    \item Com a complexidade e tamanho das aplicações os testes manuais se tornaram inviáveis.
+    \item Solução: Testes automatizados.
     \end{itemize}
 \end{frame}
+
+\begin{frame}{Protótipo AFD}
+    \begin{itemize}
+    \item Arquitetura SOA;
+    \item Principais capacidades para manter os dados do AFD;
+    \item Inserção e consulta de órgãos, empregados, dependentes, documentos;
+    \item Empregados ativos;
+    \item Desligamento de empregados e exclusão de dependentes.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Arquitetura}
+	\begin{figure}[!htbp]
+		\begin{center}
+			\includegraphics[width=0.4\textwidth]{arquitetura}
+		\end{center}
+		\caption{Arquitetura de Testes}
+		\label{fig:arquitetura}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Plano de testes}
+    \begin{itemize}
+    \item Criação de um plano de testes para as principais capacidades do protótipo;
+    \item Plano de testes parametrizáveis : Usuários virtuais, carga de dados via arquivo CSV;
+    \item Monitoramento dos resultados;
+    \item Geração de gráficos;
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Execução dos testes}
+    \begin{itemize}
+    \item Criação de um plano de testes para as principais capacidades do protótipo;
+    \item Plano de testes parametrizáveis : Usuários virtuais, carga de dados via arquivo CSV;
+    \item Monitoramento dos resultados;
+    \item Geração de gráficos;
+    \item As capacidades foram testadas com 10, 100 e, quando possível, com 500 usuários simultâneos;
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Execução dos testes}
+Os testes foram realizados em uma máquina física com as seguintes configurações:
+
+\begin{itemize}
+\item Sistema Operacional: Debian GNU/Linux 6.0
+\item Processador: Intel Pentium Quad Core
+\item Quantidade de Memória RAM: 4 GB
+\item MongoDB: Versão 2.4.0 padrão
+\item PostgreSQL: Versão 8.4.16 padrão
+\item Driver Python MongoDB: pymongo
+\item Driver Python PostgreSQL: psycopg
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Massa de dados}
+\begin{itemize}
+\item Quantidade de unidades pagadoras (órgãos): 10
+\item Quantidade de empregados por orgão: 100
+\item Quantidade de dependentes por empregado: 2 
+\item Quantidade de documentos por empregado: 5
+\item Quantidade de documentos por dependente: 2
+\item Quantidade de dependentes excluídos: 250
+\item Quantidade de empregados desligados: 250
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Métrica}
+\begin{itemize}
+\item Tempo de Resposta [molineux][raj jain]
+\end{itemize}
+\end{frame}
+
+\section{Resultados}
+
+\begin{frame}{Resultados}
+\begin{figure}[!htbp]
+	\begin{center}
+		\includegraphics[width=0.8\textwidth]{insere_empregados}
+	\end{center}
+	\caption{Resultados - Insere Empregados}
+	\label{fig:resultinsereempregados}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Resultados}
+\begin{figure}[!htbp]
+	\begin{center}
+		\includegraphics[width=0.6\textwidth]{insere_doc_dependentes}
+	\end{center}
+	\caption{Resultados - Insere Documento do Dependente}
+	\label{fig:resultinseredocdependente}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Resultados}
+\begin{figure}[!htbp]
+	\begin{center}
+		\includegraphics[width=0.8\textwidth]{consulta_empregados}
+	\end{center}
+	\caption{Resultados - Lista Empregados}
+	\label{fig:resultlistaempregados}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Resultados}
+\begin{figure}[!htbp]
+	\begin{center}
+		\includegraphics[width=0.6\textwidth]{consulta_doc_empregado}
+	\end{center}
+	\caption{Resultados - Lista Documentos do Empregado}
+	\label{fig:resultlistadocempregado}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Resultados}
+\begin{figure}[!htbp]
+	\begin{center}
+		\includegraphics[width=0.8\textwidth]{consulta_estatistica}
+	\end{center}
+	\caption{Resultados - Consulta Empregados Ativos}
+	\label{fig:resultlistaempregadosativos}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Resultados}
+\begin{figure}[!htbp]
+	\begin{center}
+		\includegraphics[width=0.8\textwidth]{remove_dependentes}
+	\end{center}
+	\caption{Resultados - Remove Dependentes}
+	\label{fig:resultremovedependentes}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Resultados}
+\begin{figure}[!htbp]
+	\begin{center}
+		\includegraphics[width=0.8\textwidth]{desliga_empregado}
+	\end{center}
+	\caption{Resultados - Desliga Empregado}
+	\label{fig:resultdesliga_empregado}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Resultados}
+Ao final dos testes pode-se verificar que nenhum banco de dados foi consideravelmente mais veloz que o outro e que, para praticamente todos os testes realizados, o PostgreSQL se mostrou mais rápido. Dessa maneira, para o cenário de manutenção dos dados do AFD, com a arquitetura, massa de dados e modelagem utilizadas, não é vantajoso utilizar o MongoDB para a persistência dos dados, visto que, mesmo com todos os recursos de segurança e controle de transações oferecidos pelo PostgreSQL, ele ainda continua sendo mais performático.
+\end{frame}
+
+\section{Considerações Finais e Trabalhos Futuros}
+
+\begin{frame}{Considerações Finais}
+\begin{itemize}
+\item Cenários definido;
+\item Tanto o PostgreSQL quanto o MongoDB possuem seu lugar no mercado;
+item Fontes no GitHub;
+\end{itemize}
+\end{frame}
+
+
+
+\begin{frame}{Trabalhos Futuros}
+\begin{itemize}
+\item Outra modelagem orientada a documentos com uma maior utilização de subdocumentos;
+\item Uso de uma arquitetura mais robusta
+item Expandir os testes para outros bancos de dados como o MySQL, Cassandra, HBase...
+\end{itemize}
+\end{frame}
+
+
+
 
 \section{Cronograma}
 
@@ -211,6 +385,13 @@ next? XRDS, September 2012.
 \item Ricardo W. Brito. Banco de dados nosql x sgbds relacionais: Análise comparativa.
 2010.
 \end{itemize}
+\end{frame}
+
+\begin{frame}\frametitle{Bibliografia}
+  % estilo da bibliografia
+  \bibliographystyle{abbrv}
+  % chamando o arquivo refs.bib
+  \bibliography{refs}
 \end{frame}
 
 \appendix

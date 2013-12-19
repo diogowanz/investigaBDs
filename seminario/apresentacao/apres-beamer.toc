@@ -1,6 +1,8 @@
 \beamer@sectionintoc {1}{Revis\IeC {\~a}o Te\IeC {\'o}rica}{3}{0}{1}
 \beamer@sectionintoc {2}{O Projeto}{8}{0}{2}
-\beamer@sectionintoc {3}{Cronograma}{18}{0}{3}
-\beamer@sectionintoc {4}{Refer\IeC {\^e}ncias}{19}{0}{4}
+\beamer@sectionintoc {3}{Resultados}{24}{0}{3}
+\beamer@sectionintoc {4}{Considera\IeC {\c c}\IeC {\~o}es Finais e Trabalhos Futuros}{32}{0}{4}
+\beamer@sectionintoc {5}{Cronograma}{34}{0}{5}
+\beamer@sectionintoc {6}{Refer\IeC {\^e}ncias}{35}{0}{6}
 \beamer@endinputifotherversion {3.32pt}
 \select@language {american}

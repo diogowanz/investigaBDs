@@ -1,2 +1,10 @@
 \beamer@slide {fig:modelorelacional}{5}
 \beamer@slide {fig:modeloorientadodocumentos}{7}
+\beamer@slide {fig:arquitetura}{18}
+\beamer@slide {fig:resultinsereempregados}{24}
+\beamer@slide {fig:resultinseredocdependente}{25}
+\beamer@slide {fig:resultlistaempregados}{26}
+\beamer@slide {fig:resultlistadocempregado}{27}
+\beamer@slide {fig:resultlistaempregadosativos}{28}
+\beamer@slide {fig:resultremovedependentes}{29}
+\beamer@slide {fig:resultdesliga_empregado}{30}

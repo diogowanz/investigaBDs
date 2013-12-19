@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2013.4.22)  18 DEC 2013 22:07
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2013.4.22)  19 DEC 2013 12:31
 entering extended mode
-**C:/Users/Debora*Natsue/Google*Drive/SEMINARIO/template/apresentacao/apres-bea
-mer.tex
+**C:/Users/Debora*Natsue/Documents/investigaBDs/seminario/apresentacao/apres-be
+amer.tex
 
-("C:/Users/Debora Natsue/Google Drive/SEMINARIO/template/apresentacao/apres-bea
-mer.tex"
+("C:/Users/Debora Natsue/Documents/investigaBDs/seminario/apresentacao/apres-be
+amer.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -753,8 +753,8 @@ Package: beamerouterthemedefault 2012/12/19  (rcs-revision 1686da3db3c9)
 )))
 \@input{header.aux}
 
-("C:\Users\Debora Natsue\Google Drive\SEMINARIO\template\apresentacao\header.te
-x" ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.sty"
+("C:\Users\Debora Natsue\Documents\investigaBDs\seminario\apresentacao\header.t
+ex" ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.sty"
 Package: babel 2008/07/08 v3.8m The Babel package
 
 *************************************
@@ -1103,10 +1103,10 @@ Package: beamercolorthemeorchid 2010/06/17  (rcs-revision d02a7cf4d8ae)
 s\color\beamercolorthemewhale.sty"
 Package: beamercolorthemewhale 2010/06/17  (rcs-revision d02a7cf4d8ae)
 )))
-("C:\Users\Debora Natsue\Google Drive\SEMINARIO\template\apresentacao\apres-bea
-mer.aux"
-("C:\Users\Debora Natsue\Google Drive\SEMINARIO\template\apresentacao\slides.au
-x"))
+("C:\Users\Debora Natsue\Documents\investigaBDs\seminario\apresentacao\apres-be
+amer.aux"
+("C:\Users\Debora Natsue\Documents\investigaBDs\seminario\apresentacao\slides.a
+ux"))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
 LaTeX Font Info:    ... okay on input line 8.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
@@ -1190,10 +1190,10 @@ LaTeX Info: Redefining \ref on input line 8.
 LaTeX Info: Redefining \pageref on input line 8.
 LaTeX Info: Redefining \nameref on input line 8.
 
-("C:\Users\Debora Natsue\Google Drive\SEMINARIO\template\apresentacao\apres-bea
-mer.out")
-("C:\Users\Debora Natsue\Google Drive\SEMINARIO\template\apresentacao\apres-bea
-mer.out")
+("C:\Users\Debora Natsue\Documents\investigaBDs\seminario\apresentacao\apres-be
+amer.out")
+("C:\Users\Debora Natsue\Documents\investigaBDs\seminario\apresentacao\apres-be
+amer.out")
 \@outlinefile=\write5
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/ppl/m/n --> OT1/cmss/m/n on input line 8.
@@ -1297,24 +1297,25 @@ Package microtype Warning: \nonfrenchspacing is active. Adjustment of
 (microtype)                to your preamble.
 
 
-("C:\Users\Debora Natsue\Google Drive\SEMINARIO\template\apresentacao\apres-bea
-mer.nav")
-("C:\Users\Debora Natsue\Google Drive\SEMINARIO\template\apresentacao\slides.te
-x" [1{C:/Users/Debora Natsue/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+("C:\Users\Debora Natsue\Documents\investigaBDs\seminario\apresentacao\apres-be
+amer.nav")
+("C:\Users\Debora Natsue\Documents\investigaBDs\seminario\apresentacao\slides.t
+ex" [1{C:/Users/Debora Natsue/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map
+}
 
 
 
 
 ]
-("C:\Users\Debora Natsue\Google Drive\SEMINARIO\template\apresentacao\apres-bea
-mer.toc") [2
+("C:\Users\Debora Natsue\Documents\investigaBDs\seminario\apresentacao\apres-be
+amer.toc") [2
 
 ] [3
 
 ] [4
 
 ]
-<../images/modelo_relacional.jpg, id=194, 800.23969pt x 422.32782pt>
+<../images/modelo_relacional.jpg, id=216, 800.23969pt x 422.32782pt>
 File: ../images/modelo_relacional.jpg Graphic file (type jpg)
 
 <use ../images/modelo_relacional.jpg>
@@ -1323,25 +1324,22 @@ Package pdftex.def Info: ../images/modelo_relacional.jpg used on input line 42.
 (pdftex.def)             Requested size: 245.83282pt x 129.73453pt.
  [5
 
- <C:/Users/Debora Natsue/Google Drive/SEMINARIO/template/images/modelo_relacion
-al.jpg>] [6
+ <C:/Users/Debora Natsue/Documents/investigaBDs/seminario/images/modelo_relacio
+nal.jpg>] [6
 
 ]
-<../images/modelo_orientado_documentos.jpeg, id=259, 1706.375pt x 1198.4775pt>
+<../images/modelo_orientado_documentos.jpeg, id=285, 1706.375pt x 1198.4775pt>
 File: ../images/modelo_orientado_documentos.jpeg Graphic file (type jpg)
 
 <use ../images/modelo_orientado_documentos.jpeg>
 Package pdftex.def Info: ../images/modelo_orientado_documentos.jpeg used on inp
 ut line 62.
-(pdftex.def)             Requested size: 276.559pt x 194.2291pt.
+(pdftex.def)             Requested size: 184.3758pt x 129.49216pt.
+ [7
 
-Overfull \vbox (33.09692pt too high) detected at line 62
- []
-
-[7
-
- <C:/Users/Debora Natsue/Google Drive/SEMINARIO/template/images/modelo_orientad
-o_documentos.jpeg>] [8
+ <C:/Users/Debora Natsue/Documents/investigaBDs/seminario/images/modelo_orienta
+do_documentos.jpeg>]
+[8
 
 ]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
@@ -1365,7 +1363,118 @@ LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
 ] [17
 
 ]
-LaTeX Font Info:    Try loading font information for OT1+lmss on input line 179
+<../images/arquitetura.jpg, id=664, 551.81157pt x 630.85687pt>
+File: ../images/arquitetura.jpg Graphic file (type jpg)
+
+<use ../images/arquitetura.jpg>
+Package pdftex.def Info: ../images/arquitetura.jpg used on input line 166.
+(pdftex.def)             Requested size: 122.91406pt x 140.52164pt.
+ [18
+
+ <C:/Users/Debora Natsue/Documents/investigaBDs/seminario/images/arquitetura.jp
+g>] [19
+
+] [20
+
+] [21
+
+] [22
+
+] [23
+
+]
+<../images/insere_empregados.jpg, id=869, 558.58687pt x 340.27126pt>
+File: ../images/insere_empregados.jpg Graphic file (type jpg)
+
+<use ../images/insere_empregados.jpg>
+Package pdftex.def Info: ../images/insere_empregados.jpg used on input line 229
+.
+(pdftex.def)             Requested size: 245.83282pt x 149.75096pt.
+
+Overfull \vbox (1.61852pt too high) detected at line 229
+ []
+
+[24
+
+ <C:/Users/Debora Natsue/Documents/investigaBDs/seminario/images/insere_emprega
+dos.jpg>]
+<../images/insere_doc_dependentes.jpg, id=906, 462.22687pt x 359.09157pt>
+File: ../images/insere_doc_dependentes.jpg Graphic file (type jpg)
+
+<use ../images/insere_doc_dependentes.jpg>
+Package pdftex.def Info: ../images/insere_doc_dependentes.jpg used on input lin
+e 239.
+(pdftex.def)             Requested size: 184.3758pt x 143.23409pt.
+ [25
+
+ <C:/Users/Debora Natsue/Documents/investigaBDs/seminario/images/insere_doc_dep
+endentes.jpg>]
+<../images/consulta_empregados.jpg, id=943, 621.07031pt x 363.60844pt>
+File: ../images/consulta_empregados.jpg Graphic file (type jpg)
+
+<use ../images/consulta_empregados.jpg>
+Package pdftex.def Info: ../images/consulta_empregados.jpg used on input line 2
+49.
+(pdftex.def)             Requested size: 245.83282pt x 143.92058pt.
+ [26
+
+ <C:/Users/Debora Natsue/Documents/investigaBDs/seminario/images/consulta_empre
+gados.jpg>]
+<../images/consulta_doc_empregado.jpg, id=979, 466.74374pt x 329.73187pt>
+File: ../images/consulta_doc_empregado.jpg Graphic file (type jpg)
+
+<use ../images/consulta_doc_empregado.jpg>
+Package pdftex.def Info: ../images/consulta_doc_empregado.jpg used on input lin
+e 259.
+(pdftex.def)             Requested size: 184.3758pt x 130.2502pt.
+ [27
+
+ <C:/Users/Debora Natsue/Documents/investigaBDs/seminario/images/consulta_doc_e
+mpregado.jpg>]
+<../images/consulta_estatistica.jpg, id=1015, 618.81187pt x 358.33875pt>
+File: ../images/consulta_estatistica.jpg Graphic file (type jpg)
+
+<use ../images/consulta_estatistica.jpg>
+Package pdftex.def Info: ../images/consulta_estatistica.jpg used on input line 
+269.
+(pdftex.def)             Requested size: 245.83282pt x 142.35422pt.
+ [28
+
+ <C:/Users/Debora Natsue/Documents/investigaBDs/seminario/images/consulta_estat
+istica.jpg>]
+<../images/remove_dependentes.jpg, id=1051, 557.08125pt x 338.76563pt>
+File: ../images/remove_dependentes.jpg Graphic file (type jpg)
+
+<use ../images/remove_dependentes.jpg>
+Package pdftex.def Info: ../images/remove_dependentes.jpg used on input line 27
+9.
+(pdftex.def)             Requested size: 245.83282pt x 149.49153pt.
+
+Overfull \vbox (1.35909pt too high) detected at line 279
+ []
+
+[29
+
+ <C:/Users/Debora Natsue/Documents/investigaBDs/seminario/images/remove_depende
+ntes.jpg>]
+<../images/desliga_empregado.jpg, id=1087, 618.05907pt x 323.70938pt>
+File: ../images/desliga_empregado.jpg Graphic file (type jpg)
+
+<use ../images/desliga_empregado.jpg>
+Package pdftex.def Info: ../images/desliga_empregado.jpg used on input line 289
+.
+(pdftex.def)             Requested size: 245.83282pt x 128.75536pt.
+ [30
+
+ <C:/Users/Debora Natsue/Documents/investigaBDs/seminario/images/desliga_empreg
+ado.jpg>] [31
+
+] [32
+
+] [33
+
+]
+LaTeX Font Info:    Try loading font information for OT1+lmss on input line 353
 .
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\ot1lmss.fd"
@@ -1375,47 +1484,47 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `lmss' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for OML+zplm on input line 179
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 353
 .
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omlzplm.fd"
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMS+zplm on input line 179
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 353
 .
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omszplm.fd"
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMX+zplm on input line 179
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 353
 .
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omxzplm.fd"
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 11.40997pt on input line 179.
+(Font)              scaled to size 11.40997pt on input line 353.
 
 ("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\mt-msa.
 cfg"
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 179.
+(Font)              scaled to size 8.33606pt on input line 353.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 179.
+(Font)              scaled to size 6.25204pt on input line 353.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 11.40997pt on input line 179.
+(Font)              scaled to size 11.40997pt on input line 353.
 
 ("C:\Users\Debora Natsue\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\mt-msb.
 cfg"
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 179.
+(Font)              scaled to size 8.33606pt on input line 353.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 179.
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 179
+(Font)              scaled to size 6.25204pt on input line 353.
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 353
 .
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1zplm.fd"
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
@@ -1425,16 +1534,16 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <8> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 179.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 353.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <6> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 179.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 353.
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <10.95> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 179.
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 353.
 
-[18
+[34
 
 ]
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 194.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 368.
 
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1443,14 +1552,18 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [19
+ [35
 
-] [20
+] [36
 
 ]
-[21
+[37
 
-] [22
+]
+No file apres-beamer.bbl.
+[38
+
+] [39
 
 ])
 \tf@nav=\write6
@@ -1459,24 +1572,24 @@ Package microtype Info: Loading generic settings for font family
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 10.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 10.
 
-("C:\Users\Debora Natsue\Google Drive\SEMINARIO\template\apresentacao\apres-bea
-mer.aux"
-("C:\Users\Debora Natsue\Google Drive\SEMINARIO\template\apresentacao\slides.au
-x"))
+("C:\Users\Debora Natsue\Documents\investigaBDs\seminario\apresentacao\apres-be
+amer.aux"
+("C:\Users\Debora Natsue\Documents\investigaBDs\seminario\apresentacao\slides.a
+ux"))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 10.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 10.
 Package rerunfilecheck Info: File `apres-beamer.out' has not changed.
-(rerunfilecheck)             Checksum: 20ADF0265EF164AF64187E79D31B022F;240.
+(rerunfilecheck)             Checksum: 0EE18C864C803DA5C9918D03D12DDA4C;368.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 10.
  ) 
 Here is how much of TeX's memory you used:
- 18184 strings out of 494045
- 344134 string characters out of 3145945
- 443411 words of memory out of 3000000
- 20918 multiletter control sequences out of 15000+200000
- 51094 words of font info for 63 fonts, out of 3000000 for 9000
+ 18323 strings out of 494045
+ 346695 string characters out of 3145945
+ 444692 words of memory out of 3000000
+ 21000 multiletter control sequences out of 15000+200000
+ 51296 words of font info for 65 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 56i,19n,69p,470b,594s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 56i,19n,69p,650b,594s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program F
 iles (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmss10.pfb><C:/Program Files (x86)/
 MiKTeX 2.9/fonts/type1/public/lm/lmss12.pfb><C:/Program Files (x86)/MiKTeX 2.9/
@@ -1484,9 +1597,9 @@ fonts/type1/public/lm/lmss17.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
 /public/lm/lmss8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/l
 mssbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsso10.pf
 b><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb>
-Output written on apres-beamer.pdf (22 pages, 615817 bytes).
+Output written on apres-beamer.pdf (39 pages, 1179222 bytes).
 PDF statistics:
- 809 PDF objects out of 1000 (max. 8388607)
- 52 named destinations out of 1000 (max. 500000)
- 15495 words of extra memory for PDF output out of 17280 (max. 10000000)
+ 1470 PDF objects out of 1728 (max. 8388607)
+ 96 named destinations out of 1000 (max. 500000)
+ 15551 words of extra memory for PDF output out of 17280 (max. 10000000)
 
