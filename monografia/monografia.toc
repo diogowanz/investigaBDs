@@ -1,5 +1,7 @@
 \select@language {american}
+\select@language {brazil}
 \select@language {american}
+\select@language {brazil}
 \select@language {brazil}
 \contentsline {chapter}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Objetivos e Justificativa}{2}{section.1.1}
@@ -12,46 +14,46 @@
 \contentsline {subsubsection}{Teorema CAP}{8}{section*.8}
 \contentsline {subsubsection}{Teorema BASE}{9}{section*.9}
 \contentsline {subsubsection}{Consist\IeC {\^e}ncia Eventual}{9}{section*.10}
-\contentsline {section}{\numberline {2.2}NoSQL}{10}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Modelos de Banco de Dados NoSql}{11}{subsection.2.2.1}
-\contentsline {subsubsection}{Chave-Valor}{11}{section*.11}
-\contentsline {subsubsection}{Orientados a Documentos}{11}{section*.12}
+\contentsline {section}{\numberline {2.2}NoSQL}{11}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Modelos de Banco de Dados NoSql}{12}{subsection.2.2.1}
+\contentsline {subsubsection}{Chave-Valor}{12}{section*.11}
+\contentsline {subsubsection}{Orientados a Documentos}{12}{section*.12}
 \contentsline {subsubsection}{Orientados a Colunas}{12}{section*.13}
-\contentsline {subsubsection}{Baseados em Grafos}{12}{section*.14}
+\contentsline {subsubsection}{Baseados em Grafos}{13}{section*.14}
 \contentsline {subsection}{\numberline {2.2.2}MongoDB}{13}{subsection.2.2.2}
-\contentsline {subsubsection}{Modelagem dos Dados}{14}{section*.15}
-\contentsline {subsubsection}{Linguagem de Consulta}{16}{section*.16}
-\contentsline {subsubsection}{Replica\IeC {\c c}\IeC {\~a}o}{17}{section*.17}
-\contentsline {subsubsection}{Decomposi\IeC {\c c}\IeC {\~a}o (Sharding)}{17}{section*.18}
+\contentsline {subsubsection}{Modelagem dos Dados}{15}{section*.15}
+\contentsline {subsubsection}{Linguagem de Consulta}{18}{section*.16}
+\contentsline {subsubsection}{Replica\IeC {\c c}\IeC {\~a}o}{18}{section*.17}
+\contentsline {subsubsection}{Decomposi\IeC {\c c}\IeC {\~a}o (Sharding)}{18}{section*.18}
 \contentsline {subsubsection}{Tratamento de Falhas}{19}{section*.19}
-\contentsline {section}{\numberline {2.3}Testes}{19}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Defini\IeC {\c c}\IeC {\~a}o}{19}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Teste de Software e Qualidade de Software}{19}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}Tipos de Testes}{20}{subsection.2.3.3}
+\contentsline {section}{\numberline {2.3}Testes}{20}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Defini\IeC {\c c}\IeC {\~a}o}{20}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Teste de Software e Qualidade de Software}{20}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Tipos de Testes}{21}{subsection.2.3.3}
 \contentsline {subsection}{\numberline {2.3.4}Testes de Carga e de Performance}{22}{subsection.2.3.4}
-\contentsline {subsubsection}{Testes de carga}{22}{section*.20}
-\contentsline {subsubsection}{Teste de Performance}{22}{section*.21}
+\contentsline {subsubsection}{Testes de carga}{23}{section*.20}
+\contentsline {subsubsection}{Teste de Performance}{23}{section*.21}
 \contentsline {subsection}{\numberline {2.3.5}Automa\IeC {\c c}\IeC {\~a}o de Testes}{23}{subsection.2.3.5}
-\contentsline {subsection}{\numberline {2.3.6}JMeter}{23}{subsection.2.3.6}
-\contentsline {chapter}{\numberline {3}Prot\IeC {\'o}tipo AFD e Plano de Testes}{30}{chapter.3}
-\contentsline {section}{\numberline {3.1}Web-Service}{30}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}O que \IeC {\'e} web-service?}{30}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Componentes de um Web-Service}{30}{subsection.3.1.2}
-\contentsline {subsubsection}{SOAP}{31}{section*.22}
-\contentsline {subsection}{\numberline {3.1.3}WSDL}{32}{subsection.3.1.3}
-\contentsline {subsection}{\numberline {3.1.4}UDDI}{33}{subsection.3.1.4}
-\contentsline {section}{\numberline {3.2}O Prot\IeC {\'o}tipo}{33}{section.3.2}
-\contentsline {section}{\numberline {3.3}A Arquitetura do Projeto}{33}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}web2py}{35}{subsection.3.3.1}
-\contentsline {section}{\numberline {3.4}Os Planos de Teste}{35}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Planos de Teste de Inser\IeC {\c c}\IeC {\~a}o/Exclus\IeC {\~a}o/Atualiza\IeC {\c c}\IeC {\~a}o}{36}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Planos de Teste de Consulta}{37}{subsection.3.4.2}
-\contentsline {chapter}{\numberline {4}Execu\IeC {\c c}\IeC {\~a}o dos Testes e An\IeC {\'a}lise dos Resultados}{38}{chapter.4}
-\contentsline {section}{\numberline {4.1}Ambiente de testes}{38}{section.4.1}
-\contentsline {section}{\numberline {4.2}Massa de Dados}{38}{section.4.2}
-\contentsline {section}{\numberline {4.3}M\IeC {\'e}tricas}{39}{section.4.3}
-\contentsline {section}{\numberline {4.4}Resultados}{40}{section.4.4}
-\contentsline {chapter}{\numberline {5}Considera\IeC {\c c}\IeC {\~o}es Finais e Projeto Futuros}{47}{chapter.5}
-\contentsline {section}{\numberline {5.1}Considera\IeC {\c c}\IeC {\~o}es Finais}{47}{section.5.1}
-\contentsline {section}{\numberline {5.2}Projetos Futuros}{47}{section.5.2}
-\contentsline {chapter}{Refer\^encias}{51}{section*.23}
+\contentsline {subsection}{\numberline {2.3.6}JMeter}{24}{subsection.2.3.6}
+\contentsline {chapter}{\numberline {3}Prot\IeC {\'o}tipo AFD e Plano de Testes}{31}{chapter.3}
+\contentsline {section}{\numberline {3.1}Web-Service}{31}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}O que \IeC {\'e} web-service?}{31}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Componentes de um Web-Service}{31}{subsection.3.1.2}
+\contentsline {subsubsection}{SOAP}{32}{section*.22}
+\contentsline {subsection}{\numberline {3.1.3}WSDL}{33}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {3.1.4}UDDI}{34}{subsection.3.1.4}
+\contentsline {section}{\numberline {3.2}O Prot\IeC {\'o}tipo}{34}{section.3.2}
+\contentsline {section}{\numberline {3.3}A Arquitetura do Projeto}{34}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}web2py}{36}{subsection.3.3.1}
+\contentsline {section}{\numberline {3.4}Os Planos de Teste}{36}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Planos de Teste de Inser\IeC {\c c}\IeC {\~a}o/Exclus\IeC {\~a}o/Atualiza\IeC {\c c}\IeC {\~a}o}{37}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Planos de Teste de Consulta}{38}{subsection.3.4.2}
+\contentsline {chapter}{\numberline {4}Execu\IeC {\c c}\IeC {\~a}o dos Testes e An\IeC {\'a}lise dos Resultados}{39}{chapter.4}
+\contentsline {section}{\numberline {4.1}Ambiente de testes}{39}{section.4.1}
+\contentsline {section}{\numberline {4.2}Massa de Dados}{39}{section.4.2}
+\contentsline {section}{\numberline {4.3}M\IeC {\'e}tricas}{40}{section.4.3}
+\contentsline {section}{\numberline {4.4}Resultados}{41}{section.4.4}
+\contentsline {chapter}{\numberline {5}Considera\IeC {\c c}\IeC {\~o}es Finais e Projeto Futuros}{48}{chapter.5}
+\contentsline {section}{\numberline {5.1}Considera\IeC {\c c}\IeC {\~o}es Finais}{48}{section.5.1}
+\contentsline {section}{\numberline {5.2}Projetos Futuros}{48}{section.5.2}
+\contentsline {chapter}{Refer\^encias}{52}{section*.23}

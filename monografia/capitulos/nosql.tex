@@ -12,7 +12,7 @@ a documentos MongoDB.
 
 \section{NoSQL}
 
-O termo NoSql é a junção de duas palavras. \textit{No} e \textit{SQL}. Ao pé da letra significa que é uma tecnologia/produto que trabalha de forma contrária à tecnologia dos banco relacionais (adeptos do SQL). O termo é usado com o sentido de Não Relacional. Atualmente o termo NoSql é traduzido para \textit{"Not only Sql"}, ou seja "Não só Sql".
+O termo NoSql é a junção de duas palavras. \textit{No} e \textit{SQL}. Se traduzirmos de forma simplista, significa que é uma tecnologia/produto que trabalha de forma contrária à tecnologia dos banco relacionais (adeptos do SQL). O termo é usado com o sentido de Não Relacional. Atualmente o termo NoSql é traduzido para \textit{"Not only Sql"}, ou seja "Não só Sql".
 Saindo da definição, NoSql é um termo genérico para uma classe definida de banco de dados não-relacionais que armazenam os dados  de forma diferente da conhecida modelagem relacional e que surgiram com o propósito de sanar algumas dificuldades encontradas com o modelo relacional. NoSql não é um produto, mas a uma classe de produtos e conceitos de armazenagem e manipulação de dados. 
 
 O que diferencia os bancos de dados NoSql dos relacionais são os seus modelos de dados sem um \textit{schema} definido. Os bancos de dados NoSql podem ser classificados, segundo seu modelo de dados, em quatro grupos: chave-valor, orientados a documentos, orientados a colunas e baseados em grafos~\cite{nosqlxrelacional,nosqlevaluation}.
@@ -149,7 +149,7 @@ Para representar as relações entre os objetos temos duas estratégias: referê
 
 	\begin{figure}[!htbp]
 		\begin{center}
-			\includegraphics[width=0.9\textwidth]{modelo_orientado_documentos}
+			\includegraphics[width=1.4\textwidth, angle=-90]{modelo_orientado_documentos}
 		\end{center}
 		\caption{ Modelagem orientada a documentos implementada no protótipo.}
 		\label{fig:modeloorientadodocumentos}
@@ -249,7 +249,7 @@ db.users.insert( {
 ALTER TABLE users
 ADD join_date DATETIME
 \end{lstlisting}
- & O MongoDB não amarra a estrutura das coleções. Não existe alteração estrutural no nivel das coleções. As alterações ocorrem no nível dos documentos.
+ & O MongoDB não fixa a estrutura das coleções. Não existe alteração estrutural no nivel das coleções. As alterações ocorrem no nível dos documentos.
 \lstset{language=Java}
 \begin{lstlisting}
 db.users.update(
@@ -406,13 +406,13 @@ Como somente um nó recebe todas as operações de escrita, para suportar a repl
 
 \subsubsection{Decomposição (Sharding)}
 
-\textit{Sharding}, ou decomposição, é quando separamos a localização física dos dados, despedaçando cada informação e colocando-as em nós diferentes. Essa técnica é utilizada para trabalhar com dados de grande volume e com alta vazão de operações. A decomposição é a alternativa à escalabilidade vertical. No MongoDB a decomposição é implementada com o uso de um cluster de decomposição. Os componentes desse cluster são: \textit{Shards}, rotiadores de consulta e servidores de configuração (Figura \ref{fig:sharding}).
+\textit{Sharding}, ou decomposição, é quando separamos a localização física dos dados, despedaçando cada informação e colocando-as em nós diferentes. Essa técnica é utilizada para trabalhar com dados de grande volume e com alta vazão de operações. A decomposição é a alternativa à escalabilidade vertical. No MongoDB a decomposição é implementada com o uso de um \textit{cluster} de decomposição. Os componentes desse \textit{cluster} são: \textit{Shards}, roteadores de consulta e servidores de configuração (Figura \ref{fig:sharding}).
 
 Os \textit{shards} armazenam os dados.
 
-Os rotiadores de consulta, ou mongos, se comunicam com os clientes e direcionam as operações ao \textit{shard} ou \textit{shards} apropriados.
+Os roteadores de consulta, ou mongos, se comunicam com os clientes e direcionam as operações ao \textit{shard} ou \textit{shards} apropriados.
 
-Os servidores de conifguração armazenam os metadados do cluster. Ele contém o mapa do cluster. O roteador de consulta utiliza esse componente para encontrar os \textit{shards} que serão utilizados.
+Os servidores de configuração armazenam os metadados do cluster. Ele contém o mapa do cluster. O roteador de consulta utiliza esse componente para encontrar os \textit{shards} que serão utilizados.
 
 	\begin{figure}[!htbp]
 		\begin{center}

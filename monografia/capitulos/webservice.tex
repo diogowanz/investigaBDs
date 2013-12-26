@@ -1,11 +1,11 @@
 \section{Web-Service}
 
 
-Nessa seção daremos uma visão de o que é \textit{web service}, e mostraremos um pouco sobre os seus principais componentes. Essa seção foi baseado no w3c schools ~\cite{w3cs} exeto quando citado explicitamente.
+Nessa seção daremos uma visão de o que é \textit{web service}, e mostraremos um pouco sobre os seus principais componentes. Essa seção foi baseado no w3c schools ~\cite{w3cs} exceto quando citado explicitamente.
 
 \subsection{O que é web-service?}
 
-\textit{Web service} são componentes que podem ser acessados via protocolo http. Atualmente é muito usado na comunicação entre aplicações diferentes. O acesso a um \textit{web service} é via http, mas internamente existe dados formatados em xml que estão empacotados no protocolo SOAP (Simple Object Access Protocol).
+\textit{Web services} são componentes que podem ser acessados via protocolo http. Atualmente é muito usado na comunicação entre aplicações diferentes. O acesso a um \textit{web service} é via http, mas internamente existem dados formatados em xml que estão empacotados no protocolo SOAP (Simple Object Access Protocol).
 
 Hoje várias aplicações podem acessar a web usando os \textit{browsers} e nem sempre essas aplicações conversam entre si. Para que a comunicação entre essas diversas aplicações se tornasse possível, independente da plataforma em que estivessem desenvolvidas, foi criado o conceito de \textit{web service}. Usando \textit{web services}, as aplicações podem publicar suas funções para toda a web. Usando o XML para codificar e SOAP para transportar os dados, os \textit{web services} elevaram as aplicações web para outro nível.
 
@@ -16,25 +16,25 @@ Um \textit{web service} é formado por três elementos: SOAP, WSDL e UDDI.
 \subsubsection{SOAP}
 
 
-O SOAP (Simple Object Access Protoco) é um protocolo leve para troca de informações que foi criado pela Microsoft, Ariba e IBM para padronizar a transferência de dados em diversas aplicações, por isso, se dá em XML. Parte da sua especificação é composta por um conjunto de regras de como utilizar o XML para representar os dados. Outra parte define o formato de mensagens, convenções para representar as chamadas de procedimento remoto (RPCs) utilizando o SOAP, e associações ao protocolo HTTP. 
+O SOAP (Simple Object Access Protocol) é um protocolo leve para troca de informações que foi criado pela Microsoft, Ariba e IBM para padronizar a transferência de dados em diversas aplicações, por isso, utiliza XML. Parte da sua especificação é composta por um conjunto de regras de como utilizar o XML para representar os dados. Outra parte define o formato de mensagens, convenções para representar as chamadas de procedimento remoto (RPCs) utilizando o SOAP, e associações ao protocolo HTTP. 
 
 SOAP é:
 
 \begin{itemize}
-	\item Um protocolo de comunição;
+	\item Um protocolo de comunicação;
 	\item É usado para a comunicação entre aplicações;
 	\item É um padrão para envio de mensagens;
-	\item Sua comunicação se dá na internet;
+	\item Sua comunicação é feita pela internet;
 	\item É independente de plataforma;
 	\item É independente de linguagem de programação;
 	\item É baseado em XML;
 	\item Permite passar por \textit{firewalls};
-	\item É uma recomendação do W3C;
+	\item É uma recomendação do W3C.
 \end{itemize}
 
 Atualmente as aplicações se comunicam via RPC (Remote Procedure Calls), mas o HTTP não foi desenhado para isso. RPC possui problemas de compatibilidade e segurança; \textit{firewalls} e servidores de \textit{proxy} normalmente bloqueiam mensagens desse tipo. Para resolver esses problemas foi criado o protocolo SOAP.
 
-Uma mensagem SOAP (Exemplo \ref{listing:msgsoap}) é basicamente um documento XML que contem os seguintes elementos:
+Uma mensagem SOAP (Exemplo \ref{listing:msgsoap}) é basicamente um documento XML que contém os seguintes elementos:
 
 \begin{itemize}
 	\item Um elemento 'Envelope' que identifica o documento XML como uma mensagem SOAP;
