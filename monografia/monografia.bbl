@@ -98,6 +98,11 @@ Rick Cattell.
 \newblock Scalable sql and nosql data stores.
 \newblock {\em SIGMOD Rec.}, 39(4):12--27, May 2011.
 
+\bibitem{EdCood}
+E.~F. Codd.
+\newblock A relational model of data for large shared data banks.
+\newblock {\em Commun. ACM}, 13(6):377--387, June 1970.
+
 \bibitem{SBElmasri}
 Ramez Elmasri and Shamkant~B. Navathe.
 \newblock {\em Sistemas de Banco de dados}.

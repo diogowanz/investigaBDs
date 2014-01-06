@@ -5,7 +5,7 @@
 \BOOKMARK [0][-]{chapter.1}{Introdu\347\343o}{}% 5
 \BOOKMARK [1][-]{section.1.1}{Objetivos e Justificativa}{chapter.1}% 6
 \BOOKMARK [1][-]{section.1.2}{Organiza\347\343o do Documento}{chapter.1}% 7
-\BOOKMARK [0][-]{chapter.2}{Big Data, NoSQL e Testes de Software}{}% 8
+\BOOKMARK [0][-]{chapter.2}{Big Data, NoSQL, Testes de Software e Web Services}{}% 8
 \BOOKMARK [1][-]{section.2.1}{Big Data}{chapter.2}% 9
 \BOOKMARK [2][-]{subsection.2.1.1}{O que \351 Big Data?}{section.2.1}% 10
 \BOOKMARK [2][-]{subsection.2.1.2}{Bases de dados relacionais}{section.2.1}% 11
@@ -20,18 +20,18 @@
 \BOOKMARK [2][-]{subsection.2.3.4}{Testes de Carga e de Performance}{section.2.3}% 20
 \BOOKMARK [2][-]{subsection.2.3.5}{Automa\347\343o de Testes}{section.2.3}% 21
 \BOOKMARK [2][-]{subsection.2.3.6}{JMeter}{section.2.3}% 22
-\BOOKMARK [0][-]{chapter.3}{Prot\363tipo AFD e Plano de Testes}{}% 23
-\BOOKMARK [1][-]{section.3.1}{Web-Service}{chapter.3}% 24
-\BOOKMARK [2][-]{subsection.3.1.1}{O que \351 web-service?}{section.3.1}% 25
-\BOOKMARK [2][-]{subsection.3.1.2}{Componentes de um Web-Service}{section.3.1}% 26
-\BOOKMARK [2][-]{subsection.3.1.3}{WSDL}{section.3.1}% 27
-\BOOKMARK [2][-]{subsection.3.1.4}{UDDI}{section.3.1}% 28
-\BOOKMARK [1][-]{section.3.2}{O Prot\363tipo}{chapter.3}% 29
-\BOOKMARK [1][-]{section.3.3}{A Arquitetura do Projeto}{chapter.3}% 30
-\BOOKMARK [2][-]{subsection.3.3.1}{web2py}{section.3.3}% 31
-\BOOKMARK [1][-]{section.3.4}{Os Planos de Teste}{chapter.3}% 32
-\BOOKMARK [2][-]{subsection.3.4.1}{Planos de Teste de Inser\347\343o/Exclus\343o/Atualiza\347\343o}{section.3.4}% 33
-\BOOKMARK [2][-]{subsection.3.4.2}{Planos de Teste de Consulta}{section.3.4}% 34
+\BOOKMARK [1][-]{section.2.4}{Web-Service}{chapter.2}% 23
+\BOOKMARK [2][-]{subsection.2.4.1}{O que \351 web-service?}{section.2.4}% 24
+\BOOKMARK [2][-]{subsection.2.4.2}{Componentes de um Web-Service}{section.2.4}% 25
+\BOOKMARK [2][-]{subsection.2.4.3}{WSDL}{section.2.4}% 26
+\BOOKMARK [2][-]{subsection.2.4.4}{UDDI}{section.2.4}% 27
+\BOOKMARK [0][-]{chapter.3}{Prot\363tipo AFD e Plano de Testes}{}% 28
+\BOOKMARK [1][-]{section.3.1}{O Prot\363tipo}{chapter.3}% 29
+\BOOKMARK [1][-]{section.3.2}{A Arquitetura do Projeto}{chapter.3}% 30
+\BOOKMARK [2][-]{subsection.3.2.1}{web2py}{section.3.2}% 31
+\BOOKMARK [1][-]{section.3.3}{Os Planos de Teste}{chapter.3}% 32
+\BOOKMARK [2][-]{subsection.3.3.1}{Planos de Teste de Inser\347\343o/Exclus\343o/Atualiza\347\343o}{section.3.3}% 33
+\BOOKMARK [2][-]{subsection.3.3.2}{Planos de Teste de Consulta}{section.3.3}% 34
 \BOOKMARK [0][-]{chapter.4}{Execu\347\343o dos Testes e An\341lise dos Resultados}{}% 35
 \BOOKMARK [1][-]{section.4.1}{Ambiente de testes}{chapter.4}% 36
 \BOOKMARK [1][-]{section.4.2}{Massa de Dados}{chapter.4}% 37

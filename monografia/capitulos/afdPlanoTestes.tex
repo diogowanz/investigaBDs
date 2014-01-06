@@ -1,8 +1,6 @@
 \chapter{Protótipo AFD e Plano de Testes}
 
-Esse capítulo apresenta a arquitetura e a implementação de um protótipo para o AFD (Assentamento Funcional Digital) que objetiva servir para a investigação proposta nesse trabalho e descrita na introdução. Como o protótipo arquitetural foi baseado em uma arquitetura orientada a serviços ~\cite{erl:2007} que disponibiliza algumas das principais capacidades para manter os dados do AFD, iniciaremos o capítulo com a descrição de \textit{Web service}. Logo em seguida será descrito as principais características do projeto como tecnologias utilizadas e arquitetura proposta. Para finalizar o capítulo será descrito os planos de testes que foram desenvolvidos para os testes de performance.
-
-\input{./capitulos/webservice}
+Esse capítulo apresenta a arquitetura e a implementação de um protótipo para o AFD (Assentamento Funcional Digital) que objetiva servir para a investigação proposta nesse trabalho e descrita na introdução. Primeiro serão descritas as principais características do projeto como tecnologias utilizadas e arquitetura proposta e,  para finalizar o capítulo, serão descritos os planos de testes que foram desenvolvidos para os testes de performance.
 
 \section{O Protótipo}
 
@@ -61,7 +59,7 @@ Para cumprirmos o nosso objetivo, que é testar a aplicação com um banco de da
 		\begin{center}
 			\includegraphics[width=0.5\textwidth]{arquitetura}
 		\end{center}
-		\caption{Arquitetura de Testes}
+		\caption{Arquitetura de Testes. JMeter faz requisições SOAP ao \textit{Web service} que pode estar configurado para persistir os dados no PostgreSQL ou no MongoDB.}
 		\label{fig:arquitetura}
 	\end{figure}
 
