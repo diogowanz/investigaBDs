@@ -4,7 +4,11 @@ Nesse capítulo faremos algumas considerações finais sobre o projeto e também
 
 \section{Considerações Finais}
 
-É claro que o MongoDB já se figura entre os mais populares bancos de dados NoSQL e que o PostgreSQL já é uma solução consolidada. O nosso trabalho visou testar a performance dessas duas soluções em um cenário definido, mas ambos possuem aplicação nas mais diversas soluções feitas no mundo. Como exemplo temos a implantação do MongoDB no CartolaFC ~\cite{mongocartola} da Globo.com e, em relação ao PostgreSQL, no site oficial ~\cite{usecasepostgresql}  temos diversos casos de sucesso.
+Nesse trabalho foi apresentado os conceitos básicos sobre \textit{big data}, contextualizando o projeto que foi desenvolvido; foi mostrato um pouco do mundo dos bancos de dados NoSQL e suas diferentes implementações e 
+
+Após a contextualização de \textit{big data} e a apresentação dos banco de dados NoSQL, foi desenvolvida uma arquitetura na qual é possível realizar testes de persistência em diferentes bancos de dados. Para esse trabalho os testes foram realizados nos bancos MongoDB e PostgreSQL. No capítulo anterior os testes nos mostraram que a performance dos dois bancos foram bastante próximas. Foram testadas operações de inserção, consulta, atualização, exclusão e processarmento. Ao final dos testes pode-se verificar que nenhum dos dois banco de dados foi consideravelmente mais veloz que o outro e que, para praticamente todos os testes realizados, o PostgreSQL se mostrou mais rápido. Dessa maneira, para o cenário de manutenção dos dados do AFD, com a arquitetura, massa de dados e modelagem utilizadas, não é vantajoso utilizar o MongoDB para a persistência dos dados, visto que, mesmo com todos os recursos de segurança e controle de transações oferecidos pelo PostgreSQL, ele ainda continua tendo um melhor desempenho.
+
+Sabe-se que MongoDB já se figura entre os mais populares bancos de dados NoSQL e que o PostgreSQL já é uma solução consolidada. O trabalho visou testar a performance dessas duas soluções em um cenário definido, mas ambos possuem aplicação nas mais diversas soluções feitas no mundo. Como exemplo temos a implantação do MongoDB no CartolaFC ~\cite{mongocartola} da Globo.com e, em relação ao PostgreSQL, no site oficial ~\cite{usecasepostgresql}  temos diversos casos de sucesso.
 
 \begin{itemize}
 	\item O código fonte da aplicação, \textit{scripts} utilizados e todos os planos de teste podem ser encontrados no repositório do projeto ~\cite{github}.

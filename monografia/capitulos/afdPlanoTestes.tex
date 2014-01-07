@@ -4,12 +4,12 @@ Esse capítulo apresenta a arquitetura e a implementação de um protótipo para
 
 \section{O Protótipo}
 
-Para a execução dos testes de performance foi desenvolvido uma aplicação orientada a serviços ~\cite{erl:2007} com as principais capacidades necessárias para manter os dados do AFD. O objetivo central da aplicação é manter os documentos da pasta funcional dos servidores. Como a aplicação deve armazenar aquivos digitalizados, escolhemos gravar o arquivo no sistema operacional e armazenar o caminho para ele na base de dados. O objetivo ao se escolher realizar os testes de performance em uma arquitetura orientada a serviços foi o de flexibilizar ao máximo as implementações em diversos bancos de dados. Na tabela \ref{tab:funcionalidades} a descrição das funcionalidades implementadas.
+Para a execução dos testes de performance foi desenvolvido uma aplicação orientada a serviços ~\cite{erl:2007} com as principais capacidades necessárias para manter os dados do AFD. O objetivo central da aplicação é manter os documentos da pasta funcional dos servidores. Como a aplicação deve armazenar aquivos digitalizados, escolhemos gravar o arquivo no sistema operacional e armazenar o caminho para ele na base de dados. O objetivo ao se escolher realizar os testes de performance em uma arquitetura orientada a serviços foi o de flexibilizar ao máximo as implementações em diversos bancos de dados. Nas tabelas \ref{tab:funcionalidades1} e \ref{tab:funcionalidades2} são descritas as funcionalidades implementadas.
 
 \renewcommand{\arraystretch}{3}
 
 \begin{table}
-	\caption{Descrição das Funcionalidades}
+	\caption{Descrição das Funcionalidades - Parte 1}
 	\begin{center}
 	\begin{tabularx}{\textwidth}{ | c | X | }
 		\hline
@@ -24,6 +24,21 @@ Para a execução dos testes de performance foi desenvolvido uma aplicação ori
 			Insere Documento Dependente & \noindent\parbox[c]{\hsize}{Permite inserir os documentos dos dependentes que farão parte da pasta funcional do empregado.} \\
 		\hline
 			Insere Documento Empregado & \noindent\parbox[c]{\hsize}{Permite inserir os documentos que farão parte da pasta funcional do empregado.} \\
+		\hline
+			Remove Dependente & \noindent\parbox[c]{\hsize}{Exclui o depente e seus arquivos.} \\
+		\hline
+			Desliga Empregado & \noindent\parbox[c]{\hsize}{Atualiza o status do empregado incluindo a data de desligamento.} \\
+		\hline
+	\end {tabularx}
+	\end{center}
+	%\caption{Fonte: http://docs.mongodb.org}
+	\label{tab:funcionalidades1}
+\end{table}
+
+\begin{table}
+	\caption{Descrição das Funcionalidades - Parte 2}
+	\begin{center}
+	\begin{tabularx}{\textwidth}{ | c | X | }
 		\hline
 			Lista Orgãos & \noindent\parbox[c]{\hsize}{Lista os dados dos órgãos cadastrados no sistema.} \\
 		\hline
@@ -41,14 +56,10 @@ Para a execução dos testes de performance foi desenvolvido uma aplicação ori
 		\hline
 			Lista Tipo Documentos & \noindent\parbox[c]{\hsize}{Lista os valores possíveis para os tipos de documentos.} \\
 		\hline
-			Remove Dependente & \noindent\parbox[c]{\hsize}{Exclui o depente e seus arquivos.} \\
-		\hline
-			Desliga Empregado & \noindent\parbox[c]{\hsize}{Atualiza o status do empregado incluindo a data de desligamento.} \\
-		\hline
 	\end {tabularx}
 	\end{center}
 	%\caption{Fonte: http://docs.mongodb.org}
-	\label{tab:funcionalidades}
+	\label{tab:funcionalidades2}
 \end{table}
 
 \section{A Arquitetura do Projeto}

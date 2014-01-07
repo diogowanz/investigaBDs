@@ -1,66 +1,73 @@
 \begin{thebibliography}{10}
 
 \bibitem{siteJmeter}
-Apache jmeter.
+{A}pache {J}meter.
 \newblock http://jmeter.apache.org.
 \newblock Acessado em 02 de julho de 2013.
 
 \bibitem{apresentAFD}
-Apresentação - assentamento funcional digital.
+{A}presentação - {A}ssentamento {F}uncional {D}igital.
 \newblock
   www.sigepe.gov.br/assentamento-funcional-digital/apresentacao-assentamento-funcional-digital.
 \newblock Acessado em 23 de Abril de 2013.
 
 \bibitem{usecasepostgresql}
-Casos de sucesso postgresql.
+{C}asos de {S}ucesso {P}ostgre{SQL}.
 \newblock http://www.postgresql.org/about/casestudies/.
 \newblock Acessado em 14 de novembro de 2013.
 
 \bibitem{github}
-Código fonte do projeto.
+{C}ódigo {F}onte do {P}rojeto.
 \newblock https://github.com/diogowanz/nonrelationaldbtests.
 \newblock Acessado em 18 de dezembro de 2013.
 
+\bibitem{demoiselle}
+{D}emoiselle {C}assandra.
+\newblock
+  http://demoiselle.sourceforge.net/component/demoiselle-cassandra/1.0.0/index.html.
+\newblock Acessado em 18 de dezembro de 2013.
+
 \bibitem{emcuniversedigital}
-Emc digital universe.
+{EMC} {D}igital {U}niverse.
 \newblock
   http://www.emc.com/collateral/demos/microsites/emc-digital-universe-2011/index.htm.
 \newblock Acessado em 26 de Janeiro de 2013.
 
 \bibitem{mongocartola}
-Implantação do mongodb no cartolafc.
+{I}mplantação do {M}ongo{DB} no {C}artola{FC}.
 \newblock
   http://www.gonow.com.br/blog/2011/07/29/o-mongodb-aplicado-ao-cartolafc-da-globo-com/.
 \newblock Acessado em 14 de dezembro de 2013.
 
 \bibitem{sitemongodb}
-Mongodb official site.
+{M}ongo{DB} {O}fficial site.
 \newblock http://www.mongodb.org/.
 \newblock Acessado em 27 de Janeiro de 2013.
 
 \bibitem{nosqldatabaseorg}
-nosql database org.
+{N}o{SQL} {D}atabase org.
 \newblock http://nosql-database.org/.
 \newblock Acessado em 09 de Dezembro de 2012.
 
 \bibitem{arqConarq}
-Recomendações para digitalização de documentos arquivísticos permanentes.
+{R}ecomendações para {D}igitalização de {D}ocumentos {A}rquivísticos
+  {P}ermanentes.
 \newblock
   http://www.emc.com/collateral/demos/microsites/emc-digital-universe-2011/index.htm.
 \newblock Acessado em 23 de Abril de 2013.
 
 \bibitem{siteSIGEPE}
-Sigepe.org.
+{SIGEPE.ORG}.
 \newblock www.sigepe.gov.br.
 \newblock Acessado em 23 de Abril de 2013.
 
 \bibitem{siteTestLink}
-Testlink.
+{T}est{L}ink.
 \newblock http://testlink.sourceforge.net/.
 \newblock Acessado em 02 de julho de 2013.
 
 \bibitem{w3cs}
-W3c schools.
+{W3C} {S}chools.
 \newblock http://www.w3schools.com/.
 \newblock Acessado em 25 de junho de 2013.
 
@@ -71,130 +78,134 @@ web2py.
 
 \bibitem{bigdataarchitectureandapproach}
 K.~Bakshi.
-\newblock Considerations for big data: Architecture and approach.
+\newblock {C}onsiderations for {B}ig {D}ata: {A}rchitecture and approach.
 \newblock In {\em Aerospace Conference, 2012 IEEE}, pages 1 --7, march 2012.
 
 \bibitem{promiseperil}
 D.~Bollier, Communications, and Society Program~(Aspen Institute).
-\newblock {\em The Promise and Peril of Big Data}.
+\newblock {\em {T}he {P}romise and {P}eril of {B}ig {D}ata}.
 \newblock Aspen Institute, Communications and Society Program, 2010.
 
 \bibitem{WNextBigData}
 Vinayak~R. Borkar, Michael~J. Carey, and Chen Li.
-\newblock Big data platforms: What's next?
+\newblock {B}ig {D}ata {P}latforms: {W}hat's next?
 \newblock {\em XRDS}, 19(1):44--49, 2012.
 
 \bibitem{portariaMP}
 BRAIL.
-\newblock Portaria normativa mp, n. 3, Novembro 2011.
+\newblock {P}ortaria {N}ormativa {MP}, n. 3, Novembro 2011.
 
 \bibitem{nosqlxrelacional}
 Ricardo~W. Brito.
-\newblock Banco de dados {N}o{SQL} x {SGBD}s relacionais: Análise comparativa.
+\newblock {B}anco de {D}ados {N}o{SQL} x {SGBD}s {R}elacionais: {A}nálise
+  {C}omparativa.
 \newblock 2010.
 
 \bibitem{scalablesqlandnosql}
 Rick Cattell.
-\newblock Scalable sql and nosql data stores.
+\newblock {S}calable {SQL} and {N}o{SQL} data stores.
 \newblock {\em SIGMOD Rec.}, 39(4):12--27, May 2011.
 
 \bibitem{EdCood}
 E.~F. Codd.
-\newblock A relational model of data for large shared data banks.
-\newblock {\em Commun. ACM}, 13(6):377--387, June 1970.
+\newblock {A} {R}elational {M}odel of {D}ata for {L}arge {S}hared {D}ata
+  {B}anks.
+\newblock {\em Commun. ACM}, 13(6):377--387, jun 1970.
 
 \bibitem{SBElmasri}
 Ramez Elmasri and Shamkant~B. Navathe.
-\newblock {\em Sistemas de Banco de dados}.
+\newblock {\em {S}istemas de {B}anco de dados}.
 \newblock Pearson Addison Wesley, 6 edition, 2011.
 
 \bibitem{capimage}
 Benjamin Erb.
-\newblock Concurrent programming for scalable web architectures.
+\newblock {C}oncurrent {P}rogramming for {S}calable {W}eb {A}rchitectures.
 \newblock Diploma thesis, Institute of Distributed Systems, Ulm University,
   April 2012.
 
 \bibitem{erl:2007}
 Thomas Erl.
-\newblock {\em SOA Principles of Service Design (The Prentice Hall
-  Service-Oriented Computing Series from Thomas Erl)}.
+\newblock {\em {SOA} {P}rinciples of {S}ervice {D}esign ({T}he {P}rentice
+  {H}all {S}ervice-{O}riented {C}omputing {S}eries from {T}homas {E}rl)}.
 \newblock Prentice Hall PTR, Upper Saddle River, NJ, USA, 2007.
 
 \bibitem{conceitoGartner}
 Gartner.
-\newblock Big data.
+\newblock {B}ig {D}ata.
 \newblock http://www.gartner.com/it-glossary/big-data/.
 \newblock Acessado em 14 de Dezembro de 2012.
 
 \bibitem{surveynosql}
 Jing Han, E.~Haihong, Guan Le, and Jian Du.
-\newblock Survey on nosql database.
+\newblock {S}urvey on {N}o{SQL} database.
 \newblock In {\em Pervasive Computing and Applications (ICPCA), 2011 6th
   International Conference on}, pages 363 --366, oct. 2011.
 
 \bibitem{nosqlevaluation}
 R.~Hecht and S.~Jablonski.
-\newblock Nosql evaluation: A use case oriented survey.
-\newblock In {\em Cloud and Service Computing (CSC), 2011 International
-  Conference on}, pages 336 --341, dec. 2011.
+\newblock {N}o{SQL} evaluation: {A} use case oriented survey.
+\newblock In {\em {C}loud and {S}ervice {C}omputing ({CSC}), 2011
+  {I}nternational {C}onference on}, pages 336 --341, dec. 2011.
 
 \bibitem{cassandraguide}
 E.~Hewitt.
-\newblock {\em Cassandra: The Definitive Guide}.
+\newblock {\em {C}assandra: {T}he {D}efinitive {G}uide}.
 \newblock Definitive Guide Series. O'Reilly Media, 2010.
 
 \bibitem{rajjain}
 Raj Jain.
-\newblock {\em The art of computer systems performance analysis - techniques
+\newblock {\em {T}he art of computer systems performance analysis - techniques
   for experimental design, measurement, simulation, and modeling.}
 \newblock Wiley professional computing. Wiley, 1991.
 
 \bibitem{nosqlliveup}
 N.~Leavitt.
-\newblock Will nosql databases live up to their promise?
+\newblock {W}ill {N}o{SQL} {D}atabases {L}ive {U}p to {T}heir {P}romise?
 \newblock {\em Computer}, 43(2):12 --14, feb. 2010.
 
 \bibitem{fromdbtobigdata}
 Sam Madden.
-\newblock From databases to big data.
+\newblock {F}rom {D}atabases to {B}ig {D}ata.
 \newblock {\em Internet Computing, IEEE}, 16(3):4 --6, may-june 2012.
 
 \bibitem{theartoftestperf}
 Ian Molyneaux.
-\newblock {\em The Art of Application Performance Testing - Help for
-  Programmers and Quality Assurance.}
+\newblock {\em {T}he {A}rt of {A}pplication {P}erformance {T}esting - {H}elp
+  for {P}rogrammers and {Q}uality {A}ssurance.}
 \newblock O'Reilly, 2009.
 
 \bibitem{Orendanalysisand}
 Kai Orend.
-\newblock Analysis and classification of nosql databases and evaluation of
-  their ability to replace an object-relational persistence layer, 2010.
+\newblock {A}nalysis and {C}lassification of {N}o{SQL} {D}atabases and
+  {E}valuation of their {A}bility to {R}eplace an {O}bject-relational
+  {P}ersistence {L}ayer, 2010.
 
 \bibitem{rios2006teste}
 E.~Rios and T.~MOREIRA.
-\newblock {\em Teste de software}.
+\newblock {\em {T}este de software}.
 \newblock Alta Books, 2006.
 
 \bibitem{ibmbigdatavvv}
 Cezar Taurion.
-\newblock Big data = volume + variedade + velocidade.
+\newblock {B}ig {D}ata = volume + variedade + velocidade.
 \newblock https://www.ibm.com/developerworks, 2012.
 \newblock Acessado em 14 de Dezembro de 2012.
 
 \bibitem{ibmvcsabeoqebigdata}
 Cezar Taurion.
-\newblock Você realmente sabe o que é big data?
+\newblock {V}ocê realmente sabe o que é {B}ig {D}ata?
 \newblock https://www.ibm.com/developerworks, 2012.
 \newblock Acessado em 14 de Dezembro de 2012.
 
 \bibitem{nosqlprofessional}
 S.~Tiwari.
-\newblock {\em Professional NoSQL}.
+\newblock {\em {P}rofessional {N}o{SQL}}.
 \newblock Wrox Programmer to Programmer. Wiley, 2011.
 
 \bibitem{nosqlaplicassandra}
 Guoxi Wang and Jianfeng Tang.
-\newblock The nosql principles and basic application of cassandra model.
+\newblock {T}he {N}o{SQL} {P}rinciples and {B}asic {A}pplication of {C}assandra
+  {M}odel.
 \newblock In {\em Computer Science Service System (CSSS), 2012 International
   Conference on}, pages 1332--1335, 2012.
 

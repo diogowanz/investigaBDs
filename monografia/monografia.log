@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2013.10.1)  2 JAN 2014 10:02
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2013.10.1)  6 JAN 2014 22:10
 entering extended mode
 **D:/Users/EU/Documents/investigaBDs/monografia/monografia.tex
 (D:/Users/EU/Documents/investigaBDs/monografia/monografia.tex
@@ -755,28 +755,28 @@ LaTeX Font Info:    Try loading font information for T1+cmtt on input line 21.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 ) [5]
-<modelo_relacional.jpg, id=446, 800.23969pt x 422.32782pt>
+<modelo_relacional.jpg, id=453, 800.23969pt x 422.32782pt>
 File: modelo_relacional.jpg Graphic file (type jpg)
 
 <use modelo_relacional.jpg>
 Package pdftex.def Info: modelo_relacional.jpg used on input line 45.
 (pdftex.def)             Requested size: 455.24411pt x 240.25893pt.
  [6 <D:/Users/EU/Documents/investigaBDs/monografia/modelo_relacional.jpg>] [7] 
-<captheorem.jpg, id=469, 382.42876pt x 263.48438pt>
+<captheorem.jpg, id=476, 382.42876pt x 263.48438pt>
 File: captheorem.jpg Graphic file (type jpg)
 
 <use captheorem.jpg>
 Package pdftex.def Info: captheorem.jpg used on input line 80.
 (pdftex.def)             Requested size: 364.19667pt x 250.93591pt.
  [8]
-<strongconsistency.jpg, id=486, 554.82281pt x 162.6075pt>
+<strongconsistency.jpg, id=493, 554.82281pt x 162.6075pt>
 File: strongconsistency.jpg Graphic file (type jpg)
 
 <use strongconsistency.jpg>
 Package pdftex.def Info: strongconsistency.jpg used on input line 110.
 (pdftex.def)             Requested size: 364.19667pt x 106.73819pt.
 
-<eventualconsistency.jpg, id=491, 554.82281pt x 181.42781pt>
+<eventualconsistency.jpg, id=498, 554.82281pt x 181.42781pt>
 File: eventualconsistency.jpg Graphic file (type jpg)
 
 <use eventualconsistency.jpg>
@@ -790,13 +790,13 @@ igaBDs/monografia/eventualconsistency.jpg>] [11]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 48.
  [12]
-<columns.png, id=541, 578.16pt x 216.81pt>
+<columns.png, id=548, 481.8pt x 252.945pt>
 File: columns.png Graphic file (type png)
  <use columns.png>
 Package pdftex.def Info: columns.png used on input line 78.
-(pdftex.def)             Requested size: 364.19667pt x 136.57117pt.
+(pdftex.def)             Requested size: 364.19667pt x 191.20967pt.
  [13 <D:/Users/EU/Documents/investigaBDs/monografia/columns.png>]
-<exbson.jpg, id=562, 677.53125pt x 132.495pt>
+<exbson.jpg, id=569, 677.53125pt x 132.495pt>
 File: exbson.jpg Graphic file (type jpg)
  <use exbson.jpg>
 Package pdftex.def Info: exbson.jpg used on input line 132.
@@ -806,7 +806,7 @@ Overfull \hbox (91.04742pt too wide) in paragraph at lines 132--133
  [] 
  []
 
-[14] <modelo_orientado_documentos.jpeg, id=572, 1706.375pt x 1198.4775pt>
+[14] <modelo_orientado_documentos.jpeg, id=579, 1706.375pt x 1198.4775pt>
 File: modelo_orientado_documentos.jpeg Graphic file (type jpg)
 
 <use modelo_orientado_documentos.jpeg>
@@ -814,22 +814,22 @@ Package pdftex.def Info: modelo_orientado_documentos.jpeg used on input line 15
 2.
 (pdftex.def)             Requested size: 637.33897pt x 447.6358pt.
 
-<referencia.png, id=574, 803.25093pt x 426.84468pt>
+<referencia.png, id=581, 803.25093pt x 426.84468pt>
 File: referencia.png Graphic file (type png)
  <use referencia.png>
 Package pdftex.def Info: referencia.png used on input line 164.
 (pdftex.def)             Requested size: 364.19667pt x 193.53726pt.
 
-<subdocumento.png, id=578, 514.92375pt x 267.24844pt>
+[15 <D:/Users/EU/Documents/investigaBDs/monografia/exbson.jpg>] [16 <D:/Users/E
+U/Documents/investigaBDs/monografia/modelo_orientado_documentos.jpeg>]
+<subdocumento.png, id=594, 514.92375pt x 267.24844pt>
 File: subdocumento.png Graphic file (type png)
  <use subdocumento.png>
 Package pdftex.def Info: subdocumento.png used on input line 186.
 (pdftex.def)             Requested size: 364.19667pt x 189.02592pt.
 
-[15 <D:/Users/EU/Documents/investigaBDs/monografia/exbson.jpg>] [16 <D:/Users/E
-U/Documents/investigaBDs/monografia/modelo_orientado_documentos.jpeg>] [17 <D:/
-Users/EU/Documents/investigaBDs/monografia/referencia.png> <D:/Users/EU/Documen
-ts/investigaBDs/monografia/subdocumento.png>]
+[17 <D:/Users/EU/Documents/investigaBDs/monografia/referencia.png> <D:/Users/EU
+/Documents/investigaBDs/monografia/subdocumento.png>]
 (C:\Users\EU\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstlang1.sty
 File: lstlang1.sty 2013/08/26 1.5b listings language file
 )
@@ -861,13 +861,13 @@ Overfull \hbox (68.40823pt too wide) in paragraph at lines 380--381
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<replication.png, id=602, 495.0pt x 404.91pt>
+<replication.png, id=609, 495.0pt x 404.91pt>
 File: replication.png Graphic file (type png)
  <use replication.png>
 Package pdftex.def Info: replication.png used on input line 400.
 (pdftex.def)             Requested size: 227.62206pt x 186.19907pt.
  [18]
-<sharding.png, id=613, 563.14285pt x 385.75285pt>
+<sharding.png, id=622, 563.14285pt x 385.75285pt>
 File: sharding.png Graphic file (type png)
  <use sharding.png>
 Package pdftex.def Info: sharding.png used on input line 419.
@@ -900,12 +900,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 85--86
 
  []
 
-[21]
+
 Underfull \hbox (badness 10000) in paragraph at lines 89--90
 
  []
 
-
+[21]
 Underfull \hbox (badness 10000) in paragraph at lines 98--99
 
  []
@@ -940,34 +940,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 122--123
 
  []
 
-[22] [23] <testlink.jpg, id=660, 1267.73625pt x 835.12pt>
+[22] <testlink.jpg, id=657, 1267.73625pt x 835.12pt>
 File: testlink.jpg Graphic file (type jpg)
  <use testlink.jpg>
 Package pdftex.def Info: testlink.jpg used on input line 168.
 (pdftex.def)             Requested size: 364.19667pt x 239.91035pt.
 
-<jmeter.png, id=664, 913.16156pt x 461.47406pt>
+[23] <jmeter.png, id=672, 913.16156pt x 461.47406pt>
 File: jmeter.png Graphic file (type png)
  <use jmeter.png>
 Package pdftex.def Info: jmeter.png used on input line 178.
 (pdftex.def)             Requested size: 364.19667pt x 184.04414pt.
- [24 <D:/Users/EU/Documents/investigaBDs/monografia/testlink.jpg>]
+ [24 <D:/Users/EU/Documents/investigaBDs/monografia/testlink.jpg> <D:/Users/EU/
+Documents/investigaBDs/monografia/jmeter.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 206--207
 
  []
 
-<testador_insere_orgao.png, id=672, 818.30719pt x 459.96844pt>
+<testador_insere_orgao.png, id=680, 818.30719pt x 459.96844pt>
 File: testador_insere_orgao.png Graphic file (type png)
 
 <use testador_insere_orgao.png>
 Package pdftex.def Info: testador_insere_orgao.png used on input line 219.
 (pdftex.def)             Requested size: 455.24411pt x 255.89612pt.
- [25 <D:/Users/EU/Documents/investigaBDs/monografia/jmeter.png>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 230--231
 
  []
 
-
+[25]
 Underfull \hbox (badness 10000) in paragraph at lines 234--235
 
  []
@@ -977,7 +978,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 242--243
 
  []
 
-<configuracao_csv.png, id=678, 817.55438pt x 458.46281pt>
+<configuracao_csv.png, id=686, 817.55438pt x 458.46281pt>
 File: configuracao_csv.png Graphic file (type png)
 
 <use configuracao_csv.png>
@@ -995,139 +996,138 @@ Overfull \hbox (14.7662pt too wide) in paragraph at lines 112--122
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[29]))
-(D:\Users\EU\Documents\investigaBDs\monografia\capitulos/afdPlanoTestes.tex
-[30] [31] [32] [33]
+)) (D:\Users\EU\Documents\investigaBDs\monografia\capitulos/afdPlanoTestes.tex
+[29] [30] [31] [32] [33]
 Cap\'{\i }tulo 3.
-
-LaTeX Warning: Float too large for page by 77.3219pt on input line 52.
-
-<arquitetura.jpg, id=834, 551.81157pt x 630.85687pt>
+<arquitetura.jpg, id=843, 551.81157pt x 630.85687pt>
 File: arquitetura.jpg Graphic file (type jpg)
  <use arquitetura.jpg>
-Package pdftex.def Info: arquitetura.jpg used on input line 60.
+Package pdftex.def Info: arquitetura.jpg used on input line 71.
 (pdftex.def)             Requested size: 227.62206pt x 260.23167pt.
 
 [34
 
-] [35] [36 <D:/Users/EU/Documents/investigaBDs/monografia/arquitetura.jpg>]
-[37])
+] [35] [36] [37 <D:/Users/EU/Documents/investigaBDs/monografia/arquitetura.jpg>
+] [38])
 (D:\Users\EU\Documents\investigaBDs\monografia\capitulos/execucaoAnalise.tex
-[38]
+[39]
 Cap\'{\i }tulo 4.
-[39
+[40
 
-] [40] <resultados/insere_orgaos.jpg, id=885, 554.07pt x 338.01282pt>
+] [41] <resultados/insere_orgaos.jpg, id=898, 554.07pt x 338.01282pt>
 File: resultados/insere_orgaos.jpg Graphic file (type jpg)
 
 <use resultados/insere_orgaos.jpg>
-Package pdftex.def Info: resultados/insere_orgaos.jpg used on input line 84.
+Package pdftex.def Info: resultados/insere_orgaos.jpg used on input line 82.
 (pdftex.def)             Requested size: 364.19667pt x 222.18138pt.
 
-<resultados/insere_empregados.jpg, id=886, 558.58687pt x 340.27126pt>
+<resultados/insere_empregados.jpg, id=899, 558.58687pt x 340.27126pt>
 File: resultados/insere_empregados.jpg Graphic file (type jpg)
 
 <use resultados/insere_empregados.jpg>
-Package pdftex.def Info: resultados/insere_empregados.jpg used on input line 92
+Package pdftex.def Info: resultados/insere_empregados.jpg used on input line 90
 .
 (pdftex.def)             Requested size: 364.19667pt x 221.86424pt.
 
-<resultados/insere_dependentes.jpg, id=887, 618.81187pt x 358.33875pt>
+<resultados/insere_dependentes.jpg, id=900, 618.81187pt x 358.33875pt>
 File: resultados/insere_dependentes.jpg Graphic file (type jpg)
 
 <use resultados/insere_dependentes.jpg>
-Package pdftex.def Info: resultados/insere_dependentes.jpg used on input line 1
-00.
+Package pdftex.def Info: resultados/insere_dependentes.jpg used on input line 9
+8.
 (pdftex.def)             Requested size: 364.19667pt x 210.90405pt.
 
-<resultados/insere_doc_empregado.jpg, id=888, 462.97969pt x 357.58594pt>
+<resultados/insere_doc_empregado.jpg, id=901, 462.97969pt x 357.58594pt>
 File: resultados/insere_doc_empregado.jpg Graphic file (type jpg)
 
 <use resultados/insere_doc_empregado.jpg>
 Package pdftex.def Info: resultados/insere_doc_empregado.jpg used on input line
- 108.
+ 106.
 (pdftex.def)             Requested size: 364.19667pt x 281.29485pt.
 
-<resultados/insere_doc_dependentes.jpg, id=889, 462.22687pt x 359.09157pt>
+<resultados/insere_doc_dependentes.jpg, id=902, 462.22687pt x 359.09157pt>
 File: resultados/insere_doc_dependentes.jpg Graphic file (type jpg)
 
 <use resultados/insere_doc_dependentes.jpg>
 Package pdftex.def Info: resultados/insere_doc_dependentes.jpg used on input li
-ne 117.
+ne 115.
 (pdftex.def)             Requested size: 364.19667pt x 282.93404pt.
 
-<resultados/consulta_orgaos.jpg, id=890, 619.56468pt x 361.35pt>
+<resultados/consulta_orgaos.jpg, id=903, 619.56468pt x 361.35pt>
 File: resultados/consulta_orgaos.jpg Graphic file (type jpg)
 
 <use resultados/consulta_orgaos.jpg>
-Package pdftex.def Info: resultados/consulta_orgaos.jpg used on input line 125.
+Package pdftex.def Info: resultados/consulta_orgaos.jpg used on input line 123.
 
 (pdftex.def)             Requested size: 364.19667pt x 212.40619pt.
 
-<resultados/consulta_empregados.jpg, id=891, 621.07031pt x 363.60844pt>
+<resultados/consulta_empregados.jpg, id=904, 621.07031pt x 363.60844pt>
 File: resultados/consulta_empregados.jpg Graphic file (type jpg)
 
 <use resultados/consulta_empregados.jpg>
 Package pdftex.def Info: resultados/consulta_empregados.jpg used on input line 
-133.
+131.
 (pdftex.def)             Requested size: 364.19667pt x 213.21773pt.
 
-<resultados/consulta_doc_empregado.jpg, id=892, 466.74374pt x 329.73187pt>
+<resultados/consulta_doc_empregado.jpg, id=905, 466.74374pt x 329.73187pt>
 File: resultados/consulta_doc_empregado.jpg Graphic file (type jpg)
 
 <use resultados/consulta_doc_empregado.jpg>
 Package pdftex.def Info: resultados/consulta_doc_empregado.jpg used on input li
-ne 141.
+ne 139.
 (pdftex.def)             Requested size: 364.19667pt x 257.29547pt.
 
-<resultados/consulta_doc_dependente.jpg, id=893, 464.4853pt x 326.72063pt>
+<resultados/consulta_doc_dependente.jpg, id=906, 464.4853pt x 326.72063pt>
 File: resultados/consulta_doc_dependente.jpg Graphic file (type jpg)
 
 <use resultados/consulta_doc_dependente.jpg>
 Package pdftex.def Info: resultados/consulta_doc_dependente.jpg used on input l
-ine 149.
+ine 147.
 (pdftex.def)             Requested size: 364.19667pt x 256.18211pt.
 
-<resultados/consulta_estatistica.jpg, id=894, 618.81187pt x 358.33875pt>
+<resultados/consulta_estatistica.jpg, id=907, 618.81187pt x 358.33875pt>
 File: resultados/consulta_estatistica.jpg Graphic file (type jpg)
 
 <use resultados/consulta_estatistica.jpg>
 Package pdftex.def Info: resultados/consulta_estatistica.jpg used on input line
- 157.
+ 155.
 (pdftex.def)             Requested size: 364.19667pt x 210.90405pt.
 
-<resultados/remove_dependentes.jpg, id=895, 557.08125pt x 338.76563pt>
+<resultados/remove_dependentes.jpg, id=908, 557.08125pt x 338.76563pt>
 File: resultados/remove_dependentes.jpg Graphic file (type jpg)
 
 <use resultados/remove_dependentes.jpg>
 Package pdftex.def Info: resultados/remove_dependentes.jpg used on input line 1
-65.
+63.
 (pdftex.def)             Requested size: 364.19667pt x 221.47699pt.
 
-<resultados/desliga_empregado.jpg, id=896, 618.05907pt x 323.70938pt>
+<resultados/desliga_empregado.jpg, id=909, 618.05907pt x 323.70938pt>
 File: resultados/desliga_empregado.jpg Graphic file (type jpg)
 
 <use resultados/desliga_empregado.jpg>
 Package pdftex.def Info: resultados/desliga_empregado.jpg used on input line 17
-3.
+1.
 (pdftex.def)             Requested size: 364.19667pt x 190.75471pt.
 )
 (D:\Users\EU\Documents\investigaBDs\monografia\capitulos/consideracoesProjFutur
-os.tex [41] [42 <D:/Users/EU/Documents/investigaBDs/monografia/resultados/inser
+os.tex [42] [43 <D:/Users/EU/Documents/investigaBDs/monografia/resultados/inser
 e_orgaos.jpg> <D:/Users/EU/Documents/investigaBDs/monografia/resultados/insere_
-empregados.jpg>] [43 <D:/Users/EU/Documents/investigaBDs/monografia/resultados/
+empregados.jpg>] [44 <D:/Users/EU/Documents/investigaBDs/monografia/resultados/
 insere_dependentes.jpg> <D:/Users/EU/Documents/investigaBDs/monografia/resultad
-os/insere_doc_empregado.jpg>] [44 <D:/Users/EU/Documents/investigaBDs/monografi
+os/insere_doc_empregado.jpg>] [45 <D:/Users/EU/Documents/investigaBDs/monografi
 a/resultados/insere_doc_dependentes.jpg> <D:/Users/EU/Documents/investigaBDs/mo
-nografia/resultados/consulta_orgaos.jpg>] [45 <D:/Users/EU/Documents/investigaB
+nografia/resultados/consulta_orgaos.jpg>] [46 <D:/Users/EU/Documents/investigaB
 Ds/monografia/resultados/consulta_empregados.jpg> <D:/Users/EU/Documents/invest
-igaBDs/monografia/resultados/consulta_doc_empregado.jpg>] [46 <D:/Users/EU/Docu
+igaBDs/monografia/resultados/consulta_doc_empregado.jpg>] [47 <D:/Users/EU/Docu
 ments/investigaBDs/monografia/resultados/consulta_doc_dependente.jpg> <D:/Users
 /EU/Documents/investigaBDs/monografia/resultados/consulta_estatistica.jpg>]
-[47 <D:/Users/EU/Documents/investigaBDs/monografia/resultados/remove_dependente
+[48 <D:/Users/EU/Documents/investigaBDs/monografia/resultados/remove_dependente
 s.jpg> <D:/Users/EU/Documents/investigaBDs/monografia/resultados/desliga_empreg
 ado.jpg>]
 Cap\'{\i }tulo 5.
+[49
+
+]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -1137,65 +1137,63 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [48
-
-] [49] [50] [51]
+) [50] [51] [52] [53]
 (D:\Users\EU\Documents\investigaBDs\monografia\monografia.bbl
 (D:\Users\EU\Documents\investigaBDs\monografia\monografia.brf)
 \tf@brf=\write7
 
-Underfull \hbox (badness 2809) in paragraph at lines 29--29
-[]\T1/cmr/m/n/12 Emc di-gi-tal uni-verse.  http://www.emc.com/collateral/demos/
-microsites/emc-
+Underfull \hbox (badness 1184) in paragraph at lines 29--29
+[]\T1/cmr/m/n/12 Demoiselle Cas-san-dra.  http://demoiselle.sourceforge.net/com
+ponent/demoiselle-
  []
 
 
-Overfull \hbox (9.23444pt too wide) in paragraph at lines 35--35
-[]\T1/cmr/m/n/12 Implantação do mon-godb no car-to-lafc.  http://www.gonow.com.
+Overfull \hbox (24.39613pt too wide) in paragraph at lines 41--41
+[]\T1/cmr/m/n/12 Implantação do Mon-goDB no Car-to-laFC.  http://www.gonow.com.
 br/blog/2011/07/29/o-
  []
 
 
-Underfull \hbox (badness 7486) in paragraph at lines 51--51
-[]\T1/cmr/m/n/12 Recomendações para di-gi-ta-li-za-ção de do-cu-men-tos ar-qui-
-vís-ti-cos per-ma-nen-
+Underfull \hbox (badness 4217) in paragraph at lines 58--58
+[]\T1/cmr/m/n/12 Recomendações para Di-gi-ta-li-za-ção de Do-cu-men-tos Ar-qui-
+vís-ti-cos Per-ma-nen-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--51
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
 \T1/cmr/m/n/12 tes.  http://www.emc.com/collateral/demos/microsites/emc-digital
 -universe-
  []
 
-[52
+[54
 
 
-] [53]
-Underfull \hbox (badness 10000) in paragraph at lines 183--183
-[]\T1/cmr/m/n/12 Cezar Tau-rion.  Big data = vo-lume + va-ri-e-dade + ve-lo-ci-
+] [55]
+Underfull \hbox (badness 10000) in paragraph at lines 193--193
+[]\T1/cmr/m/n/12 Cezar Tau-rion.  Big Data = vo-lume + va-ri-e-dade + ve-lo-ci-
 dade.
  []
 
 
-Underfull \hbox (badness 1817) in paragraph at lines 183--183
+Underfull \hbox (badness 1817) in paragraph at lines 193--193
 \T1/cmr/m/n/12 https://www.ibm.com/developerworks, 2012.  Aces-sado em 14 de De
 -zem-bro
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 189--189
-[]\T1/cmr/m/n/12 Cezar Tau-rion.  Você re-al-mente sabe o que é big data?
+Underfull \hbox (badness 10000) in paragraph at lines 199--199
+[]\T1/cmr/m/n/12 Cezar Tau-rion.  Você re-al-mente sabe o que é Big Data?
  []
 
 
-Underfull \hbox (badness 1817) in paragraph at lines 189--189
+Underfull \hbox (badness 1817) in paragraph at lines 199--199
 \T1/cmr/m/n/12 https://www.ibm.com/developerworks, 2012.  Aces-sado em 14 de De
 -zem-bro
  []
 
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 118.
- [54]
+ [56]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 118.
  (D:\Users\EU\Documents\investigaBDs\monografia\monografia.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 118.
@@ -1203,18 +1201,18 @@ Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 118.
 Package rerunfilecheck Info: File `monografia.out' has not changed.
 (rerunfilecheck)             Checksum: 0356B0C69D02FDE4C853C6676A39CD78;2972.
 Package rerunfilecheck Info: File `monografia.brf' has not changed.
-(rerunfilecheck)             Checksum: 89BDBCCF1D6AEAC8F1756FBB0F49734E;5078.
+(rerunfilecheck)             Checksum: 95EF1CB44C16C0BAC6E41D2F57D97BD3;5371.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 118.
  )
 (\end occurred when \iffalse on line 462 was incomplete) 
 Here is how much of TeX's memory you used:
- 10689 strings out of 494045
- 152041 string characters out of 3145978
- 493277 words of memory out of 3000000
- 13399 multiletter control sequences out of 15000+200000
+ 10700 strings out of 494045
+ 152198 string characters out of 3145978
+ 474309 words of memory out of 3000000
+ 13406 multiletter control sequences out of 15000+200000
  28026 words of font info for 40 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 43i,16n,72p,2000b,1903s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,16n,72p,2000b,1556s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): 
 name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed o
 ne
@@ -1236,9 +1234,9 @@ les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files
  (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x8
 6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/EU/AppData/Ro
 aming/MiKTeX/2.9/fonts/type1/urw/arial/ua1b8a.pfb>
-Output written on monografia.pdf (65 pages, 1939073 bytes).
+Output written on monografia.pdf (67 pages, 1976026 bytes).
 PDF statistics:
- 1674 PDF objects out of 1728 (max. 8388607)
- 366 named destinations out of 1000 (max. 500000)
+ 1697 PDF objects out of 1728 (max. 8388607)
+ 370 named destinations out of 1000 (max. 500000)
  490 words of extra memory for PDF output out of 10000 (max. 10000000)
 

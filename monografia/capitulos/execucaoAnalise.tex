@@ -76,8 +76,6 @@ Ao testarmos a inserção de documentos, tanto de empregados quanto dos seus dep
 
 Ao testarmos a atualização de registros no teste 'Desliga Empregado' e a exclusão de registros no teste 'Remove Dependente', mesmo com operação de \textit{join} nesse, também foi verificado que o PostgreSQL é mais rápido ao responder às requisições.
 
-Ao final dos testes pode-se verificar que nenhum dos dois banco de dados foi consideravelmente mais veloz que o outro e que, para praticamente todos os testes realizados, o PostgreSQL se mostrou mais rápido. Dessa maneira, para o cenário de manutenção dos dados do AFD, com a arquitetura, massa de dados e modelagem utilizadas, não é vantajoso utilizar o MongoDB para a persistência dos dados, visto que, mesmo com todos os recursos de segurança e controle de transações oferecidos pelo PostgreSQL, ele ainda continua tendo um melhor desempenho.
-
 
 \begin{figure}[!htbp]
 	\begin{center}
